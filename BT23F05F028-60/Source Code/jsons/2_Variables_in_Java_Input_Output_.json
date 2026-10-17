@@ -1,0 +1,4328 @@
+[
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 0.0,
+        "end": 2.5,
+        "text": " Hi everyone and welcome to our college."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2.5,
+        "end": 6.5,
+        "text": " And today we are going to talk about some basic fundamental topics of Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 6.5,
+        "end": 10.5,
+        "text": " Under these topics, today we will talk about how to give output,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 10.5,
+        "end": 12.5,
+        "text": " what are variables in Java,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 12.5,
+        "end": 14.0,
+        "text": " what are data types,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 14.0,
+        "end": 16.5,
+        "text": " and actually if we have to take input from the user,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 16.5,
+        "end": 18.5,
+        "text": " then how will we do that inside Java?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 18.5,
+        "end": 22.0,
+        "text": " In this, first of all we will talk about the first topic,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 22.0,
+        "end": 24.5,
+        "text": " that is, how to get output inside Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 25.5,
+        "end": 29.0,
+        "text": " Now for output, we have to remember one line from the beginning."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 31.0,
+        "end": 34.5,
+        "text": " This line is our system.out.printHelloWorld."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 35.5,
+        "end": 39.5,
+        "text": " Now Hello World has a variable thing in it which you do not have to remember."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 39.5,
+        "end": 43.5,
+        "text": " But we have to remember how this line of basic syntax is being written."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 43.5,
+        "end": 45.5,
+        "text": " Now what does it mean?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 46.5,
+        "end": 49.0,
+        "text": " Here we use a system class for output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 50.0,
+        "end": 52.0,
+        "text": " What are classes inside Java?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 53.0,
+        "end": 55.5,
+        "text": " We will read this later in a topic called Oops!"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 55.5,
+        "end": 57.0,
+        "text": " What are classes?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 57.0,
+        "end": 58.0,
+        "text": " What are objects?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 58.0,
+        "end": 60.0,
+        "text": " And we will read many more topics."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 60.0,
+        "end": 63.0,
+        "text": " But for now we have to assume that whenever we are writing this line,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 63.0,
+        "end": 66.0,
+        "text": " it means the output will be printed for us in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 67.0,
+        "end": 69.0,
+        "text": " And what will be the output printed?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 74.0,
+        "end": 77.0,
+        "text": " Whenever these parentheses, i.e. these brackets, are in our sentence,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 77.0,
+        "end": 81.0,
+        "text": " if we put double quotes inside it and whatever we write between the double codes,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 81.0,
+        "end": 85.0,
+        "text": " it will be printed for us in our window, i.e. in the console screen,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 85.0,
+        "end": 88.0,
+        "text": " when we are writing the code for our user at that time."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 94.0,
+        "end": 97.0,
+        "text": " Along with that, a semicolon comes after this line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 99.0,
+        "end": 103.0,
+        "text": " So all the sentences in Java, all the commands end with a semicolon."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 105.0,
+        "end": 108.0,
+        "text": " Your line will continue until you put a semicolon."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 109.0,
+        "end": 114.0,
+        "text": " Like in English, if we have to terminate a line, if we have to end it, then we put a dot there."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 115.0,
+        "end": 117.0,
+        "text": " In Hindi, we put a danda."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 120.0,
+        "end": 123.0,
+        "text": " Similarly, in Java or many other programming languages,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 123.0,
+        "end": 126.0,
+        "text": " we use a semicolon to show that our line or command has ended here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 131.0,
+        "end": 135.0,
+        "text": " Now, if we talk about this output, many students ask instead of double quotes"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 135.0,
+        "end": 138.0,
+        "text": " that if we use single quotes, will our output still be printed?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 140.0,
+        "end": 144.0,
+        "text": " The answer is yes. If you use single codes instead of double quotes,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 144.0,
+        "end": 146.0,
+        "text": " your output will still be printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 147.0,
+        "end": 151.0,
+        "text": " But, usually by convention and languages, at least in Java, whenever we print,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 151.0,
+        "end": 153.0,
+        "text": " we use double quotes for strings."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 154.0,
+        "end": 158.0,
+        "text": " Because here, in a way, hello world is a string of characters."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 159.0,
+        "end": 163.0,
+        "text": " Meaning, by joining characters, we have made a sentence, made a word,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 163.0,
+        "end": 166.0,
+        "text": " made a collection of tokens which we are now getting printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 167.0,
+        "end": 170.0,
+        "text": " Now we have talked a lot about this entire statement."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 170.0,
+        "end": 173.0,
+        "text": " We will be able to understand it very well when we are coding."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 174.0,
+        "end": 176.0,
+        "text": " So, we actually write it in the editor and see it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 177.0,
+        "end": 179.0,
+        "text": " The editor we are using here is intelligent."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 180.0,
+        "end": 184.0,
+        "text": " Apart from this, you can also use any other editor like NetBeans Eclipse."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 185.0,
+        "end": 190.0,
+        "text": " Now inside this code, we will be able to see that there is some package-like statement here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 191.0,
+        "end": 193.0,
+        "text": " Something is written. Here we can see a class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 194.0,
+        "end": 197.0,
+        "text": " We can understand the name of this class to be main."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 197.0,
+        "end": 199.0,
+        "text": " Here some public static void is written."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 200.0,
+        "end": 203.0,
+        "text": " Its name is also main. A few lines are written inside it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 205.0,
+        "end": 209.0,
+        "text": " So this entire code which comes by default in any editor is called boilerplate code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 210.0,
+        "end": 214.0,
+        "text": " Boilerplate code means the code which we already get by default."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 216.0,
+        "end": 220.0,
+        "text": " We will gradually read about this code in more detail in the upcoming lectures."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 220.0,
+        "end": 221.0,
+        "text": " What are classes?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 222.0,
+        "end": 225.0,
+        "text": " What is this function? What are parameters?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 226.0,
+        "end": 229.0,
+        "text": " How to import a package? How to define a package?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 230.0,
+        "end": 232.0,
+        "text": " Inside which package are our files?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 233.0,
+        "end": 235.0,
+        "text": " So we do not need to worry about all these things right now."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 236.0,
+        "end": 241.0,
+        "text": " We have to believe that this boilerplate code which we are seeing by default on the editor is fine."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 242.0,
+        "end": 244.0,
+        "text": " We will do our programming inside this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 246.0,
+        "end": 248.0,
+        "text": " Whatever code we are going to code until we learn other things,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 249.0,
+        "end": 251.0,
+        "text": " we will write all of that code inside this main function."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 254.0,
+        "end": 256.0,
+        "text": " That is, in this much space from here to the next line,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 256.0,
+        "end": 260.0,
+        "text": " then inside this main in this entire space when it is starting with curly bases."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 261.0,
+        "end": 263.0,
+        "text": " It is ending with curly bases."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 264.0,
+        "end": 267.0,
+        "text": " In this space we will write all our code and execute it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 268.0,
+        "end": 270.0,
+        "text": " So we are talking about output in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 271.0,
+        "end": 273.0,
+        "text": " We have just learned a statement for output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 274.0,
+        "end": 275.0,
+        "text": " Let's try writing it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 277.0,
+        "end": 281.0,
+        "text": " The statement was system.out.print and in print we had put double quotes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 281.0,
+        "end": 285.0,
+        "text": " We had written hello world and later put a semicolon to show that our line terminated here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 287.0,
+        "end": 288.0,
+        "text": " It ended."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 289.0,
+        "end": 290.0,
+        "text": " We have written this code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 291.0,
+        "end": 295.0,
+        "text": " Now here in Intelligent there is a green color run button on the top to run your code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 296.0,
+        "end": 297.0,
+        "text": " Whatever you have written."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 298.0,
+        "end": 302.0,
+        "text": " If we click on this green button, we will see an output screen below."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 303.0,
+        "end": 305.0,
+        "text": " Let us expand it a little."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 305.0,
+        "end": 307.0,
+        "text": " And inside this screen, some output is printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 308.0,
+        "end": 310.0,
+        "text": " At the top, we can see something like location."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 311.0,
+        "end": 314.0,
+        "text": " But what is printed in the middle is our actual output i.e. hello world."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 315.0,
+        "end": 316.0,
+        "text": " Now hello world is printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 317.0,
+        "end": 319.0,
+        "text": " After that, process finished with exit code 0 is printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 320.0,
+        "end": 321.0,
+        "text": " Why is this printed?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 322.0,
+        "end": 323.0,
+        "text": " We did not write this in double quotes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 324.0,
+        "end": 326.0,
+        "text": " Now this means that our code has run without any error."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 327.0,
+        "end": 329.0,
+        "text": " There was no error, no problems, no errors."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 330.0,
+        "end": 332.0,
+        "text": " We have just learned how to write a code without any errors."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 332.0,
+        "end": 333.0,
+        "text": " There was no error, no problems in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 334.0,
+        "end": 336.0,
+        "text": " And our output is printed for us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 337.0,
+        "end": 346.0,
+        "text": " Now if we write hello world with Java inside this double code and execute it again, then you will see that now our string has changed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 347.0,
+        "end": 351.0,
+        "text": " And now hello world with Java is printed for us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 352.0,
+        "end": 359.0,
+        "text": " So basically whatever we want to print inside these double quotes will be printed on our screen as a string as a sentence."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 359.0,
+        "end": 362.0,
+        "text": " Now if we talk about this, the print function is a function in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 363.0,
+        "end": 366.0,
+        "text": " It means that you have passed a string inside this function."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 367.0,
+        "end": 372.0,
+        "text": " And in a way, whatever you pass inside this function will be printed for us in this window."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 373.0,
+        "end": 382.0,
+        "text": " Now many students who come from different languages, who have learned C++ or Python earlier, will be able to understand that if passed inside the function, it will be printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 383.0,
+        "end": 388.0,
+        "text": " New students may have some problem, but ground-based programming will help them understand how to pass a string."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 389.0,
+        "end": 390.0,
+        "text": " Gradually we will get used to it with time."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 391.0,
+        "end": 393.0,
+        "text": " For now, we can understand that this is a function."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 394.0,
+        "end": 397.0,
+        "text": " This is a class and this is our string which we got printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 398.0,
+        "end": 401.0,
+        "text": " Now apart from this, there is another way to get printed in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 402.0,
+        "end": 404.0,
+        "text": " What do we do first to understand that method?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 405.0,
+        "end": 406.0,
+        "text": " Let's copy this line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 407.0,
+        "end": 410.0,
+        "text": " Ctrl C Ctrl V we copied this line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 413.0,
+        "end": 418.0,
+        "text": " Now if we run this code, then the output that will be printed on the screen for us will be something like this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 419.0,
+        "end": 424.0,
+        "text": " Hello world with Java and hello world with Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 425.0,
+        "end": 428.0,
+        "text": " Now this has been printed on the same line, but what do we need?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 429.0,
+        "end": 430.0,
+        "text": " We need it on different lines."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 431.0,
+        "end": 438.0,
+        "text": " So what we want is that whenever our first print is done, then we should print the next thing on the next line and how this thing will be possible."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 439.0,
+        "end": 443.0,
+        "text": " It will be possible with the help of another function inside Java A which we name printAllen."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 444.0,
+        "end": 448.0,
+        "text": " Now if we write printAllen instead of print here, then what will happen?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 452.0,
+        "end": 463.0,
+        "text": " Now if we run this code again, then the output will be something like this for us where hello world with Java is printed in the first line and because of using printAllen instead of print, the next line would have come after the first line was printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 466.0,
+        "end": 468.0,
+        "text": " Now this line got printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 473.0,
+        "end": 483.0,
+        "text": " If we wanted to print something for the third time, then to bring it to the next line also, we would have done printAllen here and if we run it again, then for us all the three lines will be printed one after the other in the way we want."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 488.0,
+        "end": 490.0,
+        "text": " So we have seen two methods of printing output in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 492.0,
+        "end": 494.0,
+        "text": " One uses print in which there is no next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 495.0,
+        "end": 500.0,
+        "text": " One uses printAllen in which the next line gives the output after printing anything."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 500.0,
+        "end": 505.0,
+        "text": " Apart from this, there is another way to leave a gap of one line in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 507.0,
+        "end": 514.0,
+        "text": " It is that if we remove printLane from here and inside this string, i.e. inside double quotes, we write backslash n."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 516.0,
+        "end": 518.0,
+        "text": " Backslash n means next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 519.0,
+        "end": 522.0,
+        "text": " Meaning you print this output and then go to the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 523.0,
+        "end": 527.0,
+        "text": " On the next line, all your next things will be happening on top of our screen."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 527.0,
+        "end": 529.0,
+        "text": " We do the same thing in the line below."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 530.0,
+        "end": 531.0,
+        "text": " Backslash n."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 532.0,
+        "end": 535.0,
+        "text": " Now if we run this code again, the output we will observe will be the same output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 536.0,
+        "end": 537.0,
+        "text": " That is, the same as before."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 538.0,
+        "end": 539.0,
+        "text": " Now we did not use printLane."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 540.0,
+        "end": 541.0,
+        "text": " We only used print."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 543.0,
+        "end": 547.0,
+        "text": " But with the help of backslash n, we got a next line due to which our output went inside the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 550.0,
+        "end": 553.0,
+        "text": " So in this way, there are three ways in Java to print the output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 553.0,
+        "end": 557.0,
+        "text": " If we understand a little more about these ways, then the first way is our print."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 561.0,
+        "end": 564.0,
+        "text": " Print means we will write the line system .out.print."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 566.0,
+        "end": 571.0,
+        "text": " Inside this print, we will write whatever we want to print in double quotes or single quotes and put a semicolon."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 572.0,
+        "end": 574.0,
+        "text": " Then the output will be printed for us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 575.0,
+        "end": 577.0,
+        "text": " But there will be no space for the next line in that output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 578.0,
+        "end": 582.0,
+        "text": " Meaning that after writing that output, we will have no space for the next line in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 583.0,
+        "end": 587.0,
+        "text": " So we will have to print the output if you want to print something else, then that will also be printed in the same line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 588.0,
+        "end": 591.0,
+        "text": " But you want that whatever I print, after that nothing should be printed in the same line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 592.0,
+        "end": 594.0,
+        "text": " Everything should be printed in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 595.0,
+        "end": 596.0,
+        "text": " For that we use printLane."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 598.0,
+        "end": 602.0,
+        "text": " PrintLane is also used in the same way system .out.printLane."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 604.0,
+        "end": 605.0,
+        "text": " Then we put double quotes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 606.0,
+        "end": 607.0,
+        "text": " We write what we want to write."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 608.0,
+        "end": 610.0,
+        "text": " Then we put the terminator IER semicolon."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 610.0,
+        "end": 614.0,
+        "text": " And because of this whatever our output is, after getting printed it gives us a next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 616.0,
+        "end": 620.0,
+        "text": " Apart from this there is another way to print the next line in which we write backslash n."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 622.0,
+        "end": 631.0,
+        "text": " Whenever we put a backslash n in a sentence, whatever is printed before it and whatever is printed after it, suppose A was to be printed first and then B was to be printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 633.0,
+        "end": 637.0,
+        "text": " So whenever B is printed after A, it will go to the next line and get printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 637.0,
+        "end": 638.0,
+        "text": " It will not be printed in the same line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 639.0,
+        "end": 640.0,
+        "text": " Let's see an example of this in the code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 644.0,
+        "end": 660.0,
+        "text": " If we remove both our lines and write here hello world with Java from our class and if we run it, we will see in the output that hello world with Java is printed first and from our class is printed in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 660.0,
+        "end": 662.0,
+        "text": " So this is the magic of backslash n."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 662.0,
+        "end": 664.0,
+        "text": " Whatever comes after it will get printed in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 665.0,
+        "end": 668.0,
+        "text": " What will happen if we put two backslashes n here?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 670.0,
+        "end": 678.0,
+        "text": " So hello world with Java will be printed in the first line, from will be printed in the second line and whatever is after backslash n will be getting printed in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 681.0,
+        "end": 685.0,
+        "text": " Now here this small space that has come before our A has come because of the backslash n."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 686.0,
+        "end": 692.0,
+        "text": " Now here this small space that has come before our A has come because we had given a space after backslash n."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 694.0,
+        "end": 695.0,
+        "text": " So we don't have to worry about that."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 695.0,
+        "end": 697.0,
+        "text": " We can remove the space like this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 698.0,
+        "end": 700.0,
+        "text": " So in this way we have seen three ways of outputting."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 701.0,
+        "end": 703.0,
+        "text": " Now after this let's talk about a question."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 704.0,
+        "end": 706.0,
+        "text": " Let's solve a simple question and see the output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 707.0,
+        "end": 709.0,
+        "text": " The question is print the pattern."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 710.0,
+        "end": 711.0,
+        "text": " What is the given pattern?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 711.0,
+        "end": 712.0,
+        "text": " We have to print stars."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 712.0,
+        "end": 716.0,
+        "text": " Stars have to be printed in such a way that in the first line we have a single star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 717.0,
+        "end": 719.0,
+        "text": " In the second line we have two stars."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 720.0,
+        "end": 722.0,
+        "text": " In the same way in the third line we have three stars."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 723.0,
+        "end": 725.0,
+        "text": " In the fourth line there are four stars."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 727.0,
+        "end": 730.0,
+        "text": " We have to print a pattern which has been displayed very well here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 732.0,
+        "end": 734.0,
+        "text": " How will we print this pattern?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 735.0,
+        "end": 738.0,
+        "text": " We can see that in this question first of all we have to print a star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 738.0,
+        "end": 741.0,
+        "text": " That is the print statement which we have written as south in short."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 742.0,
+        "end": 744.0,
+        "text": " Inside that we have to put something like a star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 745.0,
+        "end": 750.0,
+        "text": " The second line will have to be written in which also a print statement and two stars will have to be put in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 751.0,
+        "end": 759.0,
+        "text": " Similarly, we will have to write a third line in which we will have to put a print statement and we will have to put three stars in it, all inside double quotes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 760.0,
+        "end": 763.0,
+        "text": " So we will have to do something with the help of which we will be able to print."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 763.0,
+        "end": 766.0,
+        "text": " Now if we try to do the same thing with the help of code, then we remove our old code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 767.0,
+        "end": 771.0,
+        "text": " Now there is a shortcut in IntelliJ, system.out.printallen."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 772.0,
+        "end": 774.0,
+        "text": " This will not let us write the entire statement in its place."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 775.0,
+        "end": 781.0,
+        "text": " So whenever we print the source, whenever we write source, after that there is a tab on the keyboard on the left side."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 782.0,
+        "end": 787.0,
+        "text": " When we press that tab, we get the complete system.out.printallen on IntelliJ."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 787.0,
+        "end": 792.0,
+        "text": " When we press that tab, we get the complete system.out.printallen on IntelliJ."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 793.0,
+        "end": 794.0,
+        "text": " We can write our output in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 795.0,
+        "end": 797.0,
+        "text": " We will write star in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 798.0,
+        "end": 799.0,
+        "text": " Now we have written one star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 800.0,
+        "end": 802.0,
+        "text": " So it will be printed in one line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 803.0,
+        "end": 805.0,
+        "text": " After that we want to get it printed in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 806.0,
+        "end": 807.0,
+        "text": " So here we will write two stars."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 808.0,
+        "end": 810.0,
+        "text": " Right now we are using lane here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 811.0,
+        "end": 813.0,
+        "text": " Lane because in the first line we want only one star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 814.0,
+        "end": 815.0,
+        "text": " After that we want the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 815.0,
+        "end": 817.0,
+        "text": " Then we want the next stars in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 818.0,
+        "end": 822.0,
+        "text": " Now if we do the same thing four times, then three stars will be printed here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 823.0,
+        "end": 826.0,
+        "text": " Four stars will be printed here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 827.0,
+        "end": 829.0,
+        "text": " So in this way we have written four statements."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 830.0,
+        "end": 831.0,
+        "text": " Now let's run it and see."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 832.0,
+        "end": 841.0,
+        "text": " So the output that has come out for us is one star in the first line, two stars in the second line, three in the third line and in the same way four stars in the fourth line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 841.0,
+        "end": 844.0,
+        "text": " So we have solved our question by using four print statements."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 845.0,
+        "end": 853.0,
+        "text": " Now going forward, when we will be studying the topic of loops, when we will be studying patterns in it, then we will be learning more optimized methods in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 854.0,
+        "end": 856.0,
+        "text": " But right now we are in the beginner's stage."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 857.0,
+        "end": 859.0,
+        "text": " That is why we are printing this thing by writing the same line again and again."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 860.0,
+        "end": 862.0,
+        "text": " Gradually we will optimize our codes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 863.0,
+        "end": 864.0,
+        "text": " We will take it to better time complexity."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 865.0,
+        "end": 867.0,
+        "text": " We will display a lot of output and less code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 867.0,
+        "end": 869.0,
+        "text": " After this, let's talk about a quiz for the same output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 870.0,
+        "end": 879.0,
+        "text": " Now you are being made to do so many quizzes and questions so that these topics are important topics which we have to remember from the beginning and we will practice a few questions of them again and again."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 880.0,
+        "end": 882.0,
+        "text": " So some things will get embedded in our mind."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 883.0,
+        "end": 886.0,
+        "text": " So it will help us a lot when we will be learning more advanced things in future."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 887.0,
+        "end": 889.0,
+        "text": " So we will remember these basic things at the back of the mind."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 890.0,
+        "end": 891.0,
+        "text": " So let's talk about the quiz."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 892.0,
+        "end": 893.0,
+        "text": " There is a question in the quiz."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 893.0,
+        "end": 895.0,
+        "text": " We have to print a star and two stars in the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 896.0,
+        "end": 897.0,
+        "text": " Okay."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 898.0,
+        "end": 900.0,
+        "text": " For that we have been given three options of code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 901.0,
+        "end": 903.0,
+        "text": " We have to tell which of these three options is the correct code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 904.0,
+        "end": 908.0,
+        "text": " That means if we talk about these three, then which of these three codes will actually give us the output?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 909.0,
+        "end": 911.0,
+        "text": " Let's talk about that."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 912.0,
+        "end": 914.0,
+        "text": " Now first of all analyze A."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 915.0,
+        "end": 917.0,
+        "text": " Let's analyze B."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 918.0,
+        "end": 920.0,
+        "text": " I'm going to analyze A on a laptop."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 920.0,
+        "end": 923.0,
+        "text": " Now first of all analyze A."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 923.0,
+        "end": 928.0,
+        "text": " When we analyze A, we are given system.out.println."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 928.0,
+        "end": 930.0,
+        "text": " Println is given."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 930.0,
+        "end": 935.0,
+        "text": " Inside it is written star backslash n along with two stars."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 935.0,
+        "end": 938.0,
+        "text": " Now let's try to print it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 938.0,
+        "end": 942.0,
+        "text": " So first of all star will be printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 942.0,
+        "end": 945.0,
+        "text": " Star got printed. After that backslash n came."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 945.0,
+        "end": 948.0,
+        "text": " That means now nothing will be printed on this same line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 948.0,
+        "end": 950.0,
+        "text": " Everything will be printed after this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 950.0,
+        "end": 953.0,
+        "text": " So backslash n means we have come to the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 953.0,
+        "end": 955.0,
+        "text": " On the next line we will get two stars printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 955.0,
+        "end": 958.0,
+        "text": " So two stars got printed for us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 958.0,
+        "end": 962.0,
+        "text": " If we match this thing with the output then it is matching completely."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 962.0,
+        "end": 965.0,
+        "text": " That means answer A is our correct answer."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 965.0,
+        "end": 969.0,
+        "text": " But we will analyze the other two statements as well."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 969.0,
+        "end": 976.0,
+        "text": " Now if we talk about B then in B we have star star then backslash n then one more star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 976.0,
+        "end": 979.0,
+        "text": " So first of all we will print star star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 979.0,
+        "end": 981.0,
+        "text": " In the same line because backslash n did not come."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 981.0,
+        "end": 983.0,
+        "text": " So two stars got printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 983.0,
+        "end": 987.0,
+        "text": " Then backslash n came which means we went to the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 987.0,
+        "end": 992.0,
+        "text": " Then one more star came so we will go to the next line and print the star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 992.0,
+        "end": 998.0,
+        "text": " Now this output which has come for us is not the same as our input which was given in the question."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 998.0,
+        "end": 1005.0,
+        "text": " That is why we will discard it because this is the wrong code according to the output that we wanted."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1005.0,
+        "end": 1011.0,
+        "text": " After this let's talk about C and C. We are given star star star backslash n."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1011.0,
+        "end": 1013.0,
+        "text": " So what will happen in it?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1013.0,
+        "end": 1016.0,
+        "text": " Star star star three stars will be printed on the same line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1016.0,
+        "end": 1021.0,
+        "text": " And after that backslash n will come which means we will go to the next line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1021.0,
+        "end": 1024.0,
+        "text": " But there is nothing after that which means this line will remain empty."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1024.0,
+        "end": 1029.0,
+        "text": " So our output will be this which is the wrong output according to what we wanted."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1029.0,
+        "end": 1032.0,
+        "text": " That is why our correct answer is A."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1032.0,
+        "end": 1036.0,
+        "text": " So the correct answer that we will write in our quiz will be A."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1036.0,
+        "end": 1039.0,
+        "text": " So in this way we have solved the quiz as well."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1039.0,
+        "end": 1044.0,
+        "text": " And I hope that we are able to understand quite well how we give out output in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1044.0,
+        "end": 1050.0,
+        "text": " Which are the two to three popular ways in which we can show output for different things in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1050.0,
+        "end": 1053.0,
+        "text": " Now let's talk about variables in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1053.0,
+        "end": 1056.0,
+        "text": " Variables is a very important topic in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1057.0,
+        "end": 1064.0,
+        "text": " The entire code even after basic programming when you do competitive DSA then variables are very important."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1064.0,
+        "end": 1066.0,
+        "text": " Basically they are the building blocks of Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1066.0,
+        "end": 1068.0,
+        "text": " So what is a variable?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1068.0,
+        "end": 1072.0,
+        "text": " Like in class 11th, 12th we used to study in maths that we had variables."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1072.0,
+        "end": 1075.0,
+        "text": " For example we were given a question."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1075.0,
+        "end": 1081.0,
+        "text": " Even in class 6th, 7th when we had to find the area of a rectangle, square, circle."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1081.0,
+        "end": 1084.0,
+        "text": " Suppose we are given this rectangle."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1084.0,
+        "end": 1088.0,
+        "text": " In which the length of one side is A, the length of the other side is B."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1088.0,
+        "end": 1092.0,
+        "text": " Now we take the value of A as 25, for B we take the value of 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1092.0,
+        "end": 1097.0,
+        "text": " If we have to find its perimeter, then its formula was 2 asterisk A plus B."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1097.0,
+        "end": 1101.0,
+        "text": " So 2 asterisk A plus B is the formula."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1101.0,
+        "end": 1106.0,
+        "text": " So if we remember the maths in this formula, then it was a variable."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1107.0,
+        "end": 1113.0,
+        "text": " B was a variable. How are these variables? Because their value was not fixed. It kept changing."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1113.0,
+        "end": 1118.0,
+        "text": " Now in the next question, we can take another rectangle. We can put 2 and 3 in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1118.0,
+        "end": 1121.0,
+        "text": " Leng, take A for this, take B for this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1121.0,
+        "end": 1126.0,
+        "text": " So the value has changed now. The names are A and B. But their value has changed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1126.0,
+        "end": 1129.0,
+        "text": " That is why they are called variables."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1129.0,
+        "end": 1134.0,
+        "text": " So if we look at this perimeter carefully, then the value of both A and B is not fixed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1134.0,
+        "end": 1138.0,
+        "text": " It can change. So we call them variables."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1138.0,
+        "end": 1141.0,
+        "text": " But there are some things whose value is fixed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1141.0,
+        "end": 1143.0,
+        "text": " We call these things constants."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1143.0,
+        "end": 1148.0,
+        "text": " Like 2 is a constant in perimeter. We know that the value of 2 remains 2 only."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1148.0,
+        "end": 1155.0,
+        "text": " Like if we take the value of pi i e 3.14, it will always remain 3.14 i e 22 sevenths."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1155.0,
+        "end": 1158.0,
+        "text": " That is why it is called a constant."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1161.0,
+        "end": 1170.0,
+        "text": " Or take the example of characters ABCD now the value of D can never be 35 or the value of D can never be my name or the value of D can never be F."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1170.0,
+        "end": 1179.0,
+        "text": " The value of D will always remain D. That is why we call all these words, all these characters, all these numbers constants whose value never changes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1182.0,
+        "end": 1188.0,
+        "text": " So now let us try to understand how defining variables in Java is different from defining variables in maths."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1188.0,
+        "end": 1193.0,
+        "text": " First of all, let us talk about the memory inside the computer."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1193.0,
+        "end": 1198.0,
+        "text": " We have this memory in which all our data is stored in any computer."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1198.0,
+        "end": 1203.0,
+        "text": " Let us assume that the data inside it is stored in small blocks."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1203.0,
+        "end": 1208.0,
+        "text": " That means this memory has been divided into many parts in a way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1208.0,
+        "end": 1215.0,
+        "text": " And each part has its own address. That means this part has some other address. This has some other address. This has some other address."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1215.0,
+        "end": 1219.0,
+        "text": " Some different data is stored at every different address."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1219.0,
+        "end": 1224.0,
+        "text": " So this memory has small blocks in which different types of data are stored."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1224.0,
+        "end": 1227.0,
+        "text": " A lot of data is stored inside the computer."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1230.0,
+        "end": 1238.0,
+        "text": " Now whenever we define a variable in Java, that is, for example, we write int A equals 25, int B equals 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1238.0,
+        "end": 1243.0,
+        "text": " Now here we will ignore for a while what this int is. We will talk about it in a while."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1247.0,
+        "end": 1252.0,
+        "text": " But in a way, we have told you that A is a thing, a variable whose value is 25."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1252.0,
+        "end": 1257.0,
+        "text": " B is a variable whose value is 10. What does it mean?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1257.0,
+        "end": 1260.0,
+        "text": " It means that you go to a block in the memory."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1260.0,
+        "end": 1263.0,
+        "text": " Store 25 in that block."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1263.0,
+        "end": 1267.0,
+        "text": " So you store 25 and name that block A."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1267.0,
+        "end": 1271.0,
+        "text": " In this way, the variable is just defined in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1271.0,
+        "end": 1277.0,
+        "text": " Something similar must have happened for B. That means we must have gone inside the memory."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1277.0,
+        "end": 1281.0,
+        "text": " We must have named that memory location as B. That is variable B."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1281.0,
+        "end": 1285.0,
+        "text": " So it means we are naming this memory, this value location as B."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1285.0,
+        "end": 1289.0,
+        "text": " And here inside this location, we have stored its actual value. That is 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1289.0,
+        "end": 1295.0,
+        "text": " Now, if we want to store something else, for example, let's say till now we were storing numbers."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1295.0,
+        "end": 1299.0,
+        "text": " Now we want to store a string or we want to store a name. Then what will we do?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1299.0,
+        "end": 1305.0,
+        "text": " We will write some string like string name is equal to, let's say, Tony star."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1305.0,
+        "end": 1310.0,
+        "text": " So what will happen now? Let's ignore this string also for a while."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1310.0,
+        "end": 1316.0,
+        "text": " We have created a variable named name. We have stored the value Tony Stark inside it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1316.0,
+        "end": 1322.0,
+        "text": " So here inside the memory, we will name this location, that is, any random location as name."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1322.0,
+        "end": 1327.0,
+        "text": " And inside this, our string will come and be stored in its entirety."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1327.0,
+        "end": 1334.0,
+        "text": " Now here these squares or rectangles may look of the same size, but inside the memory, they are not of the same size."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1334.0,
+        "end": 1337.0,
+        "text": " The size of all these is different."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1337.0,
+        "end": 1344.0,
+        "text": " For example, if you want to store a number of in type, then its size will be different from the size of a string."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1344.0,
+        "end": 1349.0,
+        "text": " So we should not look at rectangles and squares and things like that."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1349.0,
+        "end": 1356.0,
+        "text": " So we should not look at rectangles and squares and think that things are being stored in the same size."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1356.0,
+        "end": 1362.0,
+        "text": " All the different types of data are stored in blocks of different sizes inside the memory."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1362.0,
+        "end": 1368.0,
+        "text": " But the thing is that our variables are being stored inside our memory in this way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1368.0,
+        "end": 1373.0,
+        "text": " Now let us understand with the help of a little code how variables actually exist."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1373.0,
+        "end": 1379.0,
+        "text": " How do they appear inside the code? Because we have discussed the theory is very important to write it in the code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1379.0,
+        "end": 1383.0,
+        "text": " So we are talking about variables in our code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1383.0,
+        "end": 1387.0,
+        "text": " Let us lower the screen a little."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1387.0,
+        "end": 1392.0,
+        "text": " So what do we do first? Let us define a name, meaning we have to write a name."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1392.0,
+        "end": 1397.0,
+        "text": " So we will create a variable name. For now, the type of this variable in one way is string."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1397.0,
+        "end": 1402.0,
+        "text": " But right now we are not talking about string. We define variables in Java in this way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1402.0,
+        "end": 1408.0,
+        "text": " We have written the name. We can write any name inside it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1408.0,
+        "end": 1411.0,
+        "text": " So we have written this name."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1411.0,
+        "end": 1418.0,
+        "text": " Similarly, if we had to define the sides a and b of a rectangle, then how would we do that?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1418.0,
+        "end": 1427.0,
+        "text": " a equals 25, b equals 10. So in this way we have written different statements to define variables."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1427.0,
+        "end": 1431.0,
+        "text": " If we had to give the same age, then we would have given it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1431.0,
+        "end": 1436.0,
+        "text": " Apart from that there are many other things. Now let us assume that we bought something from the market."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1436.0,
+        "end": 1441.0,
+        "text": " Bought a pencil which is 25 rupees and 25 paisa. So its type will be something else."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1441.0,
+        "end": 1448.0,
+        "text": " Its name will be price. That is, the name of the variable is price and we write its value as 25.25."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1448.0,
+        "end": 1452.0,
+        "text": " So in this way we can define many variables inside our code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1452.0,
+        "end": 1456.0,
+        "text": " Now the special thing about these variables is that we can change their value."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1456.0,
+        "end": 1461.0,
+        "text": " That is, if the value of b is 10 now, then we can change the value of b to 20 later."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1461.0,
+        "end": 1464.0,
+        "text": " There will be no error."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1464.0,
+        "end": 1473.0,
+        "text": " Apart from that, if our name is this now, then later we can change the value of this name to something else."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1473.0,
+        "end": 1477.0,
+        "text": " So our value will change. There was no error."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1477.0,
+        "end": 1485.0,
+        "text": " Now, apart from this, let us talk about what have we written with variables like int, double, string in our code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1485.0,
+        "end": 1492.0,
+        "text": " So, in Java, we call all these things data types. Now, what are data types?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1492.0,
+        "end": 1501.0,
+        "text": " So, if we talk about Java, then Java is a type language."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1501.0,
+        "end": 1508.0,
+        "text": " Type language means that before telling any variable in this language, you have to tell what is the type of that variable."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1508.0,
+        "end": 1512.0,
+        "text": " If you are writing a number, then what type of number are you writing? Are you writing an integer?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1512.0,
+        "end": 1517.0,
+        "text": " Are you writing a number with a floating value? That is, there is a decimal point in that number."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1517.0,
+        "end": 1522.0,
+        "text": " Are you defining a string or a boolean or a character? There are many types."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1522.0,
+        "end": 1525.0,
+        "text": " So we have to remember these types a little."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1525.0,
+        "end": 1530.0,
+        "text": " So before defining any variable in Java, we have to tell what is the type of that variable,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1530.0,
+        "end": 1534.0,
+        "text": " so that it can get a block of the same size in memory accordingly."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1534.0,
+        "end": 1538.0,
+        "text": " Now there are many languages, like JavaScript is a primitive type language."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1538.0,
+        "end": 1542.0,
+        "text": " In that language, you do not have to tell what type of variable you are creating."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1542.0,
+        "end": 1547.0,
+        "text": " You just write where, write let there, so that language will automatically detect the variable for you."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1547.0,
+        "end": 1551.0,
+        "text": " But in Java, you have to tell. In C++, you have to tell."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1551.0,
+        "end": 1556.0,
+        "text": " So if we talk about data types, then data types are of two types."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1556.0,
+        "end": 1561.0,
+        "text": " First among these are our primitive types, i.e. basic data types, which we have to remember."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1561.0,
+        "end": 1566.0,
+        "text": " Apart from that there are non-primitive data types. We can customize non-primitive data types."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1566.0,
+        "end": 1571.0,
+        "text": " We can create them according to our requirement. We can also create them ourselves as a programmer."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1571.0,
+        "end": 1575.0,
+        "text": " But the primitive data types are already present in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1575.0,
+        "end": 1578.0,
+        "text": " There are eight primitive data types in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1578.0,
+        "end": 1583.0,
+        "text": " Their names are byte, short, carry, boolean, int, long, float and double."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1583.0,
+        "end": 1586.0,
+        "text": " Now all of these have different functions."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1586.0,
+        "end": 1590.0,
+        "text": " The memory size of all these is different."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1590.0,
+        "end": 1595.0,
+        "text": " If we talk about them in short, then the memory size of a byte is one byte."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1595.0,
+        "end": 1598.0,
+        "text": " One byte means eight bits."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1598.0,
+        "end": 1604.0,
+        "text": " Now we know that anything that is being stored in the memory of the computer is stored in the form of zero or one."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1604.0,
+        "end": 1611.0,
+        "text": " One zero or one means one bit. So in this way, if we take eight zeros and ones, then it will become one byte, that is, eight bits."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1611.0,
+        "end": 1614.0,
+        "text": " So the memory that one byte takes is one byte."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1614.0,
+        "end": 1620.0,
+        "text": " If we talk in the same way, carry is an important data type which takes two bytes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1621.0,
+        "end": 1624.0,
+        "text": " Boolean again takes one byte."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1624.0,
+        "end": 1626.0,
+        "text": " Our int takes four bytes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1626.0,
+        "end": 1630.0,
+        "text": " Long takes eight. Flow also takes four. Double takes eight."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1630.0,
+        "end": 1635.0,
+        "text": " So in this way, different data types take different number of bytes in the memory."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1635.0,
+        "end": 1641.0,
+        "text": " Now you will say that in our system, let's say that our int is not taking four, it is taking two."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1641.0,
+        "end": 1644.0,
+        "text": " So there is a difference between the systems."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1644.0,
+        "end": 1648.0,
+        "text": " Because these bytes are according to 64 bits."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1649.0,
+        "end": 1654.0,
+        "text": " Some systems which work according to 32 bits have a little less memory allocation."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1654.0,
+        "end": 1656.0,
+        "text": " So it can depend from system to system."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1656.0,
+        "end": 1662.0,
+        "text": " But usually whenever we are talking about numbers, we are talking about 64 bits i.e. these numbers."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1662.0,
+        "end": 1670.0,
+        "text": " Now whatever link is there in the description box below, in our notes, you will get the complete description of how many bytes it has."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1670.0,
+        "end": 1675.0,
+        "text": " So now you do not need to remember. You just have to understand how many bytes it has."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1675.0,
+        "end": 1680.0,
+        "text": " Now in this video we will be focusing mostly on our primitive data types."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1680.0,
+        "end": 1684.0,
+        "text": " So we will be talking about them mostly. We will be using their examples."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1684.0,
+        "end": 1689.0,
+        "text": " But gradually in the coming classes we will explore all of them. We will use all of them."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1689.0,
+        "end": 1693.0,
+        "text": " And there will come a point when you will not even think that you are using these things."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1693.0,
+        "end": 1697.0,
+        "text": " It will just come to your mind automatically and you will use these things very well."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1697.0,
+        "end": 1701.0,
+        "text": " Now let us practice these data types with the help of a little code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1701.0,
+        "end": 1704.0,
+        "text": " So what will we do? We will create two variables."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1704.0,
+        "end": 1707.0,
+        "text": " The first one will be of int type i.e. integer type."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1707.0,
+        "end": 1710.0,
+        "text": " We will store the value 10 in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1710.0,
+        "end": 1712.0,
+        "text": " The second one will be of the other type."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1712.0,
+        "end": 1715.0,
+        "text": " We will store the value 25 in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1715.0,
+        "end": 1717.0,
+        "text": " So we have stored this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1717.0,
+        "end": 1718.0,
+        "text": " Now what do we want?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1718.0,
+        "end": 1724.0,
+        "text": " We want to create a third variable of int type only, in which if we store the sum then it will become a plus b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1724.0,
+        "end": 1727.0,
+        "text": " So like maths, here also it becomes a plus b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1727.0,
+        "end": 1733.0,
+        "text": " If we want to print it, then we will print the tag sum by doing s out."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1733.0,
+        "end": 1737.0,
+        "text": " See what output comes out."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1737.0,
+        "end": 1742.0,
+        "text": " So the output that has come out for us is 35 i.e. 10 plus 25."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1742.0,
+        "end": 1745.0,
+        "text": " Similarly, if we comment it out here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1745.0,
+        "end": 1749.0,
+        "text": " Now in Java, we had already discussed comments."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1749.0,
+        "end": 1752.0,
+        "text": " Comments are that part of the code which we do not want to execute."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1752.0,
+        "end": 1754.0,
+        "text": " The compiler ignores it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1754.0,
+        "end": 1759.0,
+        "text": " If you make any mistake in this part, let's say we remove the semicolon, then no error will come."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1760.0,
+        "end": 1766.0,
+        "text": " But if we remove the semicolon in the above line, then this red line comes, meaning there is an error here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1766.0,
+        "end": 1772.0,
+        "text": " So that is why in comms we write those things which we do not want to include in our code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1772.0,
+        "end": 1777.0,
+        "text": " If we take the difference here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1777.0,
+        "end": 1786.0,
+        "text": " Difference means minus, then we will do ba here and if we want to print it, then run the code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1786.0,
+        "end": 1790.0,
+        "text": " So for us 15 got printed i.e. 25 to 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1790.0,
+        "end": 1800.0,
+        "text": " So similarly, if you apply different operations on the different variables that we have created in the code, then their value will keep moving here and there."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1800.0,
+        "end": 1810.0,
+        "text": " Now if we talk about the meaning of value moving here and there, then by holding Ctrl Z, if we come back to our initial statement which was this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1810.0,
+        "end": 1814.0,
+        "text": " Meaning we had calculated the sum of a and b, so let's analyze it once."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1814.0,
+        "end": 1815.0,
+        "text": " What does it mean?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1815.0,
+        "end": 1817.0,
+        "text": " What does it mean to calculate the sum?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1817.0,
+        "end": 1825.0,
+        "text": " The meaning of calculating the sum is that here by making int a equals 10, a memory location would have been created in which we would have stored 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1825.0,
+        "end": 1829.0,
+        "text": " A memory location would have been created in which we would have stored 25."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1829.0,
+        "end": 1831.0,
+        "text": " So we have offset the values."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1834.0,
+        "end": 1843.0,
+        "text": " Now when a plus b would have happened, meaning 10 plus 25 would have happened, then its answer will be 35 which we have stored in an int type location which we have named a sum."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1845.0,
+        "end": 1852.0,
+        "text": " Now sum equals 35, so here another variable named sum would have been created inside the memory in which we would have stored 35."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1852.0,
+        "end": 1856.0,
+        "text": " So in this way the operation would have been performed on a and b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1856.0,
+        "end": 1862.0,
+        "text": " And finally the sum that we have is a new variable created inside the memory, inside which the value 35 is stored."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1863.0,
+        "end": 1874.0,
+        "text": " So in this way, the different calculations, assigning or adding one value to another, subtracting, multiplying, all these things are happening inside our code and are happening in the memory in this way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1876.0,
+        "end": 1884.0,
+        "text": " Now after this, if we talk about multiply, then let's comment it out and create another variable multiply, so we will write ab."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1884.0,
+        "end": 1890.0,
+        "text": " Now in math's ab we use to write like this ab, but this does not happen in Java, that is why this portion has become red."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1892.0,
+        "end": 1895.0,
+        "text": " In Java you will have to give the symbol of multiply."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1895.0,
+        "end": 1899.0,
+        "text": " So you will have to write multiply here only then it will be correct."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1900.0,
+        "end": 1905.0,
+        "text": " You can then print the output of your multiplication which will come out to be 250 for us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1908.0,
+        "end": 1913.0,
+        "text": " Now apart from multiply, there are many operators which we can apply on variables for our different data types."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1914.0,
+        "end": 1921.0,
+        "text": " Now we will discuss all these later in the upcoming sections, when we will be studying operators, when we will be discussing typecasting."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1921.0,
+        "end": 1923.0,
+        "text": " So it becomes a little advanced."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1923.0,
+        "end": 1925.0,
+        "text": " Right now we are doing basic things."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1925.0,
+        "end": 1928.0,
+        "text": " So in this way, we have defined our variables in a basic way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1928.0,
+        "end": 1930.0,
+        "text": " Now after this, let's talk about a quiz."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1930.0,
+        "end": 1933.0,
+        "text": " So there is a quiz on data types itself which we will solve."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1934.0,
+        "end": 1937.0,
+        "text": " Our question is that we have to calculate ab, ab."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1937.0,
+        "end": 1940.0,
+        "text": " The value of a is given as 10, the value of b is given as 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1940.0,
+        "end": 1943.0,
+        "text": " Now this quiz may seem a little 11th 12th type to you."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1944.0,
+        "end": 1948.0,
+        "text": " But when we do such things, in a way we are shifting to our coding system in the school system."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1949.0,
+        "end": 1951.0,
+        "text": " We are able to see the code as well."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1951.0,
+        "end": 1953.0,
+        "text": " We are able to explore maths as well."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1953.0,
+        "end": 1956.0,
+        "text": " So there is a very logical connection between these two."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1956.0,
+        "end": 1958.0,
+        "text": " So this question has been given to us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1959.0,
+        "end": 1962.0,
+        "text": " We have been given two options that which of these two will give us the correct output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1963.0,
+        "end": 1966.0,
+        "text": " Now first of all, let's calculate mathematically."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1968.0,
+        "end": 1972.0,
+        "text": " 10 asterisk 5 tenths minus 5 its answer should be 55th ie 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1973.0,
+        "end": 1975.0,
+        "text": " Now we will see both these options."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1976.0,
+        "end": 1978.0,
+        "text": " Does the answer of both of these come to be 10 or not?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1978.0,
+        "end": 1980.0,
+        "text": " Let's see the first option."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1981.0,
+        "end": 1984.0,
+        "text": " First we have written 10, 5 tenths minus 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1986.0,
+        "end": 1989.0,
+        "text": " Now inside Java the BODMAS rule does not work."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1990.0,
+        "end": 1992.0,
+        "text": " BODMAS means the rule of maths."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1993.0,
+        "end": 1998.0,
+        "text": " Inside Java there is a priority of operators that first comes the priority of multiply then divide."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 1998.0,
+        "end": 2001.0,
+        "text": " Then there is an operator called module which we will talk about later."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2002.0,
+        "end": 2004.0,
+        "text": " Basically we are taking a reminder with this operator."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2005.0,
+        "end": 2008.0,
+        "text": " The priority of these three is greater than minus n plus."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2009.0,
+        "end": 2011.0,
+        "text": " We have to remember this thing."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2011.0,
+        "end": 2012.0,
+        "text": " Now we have remembered this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2013.0,
+        "end": 2014.0,
+        "text": " After that if we calculate this thing."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2015.0,
+        "end": 2016.0,
+        "text": " How will we do it?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2017.0,
+        "end": 2019.0,
+        "text": " Calculations in Java move from left to right."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2019.0,
+        "end": 2021.0,
+        "text": " So we will also move from left to right."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2024.0,
+        "end": 2026.0,
+        "text": " First we will multiply 10 by 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2026.0,
+        "end": 2028.0,
+        "text": " We get 50 divided by 10 to 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2028.0,
+        "end": 2031.0,
+        "text": " This comes out to be 50 after that we will be doing 50 tenths."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2032.0,
+        "end": 2033.0,
+        "text": " Not 10 to 5 but 50 tenths."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2034.0,
+        "end": 2036.0,
+        "text": " From that we will get 5 to 5 which means 0."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2036.0,
+        "end": 2038.0,
+        "text": " So the answer we got for the first option is 0."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2043.0,
+        "end": 2045.0,
+        "text": " Now if we analyze the second option in the same way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2046.0,
+        "end": 2047.0,
+        "text": " Then what will we have in it?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2053.0,
+        "end": 2056.0,
+        "text": " Parentheses will be 10 asterisk 5 tenths minus 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2056.0,
+        "end": 2059.0,
+        "text": " So the first value to be solved will be the one inside the parentheses."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2059.0,
+        "end": 2063.0,
+        "text": " So 10 asterisk 5 means 50 tenths minus 5 means 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2063.0,
+        "end": 2064.0,
+        "text": " So 10 fifths is 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2064.0,
+        "end": 2065.0,
+        "text": " Now in this way we got 10."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2066.0,
+        "end": 2068.0,
+        "text": " Now you must be thinking that this was a very easy quiz."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2072.0,
+        "end": 2073.0,
+        "text": " This is a lot of maths."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2073.0,
+        "end": 2075.0,
+        "text": " It has nothing to do with coding."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2076.0,
+        "end": 2079.0,
+        "text": " So during our time there was a test of Amazons off campus."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2080.0,
+        "end": 2083.0,
+        "text": " In that in the first round Amazon had asked a lot of quiz type questions."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2083.0,
+        "end": 2085.0,
+        "text": " Which were based on the fundamentals of languages."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2086.0,
+        "end": 2091.0,
+        "text": " So like operators, variables, types or apart from that pointers are also included in C++."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2091.0,
+        "end": 2093.0,
+        "text": " So these are considered to be very basic topics."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2094.0,
+        "end": 2097.0,
+        "text": " They had asked questions related to these and then a few students got confused."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2098.0,
+        "end": 2100.0,
+        "text": " Those whose basic fundamentals were not clear."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2101.0,
+        "end": 2105.0,
+        "text": " Therefore, we have to keep the fundamentals clear and not ignore such things."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2106.0,
+        "end": 2110.0,
+        "text": " We should know about every basic thing like how expressions are being calculated."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2110.0,
+        "end": 2112.0,
+        "text": " How values are being assigned."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2112.0,
+        "end": 2114.0,
+        "text": " How type conversions happen which we will be learning later."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2117.0,
+        "end": 2119.0,
+        "text": " So in this way, our answer in the code has come out."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2119.0,
+        "end": 2120.0,
+        "text": " For us is option B."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2120.0,
+        "end": 2123.0,
+        "text": " Now let's talk about one of the most important topics in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2123.0,
+        "end": 2125.0,
+        "text": " Which is taking input in Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2127.0,
+        "end": 2130.0,
+        "text": " We take input in Java with the help of a scanner class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2131.0,
+        "end": 2132.0,
+        "text": " So let's write a statement."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2149.0,
+        "end": 2154.0,
+        "text": " So we have written the statement scanner s equals new ScannerSystem.in."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2154.0,
+        "end": 2157.0,
+        "text": " We have imported a package named Java.Util."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2159.0,
+        "end": 2164.0,
+        "text": " To package means there will be a lot of code written there which we will be using inside our code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2165.0,
+        "end": 2167.0,
+        "text": " We discussed this in the previous video."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2167.0,
+        "end": 2170.0,
+        "text": " Now we have imported this thing, this package."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2171.0,
+        "end": 2173.0,
+        "text": " From here we imported the scanner class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2173.0,
+        "end": 2176.0,
+        "text": " Now inside this class we have passed system.in."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2176.0,
+        "end": 2178.0,
+        "text": " So the way we used system.out for output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2178.0,
+        "end": 2180.0,
+        "text": " We used system.in for input."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2180.0,
+        "end": 2184.0,
+        "text": " That is, we have taken the input from our console, our terminal, our input window."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2186.0,
+        "end": 2189.0,
+        "text": " Now, to take the input, we will have to store it somewhere."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2190.0,
+        "end": 2192.0,
+        "text": " Let's say we have to take input of someone's name."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2193.0,
+        "end": 2196.0,
+        "text": " So here we will define the variable string."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2196.0,
+        "end": 2198.0,
+        "text": " The name will come to us in the string."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2199.0,
+        "end": 2201.0,
+        "text": " We will take the name in this way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2201.0,
+        "end": 2203.0,
+        "text": " The name will come to us in the string."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2204.0,
+        "end": 2206.0,
+        "text": " We will take the name in this way."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2206.0,
+        "end": 2212.0,
+        "text": " sc.next, that is, this scanner object that we have created of the scanner class has a function next in it."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2213.0,
+        "end": 2216.0,
+        "text": " With the help of this next function, we are going to take the input."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2216.0,
+        "end": 2218.0,
+        "text": " This input will come and what will we do?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2218.0,
+        "end": 2220.0,
+        "text": " We will get this input printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2220.0,
+        "end": 2222.0,
+        "text": " That is, we will get the name printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2223.0,
+        "end": 2224.0,
+        "text": " So let's run this code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2225.0,
+        "end": 2226.0,
+        "text": " Let's bring it up a little."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2226.0,
+        "end": 2228.0,
+        "text": " When we run the code, we will have to pass our input here."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2230.0,
+        "end": 2232.0,
+        "text": " Tony passes the input."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2233.0,
+        "end": 2235.0,
+        "text": " When we pressed enter, what happened for us?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2236.0,
+        "end": 2238.0,
+        "text": " First of all, it took our input."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2238.0,
+        "end": 2240.0,
+        "text": " Then it outputted the same input and exited the code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2242.0,
+        "end": 2244.0,
+        "text": " So we created an object of the scanner class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2245.0,
+        "end": 2247.0,
+        "text": " From there, we took the input by sc.next."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2249.0,
+        "end": 2251.0,
+        "text": " Then we got the same input printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2251.0,
+        "end": 2253.0,
+        "text": " Now let's see a special thing."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2253.0,
+        "end": 2255.0,
+        "text": " We took the input from next."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2257.0,
+        "end": 2259.0,
+        "text": " Here if we want to enter our name again, we can do that."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2261.0,
+        "end": 2263.0,
+        "text": " But here we pass the full name."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2265.0,
+        "end": 2267.0,
+        "text": " We pass the full name."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2267.0,
+        "end": 2269.0,
+        "text": " But we got only the first word printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2269.0,
+        "end": 2271.0,
+        "text": " Why did this happen?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2271.0,
+        "end": 2273.0,
+        "text": " Because whenever we use the next function, it takes only one token."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2273.0,
+        "end": 2275.0,
+        "text": " Now if we talk about the sentence, my name is Tony Stark."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2275.0,
+        "end": 2277.0,
+        "text": " So there are many different words in this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2277.0,
+        "end": 2279.0,
+        "text": " So let's run this code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2279.0,
+        "end": 2281.0,
+        "text": " So here we have to take the input of the whole line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2281.0,
+        "end": 2283.0,
+        "text": " In this, every single word is a single token."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2285.0,
+        "end": 2287.0,
+        "text": " What will happen when we take the next line and run it in our code?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2287.0,
+        "end": 2289.0,
+        "text": " Here we write the full name."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2291.0,
+        "end": 2293.0,
+        "text": " And this time the full name got printed for us in the output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2293.0,
+        "end": 2295.0,
+        "text": " So then we get the same input as before."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2295.0,
+        "end": 2297.0,
+        "text": " So if we press enter, the next word comes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2297.0,
+        "end": 2299.0,
+        "text": " And then we get the same input as before."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2299.0,
+        "end": 2301.0,
+        "text": " Now if we take the input of the whole line,"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2301.0,
+        "end": 2303.0,
+        "text": " Here we can see that the next word is coming."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2303.0,
+        "end": 2305.0,
+        "text": " So here we have to take the input of the whole line and run it in our code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2305.0,
+        "end": 2309.0,
+        "text": " And this time the full name got printed for us in the output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2309.0,
+        "end": 2313.0,
+        "text": " So that means by using next line, we got the input of the whole line."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2313.0,
+        "end": 2319.0,
+        "text": " Now in the same way as there is next and next line, similarly there are many other functions of Scanner class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2319.0,
+        "end": 2321.0,
+        "text": " Our next int comes under these functions."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2321.0,
+        "end": 2325.0,
+        "text": " Next int is used to take input of integer type."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2325.0,
+        "end": 2327.0,
+        "text": " Apart from that, next float comes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2327.0,
+        "end": 2331.0,
+        "text": " Next float is used to take integer floating type numbers."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2331.0,
+        "end": 2334.0,
+        "text": " Floating type means in which your decimal comes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2334.0,
+        "end": 2339.0,
+        "text": " So if you want to take input of that type of numbers, then your next float is used to input them."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2339.0,
+        "end": 2346.0,
+        "text": " In the same way, next double, next long, many such types come which you can take input in your code."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2346.0,
+        "end": 2348.0,
+        "text": " Now we have talked about input."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2348.0,
+        "end": 2350.0,
+        "text": " Now let's do a question on this."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2350.0,
+        "end": 2354.0,
+        "text": " And let's revise a little bit all the concepts we have learned today."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2354.0,
+        "end": 2360.0,
+        "text": " So along with this, we have also added a meme which may seem relatable to many students while studying Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2360.0,
+        "end": 2362.0,
+        "text": " Now let's talk about the question."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2362.0,
+        "end": 2367.0,
+        "text": " So we have to take two variables a and b from the user and we have to print their sum."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2367.0,
+        "end": 2372.0,
+        "text": " So the code will be something like this that we will be creating a Scanner class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2372.0,
+        "end": 2374.0,
+        "text": " We will be taking inputs of a and b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2374.0,
+        "end": 2379.0,
+        "text": " After that we will create a variable named sum in which we will do a plus b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2379.0,
+        "end": 2383.0,
+        "text": " And finally we will print the value of our sum."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2383.0,
+        "end": 2389.0,
+        "text": " So we can see that we will write a code of a few four lines with which we are going to solve this question."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2390.0,
+        "end": 2394.0,
+        "text": " So if we look at the code, first of all we will create our Scanner object."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2397.0,
+        "end": 2399.0,
+        "text": " We have created the Scanner object."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2399.0,
+        "end": 2401.0,
+        "text": " What will we do after this?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2401.0,
+        "end": 2403.0,
+        "text": " We will take inputs of a and b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2404.0,
+        "end": 2407.0,
+        "text": " So int will become sc.nextInt."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2408.0,
+        "end": 2413.0,
+        "text": " We had just discussed that the nextInt function is used to take inputs of integer type values."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2415.0,
+        "end": 2417.0,
+        "text": " After that int b that too from nextInt."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2417.0,
+        "end": 2420.0,
+        "text": " So we have taken inputs of two integer values."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2420.0,
+        "end": 2423.0,
+        "text": " Now we will create a third variable whose name is sum."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2424.0,
+        "end": 2427.0,
+        "text": " So the value of int sum will become a plus b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2427.0,
+        "end": 2430.0,
+        "text": " So we took input of a from the Scanner object."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2430.0,
+        "end": 2432.0,
+        "text": " We took input of b from the Scanner object."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2432.0,
+        "end": 2436.0,
+        "text": " Now we created a variable named int sum in which we did a plus b."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2437.0,
+        "end": 2439.0,
+        "text": " Now we have to output this sum."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2440.0,
+        "end": 2444.0,
+        "text": " So we will use our concept of output and print our sum."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2445.0,
+        "end": 2450.0,
+        "text": " Now you will see that for a long time we have not been using double quotes for variables."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2450.0,
+        "end": 2452.0,
+        "text": " We directly write those variables."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2453.0,
+        "end": 2457.0,
+        "text": " Earlier also when we wrote a statement that took input of name and outputted the name itself."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2458.0,
+        "end": 2461.0,
+        "text": " So we did not put double quotes there in this manner."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2461.0,
+        "end": 2462.0,
+        "text": " Why did this happen?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2462.0,
+        "end": 2466.0,
+        "text": " Let us run this code once and see what will happen if we put double quotes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2467.0,
+        "end": 2472.0,
+        "text": " If we put double quotes inside this code, then let's say we entered as 10, b is 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2473.0,
+        "end": 2474.0,
+        "text": " What got printed for us?"
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2474.0,
+        "end": 2476.0,
+        "text": " Sum got printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2477.0,
+        "end": 2481.0,
+        "text": " Sum getting printed means that whatever you write inside double quotes will get printed as it is."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2482.0,
+        "end": 2484.0,
+        "text": " But we do not want this sum to get printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2484.0,
+        "end": 2487.0,
+        "text": " We need to print the sum of both the values."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2487.0,
+        "end": 2490.0,
+        "text": " So for that we don't have to use double quotes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2491.0,
+        "end": 2494.0,
+        "text": " Simply write our variable inside these parentheses."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2494.0,
+        "end": 2496.0,
+        "text": " So the sum will not be getting printed there."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2496.0,
+        "end": 2500.0,
+        "text": " Inside the sum the static value of the memory will be getting printed."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2500.0,
+        "end": 2501.0,
+        "text": " Let's run it again."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2504.0,
+        "end": 2507.0,
+        "text": " Again we pass our input which is 10 and 5."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2508.0,
+        "end": 2510.0,
+        "text": " And now 15 is printed for us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2510.0,
+        "end": 2513.0,
+        "text": " So the sum of 10 and 5 is printed for us."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2513.0,
+        "end": 2517.0,
+        "text": " Here we have used the concept of input, variable, data type."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2517.0,
+        "end": 2519.0,
+        "text": " Along with that our output."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2520.0,
+        "end": 2525.0,
+        "text": " So today we have discussed the four basic fundamentals of programming, fundamentals of Java."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2526.0,
+        "end": 2528.0,
+        "text": " After this we will discuss more things."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2528.0,
+        "end": 2530.0,
+        "text": " So once we cover Java completely."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2530.0,
+        "end": 2533.0,
+        "text": " After that we will start data structures and algorithms."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2533.0,
+        "end": 2536.0,
+        "text": " So I hope that things would have become clear in today's class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2537.0,
+        "end": 2541.0,
+        "text": " We must have given you some additional concepts in the notes given below."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2542.0,
+        "end": 2544.0,
+        "text": " So you can go and refer to those notes."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2545.0,
+        "end": 2548.0,
+        "text": " We have to practice the questions mentioned in those notes before the next class."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2549.0,
+        "end": 2550.0,
+        "text": " See you in the next video."
+    },
+    {
+        "number": "2",
+        "title": "2_Variables_in_Java_Input_Output_",
+        "start": 2551.0,
+        "end": 2553.0,
+        "text": " Till then keep learning and keep exploring."
+    }
+]

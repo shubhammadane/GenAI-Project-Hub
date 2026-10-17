@@ -1,0 +1,3411 @@
+[
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 0.0,
+        "end": 2.6,
+        "text": " Hi everyone and welcome to the Java Placement Course."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 2.6,
+        "end": 5.0,
+        "text": " In today's video, we will be talking about loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 5.0,
+        "end": 7.8,
+        "text": " So let's start the class with a positive quote."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 7.8,
+        "end": 9.8,
+        "text": " We can, we should and we will."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 9.8,
+        "end": 14.6,
+        "text": " So if we are working in the right direction with the right mindset and right attitude,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 14.6,
+        "end": 20.0,
+        "text": " then definitely we will be achieving the goal, the target that we have set for ourselves."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 20.0,
+        "end": 23.0,
+        "text": " Let's start the class with loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 23.0,
+        "end": 26.6,
+        "text": " Today in this class, we will be reading three types of loops in Java."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 26.6,
+        "end": 30.200000000000003,
+        "text": " For loops, while loops and do while loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 30.200000000000003,
+        "end": 31.6,
+        "text": " Now what are loops?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 31.6,
+        "end": 34.2,
+        "text": " So if we have ever listened to songs sitting down,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 34.2,
+        "end": 40.2,
+        "text": " then in between, we feel that a song is very good and we want to listen to it again and again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 40.2,
+        "end": 45.0,
+        "text": " So what we do with that, we put it on our app or wherever it is, we put it on loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 45.0,
+        "end": 50.0,
+        "text": " Loop means repeating some work again and again and again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 50.0,
+        "end": 54.4,
+        "text": " So in the code, whatever work we have to repeat again and again,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 54.4,
+        "end": 56.8,
+        "text": " we repeat it with the help of loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 56.8,
+        "end": 61.0,
+        "text": " For example, let's say if we have been given a simple task,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 61.0,
+        "end": 63.8,
+        "text": " that you print Hello World in your code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 63.8,
+        "end": 67.0,
+        "text": " We have to print Hello World three times, so what will we do for that?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 67.0,
+        "end": 72.6,
+        "text": " We will simply write the output statement in which we will be writing Hello World."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 72.6,
+        "end": 78.2,
+        "text": " And we will copy paste this line three times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 78.4,
+        "end": 82.4,
+        "text": " So here we have written the code to print Hello World three times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 82.4,
+        "end": 88.8,
+        "text": " Now we have written this, but if we are told that you have to print Hello World 20 times,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 88.8,
+        "end": 93.4,
+        "text": " or if you have to print it 100 times, then are we copying and pasting it again and again?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 93.4,
+        "end": 94.4,
+        "text": " No."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 94.4,
+        "end": 99.4,
+        "text": " We will use a very simple concept of Java, which is called loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 99.4,
+        "end": 102.60000000000001,
+        "text": " Now we will first learn the syntax of loops"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 102.8,
+        "end": 108.19999999999999,
+        "text": " and then we will see how we can print Hello World 100 times in just three lines."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 108.19999999999999,
+        "end": 111.19999999999999,
+        "text": " So first of all, let's talk about syntax."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 111.19999999999999,
+        "end": 116.19999999999999,
+        "text": " The first syntax we will learn will be our for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 116.19999999999999,
+        "end": 121.19999999999999,
+        "text": " So to write for loop in Java, first we write our keyword for"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 121.19999999999999,
+        "end": 125.6,
+        "text": " and then three statements come in parentheses."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 125.6,
+        "end": 130.2,
+        "text": " The first statement is initialization, the second condition, and the third updation."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 130.79999999999998,
+        "end": 133.79999999999998,
+        "text": " Now we will analyze them one by one."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 133.79999999999998,
+        "end": 139.79999999999998,
+        "text": " Now if we want to do any work in the loop, i.e. repeat any work,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 139.79999999999998,
+        "end": 143.2,
+        "text": " then we will have to track how many times that work has happened."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 143.2,
+        "end": 148.6,
+        "text": " If we want to print Hello World 100 times, then we will have to see if it has been printed 50 times,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 148.6,
+        "end": 153.6,
+        "text": " 70 times, 90 times, or have we come to 100 times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 153.6,
+        "end": 157.79999999999998,
+        "text": " So to track all this work, we need some variables"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 157.8,
+        "end": 164.4,
+        "text": " whose value we start with 0, 10, or 5, and then we update them."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 164.4,
+        "end": 168.4,
+        "text": " And until their value is less than 100, we keep increasing them."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 168.4,
+        "end": 176.4,
+        "text": " So if we want to print Hello World 100 times, then we take a counter variable."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 176.4,
+        "end": 182.4,
+        "text": " This counter variable will be an integer type variable whose value is 0 at the beginning."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 183.0,
+        "end": 188.0,
+        "text": " Now we will print Hello World 100 times, and then take a counter variable."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 188.0,
+        "end": 192.0,
+        "text": " We will print Hello World 100 times, and then take a counter variable."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 192.0,
+        "end": 196.0,
+        "text": " Then we will print Hello World 100 times, and then take a counter variable."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 196.0,
+        "end": 201.0,
+        "text": " So this counter variable is counting how many times our work has happened."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 201.0,
+        "end": 205.0,
+        "text": " So the counter variable's value, which will be updated,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 205.6,
+        "end": 212.6,
+        "text": " will be the condition that every time we make the counter plus 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 212.6,
+        "end": 218.6,
+        "text": " So if we make the counter value plus 1 in the old one, then it will become the value of the new counter."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 218.6,
+        "end": 224.6,
+        "text": " So this is our updation statement, this is our initialization statement."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 224.6,
+        "end": 226.6,
+        "text": " What does condition mean here?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 227.2,
+        "end": 229.2,
+        "text": " Condition means terminating condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 229.2,
+        "end": 241.2,
+        "text": " The loop, the entire loop, should run until our counter's value is less than 100."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 241.2,
+        "end": 247.2,
+        "text": " As soon as the counter reaches 100, our loop ends."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 247.2,
+        "end": 255.2,
+        "text": " Why? Because if the counter has come from 0 to 99, then we have printed Hello World 100 times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 255.79999999999998,
+        "end": 259.8,
+        "text": " Now if the counter is 100, then don't print Hello World from there."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 259.8,
+        "end": 263.8,
+        "text": " You finish your loop because you have printed it 100 times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 263.8,
+        "end": 272.8,
+        "text": " So this is our terminating condition, which will define how long the for loop will run."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 272.8,
+        "end": 276.8,
+        "text": " So now the same work that we wrote, printing Hello World 3 times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 276.8,
+        "end": 280.8,
+        "text": " Now we will print Hello World 100 times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 280.8,
+        "end": 283.8,
+        "text": " How? With the help of our for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 284.40000000000003,
+        "end": 287.40000000000003,
+        "text": " So where will we write the print statement in this for loop?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 287.40000000000003,
+        "end": 290.40000000000003,
+        "text": " We will write the print statement here."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 290.40000000000003,
+        "end": 297.40000000000003,
+        "text": " So print Hello World will be written in the middle of these curly braces."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 297.40000000000003,
+        "end": 305.40000000000003,
+        "text": " So whatever work we have to repeat in the loop, we write it in the middle of the curly braces of the for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 305.40000000000003,
+        "end": 308.40000000000003,
+        "text": " So we can do all the work here."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 308.40000000000003,
+        "end": 312.40000000000003,
+        "text": " Now let's write this code again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 312.4,
+        "end": 316.4,
+        "text": " First of all, let's print Hello World 100 times instead of just 3 times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 316.4,
+        "end": 318.4,
+        "text": " How will we do it?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 318.4,
+        "end": 323.4,
+        "text": " For int counter, we have initialized a counter."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 323.4,
+        "end": 325.4,
+        "text": " We have written the condition of its initialization."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 325.4,
+        "end": 327.4,
+        "text": " We are initializing it with 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 327.4,
+        "end": 333.4,
+        "text": " Now you will notice that a terminator has come here, i.e. semicolon."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 333.4,
+        "end": 341.4,
+        "text": " So whenever we talk about the for loop, one comes after initialization and the other comes after terminating condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 341.4,
+        "end": 343.4,
+        "text": " So 2 semicolons come."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 343.4,
+        "end": 349.4,
+        "text": " In a way, we are writing 3 conditions in the same line in the for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 349.4,
+        "end": 352.4,
+        "text": " So we have initialized counter with 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 352.4,
+        "end": 362.4,
+        "text": " Until the counter is less than 3, we will increase the counter by 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 362.4,
+        "end": 365.4,
+        "text": " So in this way we have written the code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 365.4,
+        "end": 366.4,
+        "text": " We have written the code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 366.4,
+        "end": 370.4,
+        "text": " We will write the statement of print inside."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 370.4,
+        "end": 376.4,
+        "text": " Now let's save this whole code and run it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 376.4,
+        "end": 380.4,
+        "text": " So the output that we will get is 3 times Hello World."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 380.4,
+        "end": 387.4,
+        "text": " Now for the same counter, if we write 100 instead of 3 in the terminating condition, what will happen?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 387.4,
+        "end": 389.4,
+        "text": " Let's see what will happen."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 389.4,
+        "end": 392.4,
+        "text": " We will run this code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 392.4,
+        "end": 396.4,
+        "text": " So our Hello World has been printed 100 times."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 396.4,
+        "end": 402.4,
+        "text": " Similarly, the terminating condition defines when you are terminating, when you are stopping."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 402.4,
+        "end": 410.4,
+        "text": " And if we completely remove this terminating condition, i.e. leave it empty here, what will happen in such a case?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 410.4,
+        "end": 413.4,
+        "text": " In such a case, run."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 413.4,
+        "end": 417.4,
+        "text": " So our Hello World Hello World is being printed, being printed, being printed, being printed, being printed,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 417.4,
+        "end": 418.4,
+        "text": " How long will it be printed?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 418.4,
+        "end": 421.4,
+        "text": " It will be printed until the memory of our computer is not filled."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 421.4,
+        "end": 425.4,
+        "text": " It will be printed until the memory is not filled due to our code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 425.4,
+        "end": 431.4,
+        "text": " So such loops that keep running again and again, we call them infinite loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 431.4,
+        "end": 437.4,
+        "text": " We should avoid infinite loops in our code because they spoil our code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 437.4,
+        "end": 439.4,
+        "text": " Our memory is filled."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 439.4,
+        "end": 443.4,
+        "text": " That is why we will never keep an infinite loop here."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 443.4,
+        "end": 451.4,
+        "text": " And here we will give a terminating statement where our code will be ending after one point."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 451.4,
+        "end": 455.4,
+        "text": " Now we have printed our Hello World with the help of a loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 455.4,
+        "end": 457.4,
+        "text": " Now let's solve a question."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 457.4,
+        "end": 459.4,
+        "text": " The question is something like this."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 459.4,
+        "end": 461.4,
+        "text": " Print the numbers from 0 to 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 461.4,
+        "end": 465.4,
+        "text": " 0, 1, 2, 3, 5, 4, 6, 7, 8, 9, 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 465.4,
+        "end": 469.4,
+        "text": " This is how we have to print the numbers from 0 to 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 469.4,
+        "end": 472.4,
+        "text": " Now let's see how we do it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 472.4,
+        "end": 476.4,
+        "text": " So let's remove this for loop and write a new for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 476.4,
+        "end": 480.4,
+        "text": " In which we will take the counter value from 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 480.4,
+        "end": 486.4,
+        "text": " And here our counter will go from 0 to 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 486.4,
+        "end": 491.4,
+        "text": " So the counter value is less than 10 or less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 491.4,
+        "end": 493.4,
+        "text": " Because as soon as it will be 11, we will stop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 493.4,
+        "end": 496.4,
+        "text": " But we have to print it till 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 497.4,
+        "end": 500.4,
+        "text": " So counter++."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 501.4,
+        "end": 507.4,
+        "text": " Here you must have noticed that we have written counter is equal to counter plus 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 507.4,
+        "end": 509.4,
+        "text": " So counter plus 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 509.4,
+        "end": 511.4,
+        "text": " So counter plus plus."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 511.4,
+        "end": 513.4,
+        "text": " So what does counter plus plus mean?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 513.4,
+        "end": 519.4,
+        "text": " Add a value to the counter."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 519.4,
+        "end": 522.4,
+        "text": " So this is the shortcut to writing the same thing."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 522.4,
+        "end": 524.4,
+        "text": " Counter plus plus."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 524.4,
+        "end": 526.4,
+        "text": " This is called increment operator."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 526.4,
+        "end": 530.4,
+        "text": " In the terms of Java, we will be studying operators in the upcoming classes."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 530.4,
+        "end": 533.4,
+        "text": " Then we will understand operators in more detail."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 533.4,
+        "end": 537.4,
+        "text": " For now, let's assume that this means counter plus plus."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 537.4,
+        "end": 539.4,
+        "text": " It means counter is equal to counter plus 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 539.4,
+        "end": 542.4,
+        "text": " So we have written this statement a little short."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 542.4,
+        "end": 545.4,
+        "text": " Now what we will do here is we will print here."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 545.4,
+        "end": 548.4,
+        "text": " Last time we printed hello world."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 548.4,
+        "end": 551.4,
+        "text": " This time we have to print values from 0 to 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 551.4,
+        "end": 554.4,
+        "text": " So why don't we print our counter?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 554.4,
+        "end": 558.4,
+        "text": " Because in the beginning, the value of the counter will be 0, then the counter will be printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 558.4,
+        "end": 561.4,
+        "text": " Then it will be 1, then 1 will be printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 561.4,
+        "end": 564.4,
+        "text": " Then it will be 2, then 2 will be printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 564.4,
+        "end": 567.4,
+        "text": " Let's save this code and run it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 567.4,
+        "end": 570.4,
+        "text": " And if we run it, then our output has come."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 570.4,
+        "end": 573.4,
+        "text": " 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 573.4,
+        "end": 578.4,
+        "text": " Now if we had to print the same thing on the same line, what would we do?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 578.4,
+        "end": 581.4,
+        "text": " We just give a space after the counter."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 581.4,
+        "end": 584.4,
+        "text": " So run the code again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 584.4,
+        "end": 587.4,
+        "text": " So our output is printed in a single line."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 587.4,
+        "end": 590.4,
+        "text": " And we can also write the name of this counter variable."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 590.4,
+        "end": 593.4,
+        "text": " Now if we want to write the same loop again, then what will we write?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 593.4,
+        "end": 596.4,
+        "text": " Now if we want to write the same loop again, then what will we write?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 596.4,
+        "end": 599.4,
+        "text": " Now if we want to write the same loop again, then what will we write?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 608.4,
+        "end": 611.4,
+        "text": " We have written the counter name as i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 611.4,
+        "end": 618.4,
+        "text": " Next, when we are reading difficult concepts, difficult things, then we will have to write a lot of things in our code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 618.4,
+        "end": 621.4,
+        "text": " At that time we don't need to write big variables like the counter in our loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 621.4,
+        "end": 626.4,
+        "text": " So we will write small variables like i, j, k, x."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 626.4,
+        "end": 629.4,
+        "text": " Usually we write i and j."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 629.4,
+        "end": 633.4,
+        "text": " So i is equal to 0, i less than 11, i plus plus and the counter is i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 633.4,
+        "end": 640.4,
+        "text": " So i is equal to 0, i less than 11, i++ and we will print i in the same way."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 640.4,
+        "end": 644.4,
+        "text": " Let's run this and see what output we will get."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 644.4,
+        "end": 652.4,
+        "text": " The output we have is 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, 10 which we have observed earlier."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 652.4,
+        "end": 656.4,
+        "text": " So in this way we can name our counter in any of our loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 656.4,
+        "end": 658.4,
+        "text": " Now we have talked about the for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 658.4,
+        "end": 665.4,
+        "text": " Now let's analyze this for loop a little more so that we can understand what actually happened in the for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 665.4,
+        "end": 667.4,
+        "text": " Let's write it once."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 667.4,
+        "end": 669.4,
+        "text": " What did we write in the code?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 669.4,
+        "end": 678.4,
+        "text": " for int i is equal to 0 terminator i is less than 11 terminator i++"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 678.4,
+        "end": 681.4,
+        "text": " What we had to do was print."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 681.4,
+        "end": 685.4,
+        "text": " Here the whole print statement was not written but we had to print our i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 686.4,
+        "end": 688.4,
+        "text": " Here also terminator."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 688.4,
+        "end": 691.4,
+        "text": " In the same way we will analyze it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 691.4,
+        "end": 696.4,
+        "text": " In the coding language it is called dry run."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 696.4,
+        "end": 702.4,
+        "text": " That is, without coding, we have to see how things are going, what things are going right and what are not."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 702.4,
+        "end": 705.4,
+        "text": " So we are now dry running our code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 705.4,
+        "end": 708.4,
+        "text": " First of all, i was equal to 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 708.4,
+        "end": 710.4,
+        "text": " i was equal to 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 710.4,
+        "end": 714.4,
+        "text": " Because initialization is the beginning."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 714.4,
+        "end": 717.4,
+        "text": " We will not come back to this statement in the loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 717.4,
+        "end": 719.4,
+        "text": " We will come only once."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 719.4,
+        "end": 721.4,
+        "text": " So the value of i was 0 in the first time."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 721.4,
+        "end": 726.4,
+        "text": " After that, this statement is executed first."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 726.4,
+        "end": 729.4,
+        "text": " Then this statement is executed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 729.4,
+        "end": 732.4,
+        "text": " So we initialized i with 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 732.4,
+        "end": 736.4,
+        "text": " Then we checked that our i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 736.4,
+        "end": 737.4,
+        "text": " Yes, it is less."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 737.4,
+        "end": 740.4,
+        "text": " So in that case we went into the loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 740.4,
+        "end": 744.4,
+        "text": " And we printed i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 744.4,
+        "end": 747.4,
+        "text": " That is, we printed 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 747.4,
+        "end": 753.4,
+        "text": " After that, we went to our updation condition from our loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 753.4,
+        "end": 756.4,
+        "text": " So once we ran the loop, now we will update."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 756.4,
+        "end": 759.4,
+        "text": " So we updated i and did 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 759.4,
+        "end": 762.4,
+        "text": " Now i is updated and 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 762.4,
+        "end": 765.4,
+        "text": " After updation, it goes to check again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 765.4,
+        "end": 769.4,
+        "text": " So after checking, it saw that i is still less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 769.4,
+        "end": 774.4,
+        "text": " So in this case, we printed 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 774.4,
+        "end": 777.4,
+        "text": " We printed 1 here."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 777.4,
+        "end": 782.4,
+        "text": " After printing, it will update, check and print again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 782.4,
+        "end": 787.4,
+        "text": " It will update again, check and print again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 787.4,
+        "end": 791.4,
+        "text": " So in this way, things will be running in the loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 791.4,
+        "end": 795.4,
+        "text": " First it is printing, then updating and then checking again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 795.4,
+        "end": 798.4,
+        "text": " So here we printed and then updated."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 798.4,
+        "end": 801.4,
+        "text": " After updating, i will become 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 801.4,
+        "end": 803.4,
+        "text": " i became 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 803.4,
+        "end": 806.4,
+        "text": " Checked again that is i less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 806.4,
+        "end": 807.4,
+        "text": " Yes, it is."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 807.4,
+        "end": 810.4,
+        "text": " So in that case, we printed 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 810.4,
+        "end": 812.4,
+        "text": " We will update again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 812.4,
+        "end": 814.4,
+        "text": " So we updated, so i is 3."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 814.4,
+        "end": 817.4,
+        "text": " Checked again that is 3 less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 817.4,
+        "end": 818.4,
+        "text": " Yes, it is."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 818.4,
+        "end": 820.4,
+        "text": " So we printed i, that is, we printed 3."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 820.4,
+        "end": 825.4,
+        "text": " And in the same way, at the end, i will become 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 825.4,
+        "end": 829.4,
+        "text": " We will print i, so we will print 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 829.4,
+        "end": 833.4,
+        "text": " After that, the value of i will become 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 833.4,
+        "end": 837.4,
+        "text": " As soon as the value of i becomes 11, i will reach here."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 837.4,
+        "end": 839.4,
+        "text": " The value of i will become 11 after updating."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 839.4,
+        "end": 842.4,
+        "text": " And we will check that is i less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 842.4,
+        "end": 845.4,
+        "text": " So there i less than 11 will not be there."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 845.4,
+        "end": 848.4,
+        "text": " So we will go out of this for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 848.4,
+        "end": 850.4,
+        "text": " We are not printing."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 850.4,
+        "end": 855.4,
+        "text": " So here only 10 will be printed, 11 will not be printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 855.4,
+        "end": 859.4,
+        "text": " So in this way, our for loop works for us."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 859.4,
+        "end": 863.4,
+        "text": " Now let's talk about our while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 863.4,
+        "end": 866.4,
+        "text": " So in while loop, we can do all the work as in for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 866.4,
+        "end": 869.4,
+        "text": " But the way to write is a little different."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 869.4,
+        "end": 872.4,
+        "text": " In English, while means until."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 872.4,
+        "end": 877.4,
+        "text": " You keep working until this condition reaches you."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 877.4,
+        "end": 883.4,
+        "text": " In for loop, the condition was that until our i is less than 11, you keep working."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 883.4,
+        "end": 886.4,
+        "text": " Similarly, the same condition will be in the while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 886.4,
+        "end": 893.4,
+        "text": " Until our i is less than 11, you keep working."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 893.4,
+        "end": 896.4,
+        "text": " And what is that work? Printing i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 896.4,
+        "end": 899.4,
+        "text": " And where will we initialize i?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 899.4,
+        "end": 903.4,
+        "text": " Here we will initialize i in our code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 903.4,
+        "end": 909.4,
+        "text": " So outside the while loop, int i is equal to 0, we will write a normal statement of Java."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 909.4,
+        "end": 912.4,
+        "text": " And where will we update? We will update inside our loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 912.4,
+        "end": 915.4,
+        "text": " i is equal to i plus 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 915.4,
+        "end": 918.4,
+        "text": " We will update it again and again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 918.4,
+        "end": 925.4,
+        "text": " So the same code that we have written from for loop, we will write the same code with the help of while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 929.4,
+        "end": 931.4,
+        "text": " Let's do this, comment out."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 931.4,
+        "end": 933.4,
+        "text": " And now write the code with the help of while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 933.4,
+        "end": 937.4,
+        "text": " So first of all, initialize your variable int i is equal to 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 937.4,
+        "end": 939.4,
+        "text": " After that, write while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 939.4,
+        "end": 941.4,
+        "text": " Inside we will write the condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 941.4,
+        "end": 943.4,
+        "text": " What is the condition? Until the value of i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 943.4,
+        "end": 945.4,
+        "text": " Till then, what do you do?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 945.4,
+        "end": 947.4,
+        "text": " Print i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 947.4,
+        "end": 949.4,
+        "text": " And where is i update?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 949.4,
+        "end": 952.4,
+        "text": " i will be updated here from i plus 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 952.4,
+        "end": 956.4,
+        "text": " Here we could write i plus plus also."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 956.4,
+        "end": 960.4,
+        "text": " Now we will save this whole code and run it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 960.4,
+        "end": 967.4,
+        "text": " So after running, our output is also the same."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 967.4,
+        "end": 970.4,
+        "text": " Which is 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 970.4,
+        "end": 978.4,
+        "text": " So in this way, we did the same work from for loop, we did it easily inside the while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 978.4,
+        "end": 982.4,
+        "text": " So while loop is nothing, it is a different way to do the same work."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 983.4,
+        "end": 991.4,
+        "text": " And in a similar way, we can do the same work from for loop and while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 991.4,
+        "end": 996.4,
+        "text": " Do while loop means, you do something, do something."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 996.4,
+        "end": 998.4,
+        "text": " Do means do something."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 998.4,
+        "end": 1002.4,
+        "text": " So do something until your condition reaches."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1002.4,
+        "end": 1010.4,
+        "text": " So the new way to represent the same thing in some other way is do while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1010.4,
+        "end": 1013.4,
+        "text": " Now how to write the same condition in do while?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1013.4,
+        "end": 1016.4,
+        "text": " We have to write our work in do."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1016.4,
+        "end": 1017.4,
+        "text": " What is the work?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1017.4,
+        "end": 1020.4,
+        "text": " Print i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1020.4,
+        "end": 1022.4,
+        "text": " Where will we define i?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1022.4,
+        "end": 1023.4,
+        "text": " Outside of do while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1023.4,
+        "end": 1028.4,
+        "text": " int i is equal to 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1028.4,
+        "end": 1029.4,
+        "text": " Initialize."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1029.4,
+        "end": 1032.4,
+        "text": " Do our work inside do, which is to print i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1032.4,
+        "end": 1034.4,
+        "text": " After that, we will write our condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1034.4,
+        "end": 1038.4,
+        "text": " While i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1038.4,
+        "end": 1041.4,
+        "text": " Now a small difference that comes in do while and while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1041.4,
+        "end": 1046.4,
+        "text": " If we look at while carefully, we check our condition while entering while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1046.4,
+        "end": 1050.4,
+        "text": " That first we will check the condition that is correct."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1050.4,
+        "end": 1052.4,
+        "text": " Only then the work will be done."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1052.4,
+        "end": 1055.4,
+        "text": " Whereas in do while, we are a little bit of grain."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1055.4,
+        "end": 1060.4,
+        "text": " In which we do our work first, then we will check the condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1060.4,
+        "end": 1063.4,
+        "text": " We will do the work first, then we will check the condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1063.4,
+        "end": 1068.4,
+        "text": " So in some way, a small difference comes in do while and while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1068.4,
+        "end": 1073.4,
+        "text": " If we talk about for loop, then when we enter in for loop, we check the condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1073.4,
+        "end": 1079.4,
+        "text": " So when we initialize in for loop, then our condition is checked."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1079.4,
+        "end": 1082.4,
+        "text": " The condition is checked in while too."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1082.4,
+        "end": 1088.4,
+        "text": " In do while, whether the condition is true or false."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1088.4,
+        "end": 1092.4,
+        "text": " Work will be done at least once."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1092.4,
+        "end": 1094.4,
+        "text": " This is for sure."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1094.4,
+        "end": 1097.4,
+        "text": " So when you want to do work, whether the condition is true or false."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1097.4,
+        "end": 1101.4,
+        "text": " If you want to do it at least once, then only you use do while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1101.4,
+        "end": 1103.4,
+        "text": " It will be more beneficial."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1103.4,
+        "end": 1108.4,
+        "text": " So if we write the same thing in our code, then how will we see?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1108.4,
+        "end": 1109.4,
+        "text": " Here we also do this."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1109.4,
+        "end": 1111.4,
+        "text": " Comment out."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1111.4,
+        "end": 1113.4,
+        "text": " And we write do while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1113.4,
+        "end": 1117.4,
+        "text": " For that, we will initialize our variable from zero."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1117.4,
+        "end": 1119.4,
+        "text": " And we will be working in do."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1119.4,
+        "end": 1120.4,
+        "text": " What is the work?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1120.4,
+        "end": 1122.4,
+        "text": " Print i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1122.4,
+        "end": 1126.4,
+        "text": " Now we will update i in the same way as we did in while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1126.4,
+        "end": 1129.4,
+        "text": " i is equal to i plus one."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1129.4,
+        "end": 1131.4,
+        "text": " And here the condition of while will come."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1131.4,
+        "end": 1135.4,
+        "text": " Till the time i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1135.4,
+        "end": 1138.4,
+        "text": " If we save it and run it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1141.4,
+        "end": 1144.4,
+        "text": " So for us, the output is same."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1144.4,
+        "end": 1148.4,
+        "text": " From zero to ten, all the values are printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1148.4,
+        "end": 1154.4,
+        "text": " So we did the same work with for loop, while loop and do while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1154.4,
+        "end": 1158.4,
+        "text": " So these three loops work in Java."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1158.4,
+        "end": 1164.4,
+        "text": " Now let's do a small test between while and do while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1164.4,
+        "end": 1165.4,
+        "text": " What will we do?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1165.4,
+        "end": 1168.4,
+        "text": " We will take a false condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1168.4,
+        "end": 1173.4,
+        "text": " False condition means we will initialize our i with 12."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1173.4,
+        "end": 1175.4,
+        "text": " And first of all, we write while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1175.4,
+        "end": 1179.4,
+        "text": " Till the time i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1179.4,
+        "end": 1181.4,
+        "text": " Till then, what do you print?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1181.4,
+        "end": 1183.4,
+        "text": " Print your call."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1184.4,
+        "end": 1187.4,
+        "text": " We wrote this condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1187.4,
+        "end": 1191.4,
+        "text": " If we run this, then nothing will be printed for us."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1191.4,
+        "end": 1193.4,
+        "text": " Why won't it be printed?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1193.4,
+        "end": 1195.4,
+        "text": " See, nothing has been printed here."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1195.4,
+        "end": 1196.4,
+        "text": " Why it is not printed?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1196.4,
+        "end": 1198.4,
+        "text": " Because i's value is already 12."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1198.4,
+        "end": 1202.4,
+        "text": " And when it enters the loop, it will see that i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1202.4,
+        "end": 1204.4,
+        "text": " That's when the condition will be checked."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1204.4,
+        "end": 1205.4,
+        "text": " Which is false."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1205.4,
+        "end": 1206.4,
+        "text": " i is not less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1206.4,
+        "end": 1209.4,
+        "text": " So this thing is not printed for us."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1209.4,
+        "end": 1213.4,
+        "text": " Now if we write do while loop for the same code, what will happen?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1213.4,
+        "end": 1216.4,
+        "text": " We will do something in do."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1216.4,
+        "end": 1219.4,
+        "text": " Which will be printing our call."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1219.4,
+        "end": 1222.4,
+        "text": " And at last we will write while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1226.4,
+        "end": 1229.4,
+        "text": " Now while we wrote i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1229.4,
+        "end": 1232.4,
+        "text": " So it's a similar thing, but there is a difference."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1232.4,
+        "end": 1237.4,
+        "text": " If we run this code, then our college will be printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1237.4,
+        "end": 1238.4,
+        "text": " Why was it printed?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1238.4,
+        "end": 1242.4,
+        "text": " Because do printed it before seeing the condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1242.4,
+        "end": 1246.4,
+        "text": " But later, it saw the condition and the condition was false."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1246.4,
+        "end": 1248.4,
+        "text": " So we moved ahead there."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1248.4,
+        "end": 1251.4,
+        "text": " But at least once it worked."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1251.4,
+        "end": 1254.4,
+        "text": " Whether the condition is true or false."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1254.4,
+        "end": 1258.4,
+        "text": " Many students will make a mistake while writing do while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1258.4,
+        "end": 1261.4,
+        "text": " Which is not to write this terminator."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1261.4,
+        "end": 1265.4,
+        "text": " I also made this mistake many times when I learned new loops in Java."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1265.4,
+        "end": 1269.4,
+        "text": " So we always have to write terminator after do while."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1269.4,
+        "end": 1272.4,
+        "text": " There is no terminator in while loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1272.4,
+        "end": 1274.4,
+        "text": " It only comes in the statements inside."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1274.4,
+        "end": 1277.4,
+        "text": " But in do while, there is a terminator after while condition."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1277.4,
+        "end": 1279.4,
+        "text": " Which we don't want to miss."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1279.4,
+        "end": 1281.4,
+        "text": " Now let's practice some questions."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1281.4,
+        "end": 1283.4,
+        "text": " Let's strengthen the grip."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1283.4,
+        "end": 1287.4,
+        "text": " The more we practice coding, the better things will be."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1287.4,
+        "end": 1291.4,
+        "text": " Question is, print the sum of first n natural numbers."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1291.4,
+        "end": 1296.4,
+        "text": " This n is an arbitrary n which the user has given us in the input."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1296.4,
+        "end": 1300.4,
+        "text": " We will take input from 1 to n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1300.4,
+        "end": 1303.4,
+        "text": " We will take all the numbers of sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1303.4,
+        "end": 1305.4,
+        "text": " And we will print this sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1305.4,
+        "end": 1307.4,
+        "text": " The question is something like this."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1307.4,
+        "end": 1309.4,
+        "text": " Let's take an example."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1309.4,
+        "end": 1311.4,
+        "text": " In the example, n is equal to 4."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1311.4,
+        "end": 1313.4,
+        "text": " So what do we have to print?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1313.4,
+        "end": 1316.4,
+        "text": " 1 plus 2 plus 3 plus 4."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1316.4,
+        "end": 1319.4,
+        "text": " Which means 7 plus 2 is 9."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1319.4,
+        "end": 1321.4,
+        "text": " We have to print 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1321.4,
+        "end": 1325.4,
+        "text": " Now we will use our for loop to print this."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1325.4,
+        "end": 1327.4,
+        "text": " We used for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1327.4,
+        "end": 1330.4,
+        "text": " We will initialize our counter in this."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1330.4,
+        "end": 1334.4,
+        "text": " If we take i, should we initialize it from 0?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1334.4,
+        "end": 1337.4,
+        "text": " Or should we initialize it with 1?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1337.4,
+        "end": 1340.4,
+        "text": " If we initialize it with 1, it will make more sense."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1340.4,
+        "end": 1343.4,
+        "text": " We have to take numbers from 1 to n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1343.4,
+        "end": 1346.4,
+        "text": " We will initialize it with 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1346.4,
+        "end": 1349.4,
+        "text": " And how long will this counter last?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1349.4,
+        "end": 1353.4,
+        "text": " Until our i value is less than or equal to n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1353.4,
+        "end": 1358.4,
+        "text": " We saw that the less than equal to or greater than equal to of maths,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1358.4,
+        "end": 1362.4,
+        "text": " if we write it in coding, it becomes less than equal to or greater than equal to."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1362.4,
+        "end": 1365.4,
+        "text": " We have to keep this in mind."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1365.4,
+        "end": 1368.4,
+        "text": " Similarly, until i is less than or equal to n,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1368.4,
+        "end": 1371.4,
+        "text": " i is smaller than n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1371.4,
+        "end": 1374.4,
+        "text": " And when it becomes equal, this loop should work."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1374.4,
+        "end": 1378.4,
+        "text": " But if i is greater than n, then we are stopping."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1378.4,
+        "end": 1381.4,
+        "text": " This is our terminating statement."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1381.4,
+        "end": 1383.4,
+        "text": " And we will update i every time."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1383.4,
+        "end": 1385.4,
+        "text": " So here we write i plus plus."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1385.4,
+        "end": 1387.4,
+        "text": " And what will we do inside?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1387.4,
+        "end": 1389.4,
+        "text": " We will calculate our sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1389.4,
+        "end": 1394.4,
+        "text": " To calculate the sum, we will use a new variable int sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1394.4,
+        "end": 1397.4,
+        "text": " We will initialize it with 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1397.4,
+        "end": 1400.4,
+        "text": " 0 was the initial value of sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1400.4,
+        "end": 1403.4,
+        "text": " We will add our counter to it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1403.4,
+        "end": 1406.4,
+        "text": " So what will we do in sum?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1406.4,
+        "end": 1409.4,
+        "text": " We will add our i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1409.4,
+        "end": 1412.4,
+        "text": " And finally, we will print our sum outside the loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1412.4,
+        "end": 1415.4,
+        "text": " So in this way, we initialized sum with 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1415.4,
+        "end": 1418.4,
+        "text": " We initialized our counter with 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1418.4,
+        "end": 1421.4,
+        "text": " The value of i will increase again and again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1421.4,
+        "end": 1424.4,
+        "text": " And in this way, it will go to n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1424.4,
+        "end": 1426.4,
+        "text": " Why will it go to n?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1426.4,
+        "end": 1429.4,
+        "text": " Because the loop will work until i is less than or equal to n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1429.4,
+        "end": 1432.4,
+        "text": " And every time, i will be added in sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1432.4,
+        "end": 1437.4,
+        "text": " So in this way, we take the sum of first and natural numbers."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1437.4,
+        "end": 1440.4,
+        "text": " Now we write code for the same thing."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1440.4,
+        "end": 1443.4,
+        "text": " First, let's make a scanner class."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1452.4,
+        "end": 1455.4,
+        "text": " We have made an object of scanner class."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1455.4,
+        "end": 1458.4,
+        "text": " Let's import our package."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1461.4,
+        "end": 1463.4,
+        "text": " So what are these packages?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1463.4,
+        "end": 1466.4,
+        "text": " There are some important functions and classes in Java."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1466.4,
+        "end": 1468.4,
+        "text": " They have been made before."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1468.4,
+        "end": 1471.4,
+        "text": " Like this scanner class is made for our convenience."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1471.4,
+        "end": 1473.4,
+        "text": " We don't have to make it again."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1473.4,
+        "end": 1476.4,
+        "text": " To use these things, we import them."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1476.4,
+        "end": 1480.4,
+        "text": " For example, if we want to listen to a song of a favourite singer,"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1480.4,
+        "end": 1483.4,
+        "text": " we will take the whole library of the song."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1483.4,
+        "end": 1485.4,
+        "text": " We will listen to the song."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1485.4,
+        "end": 1488.4,
+        "text": " Similarly, we will take the whole library."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1488.4,
+        "end": 1491.4,
+        "text": " We will use the functions we want to use."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1491.4,
+        "end": 1495.4,
+        "text": " There are many useful functions apart from scanner."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1495.4,
+        "end": 1498.4,
+        "text": " We will see them in the next classes."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1498.4,
+        "end": 1502.4,
+        "text": " So with the help of scanner class, we will make an input."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1502.4,
+        "end": 1505.4,
+        "text": " Our number n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1505.4,
+        "end": 1508.4,
+        "text": " Now let's create a sum variable."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1508.4,
+        "end": 1511.4,
+        "text": " We will initialize the value with 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1511.4,
+        "end": 1514.4,
+        "text": " We will run the counter in the for loop with 0."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1514.4,
+        "end": 1517.4,
+        "text": " Until less than or equal to n is not there."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1517.4,
+        "end": 1519.4,
+        "text": " And i++."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1519.4,
+        "end": 1522.4,
+        "text": " And what we will do is add sum in sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1522.4,
+        "end": 1524.4,
+        "text": " Sum plus i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1524.4,
+        "end": 1527.4,
+        "text": " And finally, we will print our sum."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1529.4,
+        "end": 1532.4,
+        "text": " Now let's run this whole code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1533.4,
+        "end": 1536.4,
+        "text": " First we will pass the input."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1536.4,
+        "end": 1539.4,
+        "text": " We will pass 4 in the input."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1539.4,
+        "end": 1544.4,
+        "text": " So we will print the sum of first and natural numbers with the help of for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1544.4,
+        "end": 1547.4,
+        "text": " After this, let's see another question."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1547.4,
+        "end": 1550.4,
+        "text": " We gave this question in lecture 2 in homework problems."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1550.4,
+        "end": 1553.4,
+        "text": " We were just printing it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1553.4,
+        "end": 1559.4,
+        "text": " So for output, we multiplied the table of some number by 1, 2, 3, 4, 5, 6."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1559.4,
+        "end": 1561.4,
+        "text": " And printed it."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1561.4,
+        "end": 1567.4,
+        "text": " This time instead of writing 10 lines, we will finish the same work in 3 lines with the help of for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1567.4,
+        "end": 1572.4,
+        "text": " So the work is to print the table of a number input by the user."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1572.4,
+        "end": 1576.4,
+        "text": " So we have to get the table of the number input by the user."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1576.4,
+        "end": 1577.4,
+        "text": " How will we do it?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1577.4,
+        "end": 1580.4,
+        "text": " Let's assume the user has inputted 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1580.4,
+        "end": 1582.4,
+        "text": " We have to get the table of 2 printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1582.4,
+        "end": 1587.4,
+        "text": " Getting the table of 2 printed means first printing 2 multiplied by 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1587.4,
+        "end": 1589.4,
+        "text": " Then 2 multiplied by 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1589.4,
+        "end": 1598.4,
+        "text": " 2 multiplied by 3, 4, 5, 6, 7, 8, 9 and 10."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1598.4,
+        "end": 1602.4,
+        "text": " So we will get some values of these."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1602.4,
+        "end": 1605.4,
+        "text": " Now if we look carefully, we multiplied by 1 first."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1605.4,
+        "end": 1609.4,
+        "text": " Then 2, 3, 4, 5, 6, 7 and so on."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1609.4,
+        "end": 1614.4,
+        "text": " So if we see a pattern here, then every time the numbers we are multiplying with."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1614.4,
+        "end": 1619.4,
+        "text": " These numbers are getting updated by 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1619.4,
+        "end": 1622.4,
+        "text": " So why not write a for loop?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1622.4,
+        "end": 1624.4,
+        "text": " What will happen in the for loop?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1624.4,
+        "end": 1627.4,
+        "text": " We will take this number as our counter."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1627.4,
+        "end": 1630.4,
+        "text": " So here int i is equal to 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1630.4,
+        "end": 1632.4,
+        "text": " Because it is 1 in the beginning."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1632.4,
+        "end": 1634.4,
+        "text": " And how long is this value going?"
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1634.4,
+        "end": 1638.4,
+        "text": " Until i or less than is equal to 10 or less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1639.4,
+        "end": 1644.4,
+        "text": " Till then we are updating our i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1644.4,
+        "end": 1646.4,
+        "text": " Plus plus."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1646.4,
+        "end": 1650.4,
+        "text": " But the main thing is what we are writing in this for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1650.4,
+        "end": 1658.4,
+        "text": " What we will do in the for loop is multiply our n with our i."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1658.4,
+        "end": 1661.4,
+        "text": " And we will get the same thing printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1661.4,
+        "end": 1664.4,
+        "text": " So the value of i is 1 in the first bar."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1664.4,
+        "end": 1666.4,
+        "text": " So first it will be printed as n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1666.4,
+        "end": 1667.4,
+        "text": " Second bar is 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1667.4,
+        "end": 1670.4,
+        "text": " So first it will be printed as 2 into n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1670.4,
+        "end": 1671.4,
+        "text": " Third bar is 3."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1671.4,
+        "end": 1673.4,
+        "text": " So it will be printed as 3 into n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1673.4,
+        "end": 1677.4,
+        "text": " So in this way we are getting the whole table printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1677.4,
+        "end": 1681.4,
+        "text": " Using this concept in our for loops."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1681.4,
+        "end": 1684.4,
+        "text": " Now for the same thing, we will write a code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1684.4,
+        "end": 1688.4,
+        "text": " We have taken our input number n in the code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1688.4,
+        "end": 1691.4,
+        "text": " And now what we will do is write a for loop."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1691.4,
+        "end": 1693.4,
+        "text": " For int i is equal to 1."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1693.4,
+        "end": 1697.4,
+        "text": " Till the value of i is less than 11."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1697.4,
+        "end": 1699.4,
+        "text": " i plus plus."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1699.4,
+        "end": 1702.4,
+        "text": " And here we will print."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1702.4,
+        "end": 1705.4,
+        "text": " i into n."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1709.4,
+        "end": 1712.4,
+        "text": " Now in the input we are giving number 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1712.4,
+        "end": 1714.4,
+        "text": " So our 2 has been printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1714.4,
+        "end": 1718.4,
+        "text": " 2, 4, 6, 8, 10, 12, 14, 16, 18 and 20."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1718.4,
+        "end": 1722.4,
+        "text": " So in this way we have written 10 lines in lecture 2."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1722.4,
+        "end": 1725.4,
+        "text": " Just for normal output."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1725.4,
+        "end": 1730.4,
+        "text": " Instead we have written only 3 lines to get the whole table printed."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1730.4,
+        "end": 1733.4,
+        "text": " So in this way the loops in our code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1733.4,
+        "end": 1739.4,
+        "text": " Limit the big code, big print statements, big works in a very small code."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1739.4,
+        "end": 1744.4,
+        "text": " We can get a lot of things printed in just a few lines."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1744.4,
+        "end": 1746.4,
+        "text": " So that's it for today."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1746.4,
+        "end": 1749.4,
+        "text": " Hope the loops have been clear for us."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1749.4,
+        "end": 1752.4,
+        "text": " In the description box you will find notes."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1752.4,
+        "end": 1755.4,
+        "text": " Along with that, the problem of the calculator in the previous class."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1755.4,
+        "end": 1757.4,
+        "text": " Will be solved."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1757.4,
+        "end": 1760.4,
+        "text": " Along with that, there will be some homework problems for today's class."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1760.4,
+        "end": 1762.4,
+        "text": " Which we definitely have to do."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1762.4,
+        "end": 1767.4,
+        "text": " If we do them, then we will be able to learn more about how to code in new ways."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1767.4,
+        "end": 1768.4,
+        "text": " That's it for today."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1768.4,
+        "end": 1769.4,
+        "text": " See you in the next video."
+    },
+    {
+        "number": "4",
+        "title": "4_Loops_in_Java_Java_Placement_Full_Course_Lecture_4_240P",
+        "start": 1769.4,
+        "end": 1771.4,
+        "text": " Till then keep learning and keep exploring."
+    }
+]

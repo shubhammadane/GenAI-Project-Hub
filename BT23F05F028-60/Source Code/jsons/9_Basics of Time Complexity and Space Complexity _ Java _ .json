@@ -1,0 +1,2235 @@
+[
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 0.0,
+        "end": 3.7600000000000002,
+        "text": " Hi everyone and welcome to the Java Placement Course."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 3.7600000000000002,
+        "end": 7.76,
+        "text": " In today's lecture, we will be talking about time and space complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 7.76,
+        "end": 11.76,
+        "text": " Before this, we had given an exercise of functions with 10 questions."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 11.76,
+        "end": 14.48,
+        "text": " You will be getting the solutions for all of them below."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 14.48,
+        "end": 16.96,
+        "text": " In this lecture, we will not be doing any code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 16.96,
+        "end": 25.92,
+        "text": " We will be learning how to calculate time and space complexity for all the codes we have written."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 25.92,
+        "end": 28.8,
+        "text": " Now, let's talk about what is time and space complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 28.8,
+        "end": 32.32,
+        "text": " We all have run apps at home on our phones."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 32.32,
+        "end": 38.32,
+        "text": " We like apps that reduce memory and space in our phones."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 38.32,
+        "end": 43.68,
+        "text": " We like apps that reduce memory and space in our phones."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 43.68,
+        "end": 46.16,
+        "text": " They are stored in less space."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 46.16,
+        "end": 51.120000000000005,
+        "text": " Along with that, apps that don't take much time to load and run quickly."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 51.12,
+        "end": 59.599999999999994,
+        "text": " We can say that anything related to coding, like code output, like an app or a website,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 59.599999999999994,
+        "end": 65.28,
+        "text": " will be as good as it takes less space and runs as quickly."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 65.28,
+        "end": 71.92,
+        "text": " So, space and time are very important whenever we are writing programs or code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 71.92,
+        "end": 78.8,
+        "text": " Because our final resultant product should be so efficient that it runs quickly,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 78.8,
+        "end": 81.67999999999999,
+        "text": " that it takes less time and space."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 81.67999999999999,
+        "end": 88.64,
+        "text": " In this lecture, we will be learning how to calculate the time it takes to execute our code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 88.64,
+        "end": 95.03999999999999,
+        "text": " Along with that, how to calculate the space or memory it takes to execute time,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 95.03999999999999,
+        "end": 98.47999999999999,
+        "text": " which it occupies in a computer or machine."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 98.47999999999999,
+        "end": 101.67999999999999,
+        "text": " Now, let's talk about time complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 101.84,
+        "end": 111.04,
+        "text": " In simple language, it is the relation between input size and running time or operations."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 111.04,
+        "end": 113.84,
+        "text": " Let's take an example of a simple code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 113.84,
+        "end": 121.68,
+        "text": " We have written a print statement in the main function."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 121.68,
+        "end": 125.2,
+        "text": " Only one operation is performing in this program."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 125.2,
+        "end": 131.36,
+        "text": " We can say that it takes very less time to perform one operation in a computer or code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 131.36,
+        "end": 134.8,
+        "text": " So, that much time will be required to execute this code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 134.8,
+        "end": 138.64000000000001,
+        "text": " Let's take another example of a program which has a main function again."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 138.64000000000001,
+        "end": 141.68,
+        "text": " But this time, there are two print statements."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 141.68,
+        "end": 151.60000000000002,
+        "text": " So, if the same operations are doubled, then the total time of two times into one operation will be created."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 151.60000000000002,
+        "end": 154.32000000000002,
+        "text": " And the same time will be required to run this code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 154.32,
+        "end": 159.04,
+        "text": " The small time of these operations are almost negligible."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 159.04,
+        "end": 160.4,
+        "text": " They do not make any difference."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 160.4,
+        "end": 162.88,
+        "text": " It takes very less time to execute."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 162.88,
+        "end": 169.12,
+        "text": " But it starts to make a difference when these operations are very many."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 169.12,
+        "end": 176.16,
+        "text": " And these operations will usually depend on our input size."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 176.16,
+        "end": 177.92,
+        "text": " What is the input size?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 177.92,
+        "end": 188.32,
+        "text": " The input size of the scanner class is defined based on the input size of the code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 188.32,
+        "end": 190.8,
+        "text": " Then the input size will be defined."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 190.8,
+        "end": 194.64,
+        "text": " And the larger the input size, the larger the code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 194.64,
+        "end": 197.28,
+        "text": " Now, this thing must have been a little troublesome to understand."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 197.28,
+        "end": 200.0,
+        "text": " So, let's understand it one more time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 200.08,
+        "end": 206.4,
+        "text": " Let's say we took an input of a variable n from the scanner class."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 206.4,
+        "end": 211.44,
+        "text": " Now, as soon as we took input of this variable n, we run a for loop."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 211.44,
+        "end": 216.4,
+        "text": " And this for loop goes from i equal to 0 to n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 216.4,
+        "end": 218.88,
+        "text": " And prints it."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 218.88,
+        "end": 220.16,
+        "text": " Hello!"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 220.16,
+        "end": 222.0,
+        "text": " We have taken some code like this."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 222.0,
+        "end": 226.16,
+        "text": " Now, you will see that it takes one operation to print this code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 226.16,
+        "end": 229.52,
+        "text": " But how many times have we done this operation?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 229.52,
+        "end": 231.68,
+        "text": " We have done it n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 231.68,
+        "end": 236.4,
+        "text": " If we run this loop n times, then the print will also be n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 236.4,
+        "end": 240.24,
+        "text": " And we have repeated the print operation n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 240.24,
+        "end": 250.4,
+        "text": " So, the larger this n will be, the more time our code will take."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 250.4,
+        "end": 257.12,
+        "text": " Therefore, the time our code takes depends on our input size."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 257.12,
+        "end": 266.88,
+        "text": " So, we are trying to find a relation between our input size, running time or operation."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 266.88,
+        "end": 272.0,
+        "text": " If we double our input, then what will be our running time?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 272.0,
+        "end": 275.28000000000003,
+        "text": " If we do it three times, then what will be our running time?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 275.28000000000003,
+        "end": 278.96,
+        "text": " So, the relation between these two can be linear."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 278.96,
+        "end": 284.64,
+        "text": " If we increase the input by 10, then our running time will also increase by 10."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 284.64,
+        "end": 286.56,
+        "text": " It can also be quadratic."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 286.56,
+        "end": 296.16,
+        "text": " Quadratic means if we increase our input size by 2 times, then our running time or operations will increase by 4 times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 296.16,
+        "end": 298.0,
+        "text": " It can also be cubic."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 298.0,
+        "end": 302.8,
+        "text": " If the running time increases by 2 times, then our operations will increase by 8 times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 302.8,
+        "end": 307.2,
+        "text": " It can be a log n relation or a square root relation."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 307.2,
+        "end": 310.88,
+        "text": " And in the same way, multiple relations can be obtained."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 310.88,
+        "end": 315.68,
+        "text": " Our code will be as good as our relation will be smaller."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 315.68,
+        "end": 320.15999999999997,
+        "text": " Our operations will increase with less speed with our input size."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 320.15999999999997,
+        "end": 324.24,
+        "text": " Now, we will see the time complexity of some codes with some examples."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 324.24,
+        "end": 330.24,
+        "text": " And we will understand very clearly what we are talking about time complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 330.24,
+        "end": 332.15999999999997,
+        "text": " Let's take an example first."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 332.15999999999997,
+        "end": 335.52,
+        "text": " In this example, we have given a function."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 335.76,
+        "end": 342.64,
+        "text": " In the main function, we have taken an input n and then a loop is running n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 342.64,
+        "end": 352.71999999999997,
+        "text": " So, in a way, we can say that if our input is n, then our total number of operations, our running time will also be n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 352.71999999999997,
+        "end": 362.24,
+        "text": " So, in a way, our time complexity is nothing but the number of operations that we are doing in the code or its running time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 362.24,
+        "end": 366.64,
+        "text": " It is directly proportional to our input n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 366.64,
+        "end": 371.52,
+        "text": " That is, as you increase n, our operations will increase with the same speed."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 371.52,
+        "end": 373.68,
+        "text": " Our time complexity will increase."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 373.68,
+        "end": 379.76,
+        "text": " So, we can say that this is a linear relation."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 379.76,
+        "end": 382.32,
+        "text": " Now, we take out time complexity in three ways."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 382.32,
+        "end": 389.44,
+        "text": " The first one is best case time complexity, then average case time complexity and then worst case time complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 389.44,
+        "end": 398.96,
+        "text": " Now, it is very clear from the name that the best case time complexity is that if the minimum time in which the best case is given in our code, then our code will run."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 398.96,
+        "end": 405.28,
+        "text": " The average time in which we will see the code will run in this average time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 405.28,
+        "end": 410.88,
+        "text": " And the worst time, whatever happens, our code will not exceed this time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 410.88,
+        "end": 412.32,
+        "text": " Let's understand this with an example."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 412.32,
+        "end": 419.68,
+        "text": " Suppose we have numbers 1, 2, 3, 4, 5 and we have to find a number from this whole list for 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 419.68,
+        "end": 422.8,
+        "text": " Now, the order of these numbers can be changed."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 422.8,
+        "end": 429.12,
+        "text": " Let's assume the first order that we have given is 1, 2, 3, 4, 5 and we have to search for 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 429.12,
+        "end": 436.0,
+        "text": " Now, if we go out to search for 1, then we get 1 at the first position i.e. position is equal to 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 436.0,
+        "end": 438.56,
+        "text": " And after that we do not need to search."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 438.56,
+        "end": 440.32,
+        "text": " So, how many operations did we take?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 440.32,
+        "end": 446.16,
+        "text": " We took 1 operation i.e. we took 1 unit of time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 446.16,
+        "end": 448.48,
+        "text": " So, this is our best case scenario."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 448.48,
+        "end": 454.56,
+        "text": " In the best case scenario, the time complexity that will come out will be equal to 1 operation."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 454.56,
+        "end": 459.44,
+        "text": " Now, if we consider the second case that the order that we have given is a random order."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 459.44,
+        "end": 463.2,
+        "text": " It can be 3, 4, 5, 2, 3, 4, 1, 5."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 463.2,
+        "end": 466.32,
+        "text": " So, by doing this, we must have given some random order."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 466.48,
+        "end": 477.44,
+        "text": " If we talk about the order that is coming in 1, then we will take out the time complexity of all the possible cases and divide it with n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 477.44,
+        "end": 479.6,
+        "text": " So, the average time complexity will come."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 479.6,
+        "end": 482.56,
+        "text": " In the best case scenario, we had one operation."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 482.56,
+        "end": 486.0,
+        "text": " The second best case scenario will be the one in which we get the second position."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 486.0,
+        "end": 490.8,
+        "text": " After that, on the third, fourth and finally on the fifth, divided by 5."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 490.8,
+        "end": 497.2,
+        "text": " Now, if we generalize this thing, then it will be 1 plus 2, until it goes to n, divided by n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 497.2,
+        "end": 505.44,
+        "text": " Where the first n number is n into n plus 1 by 2 divided by n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 505.44,
+        "end": 508.40000000000003,
+        "text": " So, this is n plus 1 by 2."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 508.40000000000003,
+        "end": 512.08,
+        "text": " So, this time will be taking place in our average case."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 512.08,
+        "end": 514.24,
+        "text": " So, this type of relation will be there."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 514.24,
+        "end": 518.0,
+        "text": " If we look at it carefully, then there will be a linear relation in a way."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 518.0,
+        "end": 521.44,
+        "text": " Because the condition is directly proportional to n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 521.44,
+        "end": 526.32,
+        "text": " Now, if we talk about our third case, which is the worst case."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 526.32,
+        "end": 530.72,
+        "text": " So, in the worst case, the numbers that will be arranged will be arranged in this way."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 530.72,
+        "end": 532.48,
+        "text": " 5, 4, 3, 2, 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 532.48,
+        "end": 537.52,
+        "text": " Or any arrangement of the numbers in front will be done in the last."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 537.52,
+        "end": 541.44,
+        "text": " Now, to reach 1, we will always have to take n steps."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 541.44,
+        "end": 543.44,
+        "text": " And here n is equal to 5."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 543.44,
+        "end": 547.68,
+        "text": " Now, as soon as this 5 increases to 10 to the power 5."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 547.68,
+        "end": 552.8,
+        "text": " That is, if we get 1 lakh numbers, then we will have to take 1 lakh steps."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 552.8,
+        "end": 557.92,
+        "text": " So, in this way, what will be directly proportional here will come with n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 557.92,
+        "end": 561.12,
+        "text": " So, this will become the time complexity of our worst case."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 561.12,
+        "end": 566.4799999999999,
+        "text": " In the worst case, we will directly proportional our time complexity with our input size n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 566.4799999999999,
+        "end": 569.8399999999999,
+        "text": " For this example, we are doing it with n in the average case."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 569.8399999999999,
+        "end": 573.28,
+        "text": " And for the best case, we are doing it with 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 573.36,
+        "end": 577.8399999999999,
+        "text": " Now, there is a fixed way to represent this thing in coding."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 577.8399999999999,
+        "end": 579.4399999999999,
+        "text": " What is the fixed way?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 579.4399999999999,
+        "end": 583.36,
+        "text": " For the best case, you write it as omega of 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 583.36,
+        "end": 586.0799999999999,
+        "text": " We call this symbol omega."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 586.0799999999999,
+        "end": 587.92,
+        "text": " So, let's write it as omega of 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 587.92,
+        "end": 594.24,
+        "text": " For the average case, we call it theta of n plus 1 by 2."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 594.24,
+        "end": 598.9599999999999,
+        "text": " And for the worst case, write it as big O of n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 598.9599999999999,
+        "end": 602.64,
+        "text": " So, here the time complexity of the best case will be omega of 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 602.64,
+        "end": 604.64,
+        "text": " So, we will write theta of n in the average case."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 604.64,
+        "end": 607.92,
+        "text": " In which n plus 1 by 2 is ultimately n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 607.92,
+        "end": 610.48,
+        "text": " And in the worst case, it will be big O of n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 610.48,
+        "end": 613.76,
+        "text": " Now, whenever we are talking about time complexity in general,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 613.76,
+        "end": 617.84,
+        "text": " till our interviews or coding, time competitive coding time,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 617.84,
+        "end": 621.12,
+        "text": " then we will always take the worst case time complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 621.12,
+        "end": 625.12,
+        "text": " So, whenever we talk about time complexity, we will talk about big O."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 625.12,
+        "end": 626.16,
+        "text": " Why worst case?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 626.16,
+        "end": 631.2,
+        "text": " Because we want to get the worst case, which will never take our code above."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 631.2,
+        "end": 636.0,
+        "text": " If we get that, then we can sort our things systematically."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 636.0,
+        "end": 639.12,
+        "text": " So, we can get the average case and the best case,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 639.12,
+        "end": 640.8000000000001,
+        "text": " but we don't consider it."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 640.8000000000001,
+        "end": 644.72,
+        "text": " We always talk about our worst case time complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 644.72,
+        "end": 646.72,
+        "text": " And these symbols are nothing,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 646.72,
+        "end": 649.84,
+        "text": " just a way to represent time complexities."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 649.84,
+        "end": 655.84,
+        "text": " Now, in time complexities, another theorem is called master's theorem."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 655.84,
+        "end": 659.12,
+        "text": " In the coming classes, we will be studying about master's theorem."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 659.12,
+        "end": 662.64,
+        "text": " So, we are not studying here because things are not getting too complex in this class."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 662.64,
+        "end": 665.52,
+        "text": " If we take another example, then our base will be a little."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 665.52,
+        "end": 668.08,
+        "text": " In this example, we have taken input n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 668.08,
+        "end": 671.36,
+        "text": " Now, we are running a for loop here, which will run n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 671.36,
+        "end": 674.0,
+        "text": " And there is another for loop in the for loop."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 674.0,
+        "end": 675.84,
+        "text": " We have read about this concept."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 675.84,
+        "end": 677.6,
+        "text": " It is called nested."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 677.6,
+        "end": 682.4,
+        "text": " Now, if we talk about how many times this print statement inside will run,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 682.4,
+        "end": 685.76,
+        "text": " that is, how many operations will be performed in this code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 685.76,
+        "end": 687.92,
+        "text": " So, let's dry run it a little."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 687.92,
+        "end": 690.3199999999999,
+        "text": " First of all, we will analyze the outer statement."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 690.3199999999999,
+        "end": 692.8,
+        "text": " If we take a case for n is equal to 5,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 692.8,
+        "end": 699.36,
+        "text": " then the outer loop will run for i is equal to 0, i is equal to 1, i is equal to 2,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 699.36,
+        "end": 703.36,
+        "text": " i is equal to 3, i is equal to 4, and i is equal to 5."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 703.36,
+        "end": 705.36,
+        "text": " It will not run, it will only run up to 4."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 705.36,
+        "end": 709.12,
+        "text": " And as soon as the value of i is 0, that is, in the first case,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 709.12,
+        "end": 713.52,
+        "text": " the inner loop or if we call it nested loop,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 713.52,
+        "end": 716.0799999999999,
+        "text": " then it will run n times again."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 716.08,
+        "end": 722.1600000000001,
+        "text": " So, there too, the value of j will be 0 first, then 1, then 2, 3, 4, and not 5,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 722.1600000000001,
+        "end": 723.44,
+        "text": " it will only go up to 4."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 723.44,
+        "end": 726.96,
+        "text": " So, in this way, if the value of our n increases,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 726.96,
+        "end": 730.48,
+        "text": " then i is equal to 0 for loop run n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 730.48,
+        "end": 733.12,
+        "text": " Now, for i is equal to 1, the same thing will happen."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 733.12,
+        "end": 738.0,
+        "text": " The value of j will first become 0, then 1, then 2, then 3, then 4."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 738.0,
+        "end": 742.1600000000001,
+        "text": " In this way, the inner loop will run n times for i is equal to 1."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 742.1600000000001,
+        "end": 744.0,
+        "text": " Same for i is equal to 2."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 744.0,
+        "end": 748.88,
+        "text": " And in this way, the inner loop runs n times for all i values."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 748.88,
+        "end": 753.36,
+        "text": " Now, if we talk about how many times the value of i has changed,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 753.36,
+        "end": 756.8,
+        "text": " how many times our outer loop runs, then that was n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 756.8,
+        "end": 760.8,
+        "text": " And how many times the inner loop ran on every outer loop,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 760.8,
+        "end": 762.32,
+        "text": " then that was also n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 762.32,
+        "end": 764.0,
+        "text": " So, how much total time did it take,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 764.0,
+        "end": 768.0,
+        "text": " how many times did our internal operation, total hello, perform?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 768.0,
+        "end": 771.44,
+        "text": " Hello must have been printed, n into n times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 771.44,
+        "end": 776.6400000000001,
+        "text": " So, the worst case time complexity of this code will come out to us,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 776.6400000000001,
+        "end": 779.9200000000001,
+        "text": " that will be O of n square."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 779.9200000000001,
+        "end": 782.8800000000001,
+        "text": " Because n square bar is performing the operation,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 782.8800000000001,
+        "end": 785.6800000000001,
+        "text": " our code can never go above this."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 785.6800000000001,
+        "end": 787.6800000000001,
+        "text": " Now, if we talk about another example,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 787.6800000000001,
+        "end": 791.84,
+        "text": " then we have taken this code in which not only n was input,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 791.84,
+        "end": 793.6800000000001,
+        "text": " but also m was input."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 793.6800000000001,
+        "end": 796.72,
+        "text": " Now, the outer loop is running n times,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 796.72,
+        "end": 799.6,
+        "text": " and the inner loop is running m times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 799.76,
+        "end": 801.76,
+        "text": " Now, if we try to dry run it here,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 801.76,
+        "end": 803.76,
+        "text": " then for i is equal to 0,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 803.76,
+        "end": 806.72,
+        "text": " j value will be 0 first, then 1, then 2,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 806.72,
+        "end": 808.72,
+        "text": " and in this way, it will go up to m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 808.72,
+        "end": 810.72,
+        "text": " Similarly, for i is equal to 1,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 810.72,
+        "end": 814.72,
+        "text": " j value will be 0 first, then 1, then 2, and it will go up to m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 814.72,
+        "end": 816.32,
+        "text": " For i is equal to 3,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 816.32,
+        "end": 818.8000000000001,
+        "text": " j value will go from 0 to m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 818.8000000000001,
+        "end": 823.28,
+        "text": " And it will be the same until our i is not equal to n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 823.28,
+        "end": 826.64,
+        "text": " j value will go from 0 to m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 826.64,
+        "end": 830.56,
+        "text": " So, our outer loop is running n times,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 830.56,
+        "end": 838.96,
+        "text": " and the inner loop is performing m times every single time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 838.96,
+        "end": 842.96,
+        "text": " So, the time complexity of this code in the worst case,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 842.96,
+        "end": 845.76,
+        "text": " i.e. how many maximum operations can be performed,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 845.76,
+        "end": 848.08,
+        "text": " can be n into m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 848.08,
+        "end": 856.24,
+        "text": " So, the time complexity of this code is O of n into m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 856.24,
+        "end": 859.84,
+        "text": " So, we will represent the time complexity in this way."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 859.84,
+        "end": 861.84,
+        "text": " Let's take another example."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 861.84,
+        "end": 863.84,
+        "text": " In this example, we are taking input of n and m,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 863.84,
+        "end": 867.36,
+        "text": " but we are not talking about nested loops."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 867.36,
+        "end": 870.16,
+        "text": " Here we have written two separate loops."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 870.16,
+        "end": 876.72,
+        "text": " The first loop is a for loop that runs from i is equal to 0 to n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 876.72,
+        "end": 881.6800000000001,
+        "text": " The second is also a for loop that runs from j is equal to 0 to m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 881.6800000000001,
+        "end": 885.04,
+        "text": " Now, let's talk about the total number of operations that are being performed."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 885.04,
+        "end": 888.9599999999999,
+        "text": " So, in this for loop, the first for loop is performing n operations,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 888.9599999999999,
+        "end": 891.4399999999999,
+        "text": " so it is n time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 891.4399999999999,
+        "end": 894.9599999999999,
+        "text": " In the second for loop, m operations are performing,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 894.9599999999999,
+        "end": 896.9599999999999,
+        "text": " so it is m time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 896.9599999999999,
+        "end": 899.76,
+        "text": " Now, the for loop is coming after the for loop,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 899.76,
+        "end": 903.92,
+        "text": " so our total number of operations will be added here."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 903.92,
+        "end": 907.04,
+        "text": " Last time, it was not multiplying like a nested loop."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 907.04,
+        "end": 909.76,
+        "text": " So, here first n times will be hello print,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 909.76,
+        "end": 911.5999999999999,
+        "text": " then m times will be hello print."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 911.6,
+        "end": 916.4,
+        "text": " So, our time complexity will be big O of n plus m."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 916.4,
+        "end": 920.16,
+        "text": " Now, when we take n and m as 2 and 3,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 920.16,
+        "end": 923.52,
+        "text": " then it will not make much difference how much time it will take."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 923.52,
+        "end": 929.2,
+        "text": " But if we take n value 10 to the power 6 and m value 3,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 929.2,
+        "end": 935.44,
+        "text": " then in that case, we can see that our big O of time complexity will be going towards n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 935.44,
+        "end": 940.96,
+        "text": " Why? Because n is so significant that m will be negligible in front of it,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 940.96,
+        "end": 946.24,
+        "text": " and the final time complexity that will be coming out will always depend on the big input size."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 946.24,
+        "end": 951.84,
+        "text": " So, the effect of time complexity is not seen on small input sizes."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 951.84,
+        "end": 957.52,
+        "text": " It will be seen when the input size in our code is coming exponentially,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 957.52,
+        "end": 959.2800000000001,
+        "text": " it will be coming in a very big value."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 959.2800000000001,
+        "end": 962.4000000000001,
+        "text": " Now, let's compare the three time complexities"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 962.4000000000001,
+        "end": 967.36,
+        "text": " so that we can compare which code is better, which code runs faster,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 967.36,
+        "end": 970.5600000000001,
+        "text": " and which code takes more time to run."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 970.56,
+        "end": 973.68,
+        "text": " There is one code whose time complexity is given, big O of n,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 973.68,
+        "end": 976.64,
+        "text": " one is given n square, one is given n cube."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 976.64,
+        "end": 981.4399999999999,
+        "text": " Now, let's assume that we are on a small input, i.e. if we analyze for n is equal to 1,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 981.4399999999999,
+        "end": 987.52,
+        "text": " then we can understand that big O of n means that one operation is being performed in it or one unit time is being taken."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 987.52,
+        "end": 990.9599999999999,
+        "text": " One operation or one unit time is being taken for n square,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 990.9599999999999,
+        "end": 993.1199999999999,
+        "text": " one is being taken for n cube."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 993.1199999999999,
+        "end": 996.0,
+        "text": " Now, if we increase n and make n equal to 2,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 996.16,
+        "end": 999.28,
+        "text": " So, in the case of n is equal to 2, where big O of n was being taken,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 999.28,
+        "end": 1002.88,
+        "text": " there are only two operations being performed, only two units of time are being taken."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1002.88,
+        "end": 1007.28,
+        "text": " But in the case of n square, now there are four operations, four unit time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1007.28,
+        "end": 1009.92,
+        "text": " In the case of n cube, eight unit time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1009.92,
+        "end": 1014.32,
+        "text": " If we take the same case of n is equal to 3, then in the case of big O of n,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1014.32,
+        "end": 1019.68,
+        "text": " we will be taking three unit time, nine in n square and 27 units of time in n cube."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1019.68,
+        "end": 1024.16,
+        "text": " And as soon as we increase this n and make it 10 to the power 5,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1024.16,
+        "end": 1028.96,
+        "text": " so here it will be 10 to the power 5 times, here it will be 10 to the power 10 times,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1028.96,
+        "end": 1031.52,
+        "text": " and here it will be 10 to the power 30 times."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1031.52,
+        "end": 1036.5600000000002,
+        "text": " Now, the difference between these times is quite big."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1036.5600000000002,
+        "end": 1044.4,
+        "text": " And from this difference, we are clearly knowing that this time is very less and this time is very much."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1044.4,
+        "end": 1049.28,
+        "text": " So, here the best code, whose time is the least, will be this,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1049.28,
+        "end": 1053.44,
+        "text": " this will be on the second number and n cube will be on the third number."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1053.44,
+        "end": 1057.6000000000001,
+        "text": " So, going forward, we will be reading some data structures, some algorithms,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1057.6000000000001,
+        "end": 1060.72,
+        "text": " in which we will have to optimize our time."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1060.72,
+        "end": 1065.2,
+        "text": " So, things like dynamic programming,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1065.2,
+        "end": 1069.3600000000001,
+        "text": " which are used to optimize the time complexity of our code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1069.3600000000001,
+        "end": 1073.52,
+        "text": " So, if the time complexity of your code is going to n to the power 4,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1073.52,
+        "end": 1076.4,
+        "text": " or it is going to your factorial,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1076.4,
+        "end": 1080.96,
+        "text": " then it is also optimized and comes to n square, n cube."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1080.96,
+        "end": 1085.44,
+        "text": " So, it is very important to keep your code time minimum,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1085.44,
+        "end": 1088.32,
+        "text": " so that our code runs as soon as possible."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1088.32,
+        "end": 1090.72,
+        "text": " Now, we have talked about the time complexity,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1090.72,
+        "end": 1096.16,
+        "text": " but there will be another important factor that will define how good or bad our code is."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1096.16,
+        "end": 1098.8,
+        "text": " And that is our space complexity."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1098.8,
+        "end": 1103.76,
+        "text": " The space complexity of a code depends on how much space that code takes in memory."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1103.76,
+        "end": 1109.52,
+        "text": " Now, how much space it takes in the code memory will depend on how many variables are stored in the memory"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1109.52,
+        "end": 1111.04,
+        "text": " because of that code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1111.04,
+        "end": 1114.6399999999999,
+        "text": " Now, if we take the example of this code and visualize our memory,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1114.6399999999999,
+        "end": 1118.24,
+        "text": " then the first object of this scanner will be stored in it."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1118.24,
+        "end": 1121.28,
+        "text": " After that, our integer n will be stored."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1121.28,
+        "end": 1127.44,
+        "text": " After that, this variable i will be stored in our memory."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1127.44,
+        "end": 1130.48,
+        "text": " Apart from this, we are not storing anything in memory."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1130.48,
+        "end": 1134.0,
+        "text": " Only these three variables will be stored in our memory."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1134.0,
+        "end": 1138.0,
+        "text": " Now, no matter how much we increase the size of this input variable n,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1138.0,
+        "end": 1142.08,
+        "text": " it will not matter how much size our code will take in memory."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1142.08,
+        "end": 1145.84,
+        "text": " Because our n variable is stored only once"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1145.84,
+        "end": 1150.48,
+        "text": " and that input size is not impacting anything in terms of space."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1150.48,
+        "end": 1154.16,
+        "text": " That means, no new variables are being created because of n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1154.16,
+        "end": 1156.56,
+        "text": " That is why we will increase the size of n."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1156.56,
+        "end": 1160.4,
+        "text": " Even if we do it exponentially, 10 to the power 6, 10 to the power 10,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1160.48,
+        "end": 1166.5600000000002,
+        "text": " then our space will remain constant for this particular code."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1166.5600000000002,
+        "end": 1170.4,
+        "text": " Now, we have taken the case in which our space will remain constant."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1170.4,
+        "end": 1172.64,
+        "text": " It will not depend on our input size."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1172.64,
+        "end": 1178.16,
+        "text": " Let's consider another case in which our space will depend heavily on our input size."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1178.16,
+        "end": 1182.72,
+        "text": " Now, we will talk about a new data structure called arrays."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1182.72,
+        "end": 1184.64,
+        "text": " We will be reading about arrays in the future."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1184.64,
+        "end": 1190.88,
+        "text": " The basic definition of arrays is that if you want to create a lot of variables of the same type,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1190.88,
+        "end": 1193.3600000000001,
+        "text": " then you can make them in the form of a list."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1193.3600000000001,
+        "end": 1196.0800000000002,
+        "text": " For example, if we want to store a lot of numbers,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1196.0800000000002,
+        "end": 1202.5600000000002,
+        "text": " then we can either make x, y, z, a, b, c, these 6 variables in our memory."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1202.5600000000002,
+        "end": 1207.1200000000001,
+        "text": " Or we can make a list in which we store the first number,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1207.1200000000001,
+        "end": 1212.96,
+        "text": " then the second number, third, fourth, fifth, and finally, our sixth number."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1212.96,
+        "end": 1219.04,
+        "text": " Usually, we prefer to store an array data type to store a list of numbers."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1219.04,
+        "end": 1221.52,
+        "text": " So, we have made an array in a way."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1221.52,
+        "end": 1226.48,
+        "text": " Now, let's assume that instead of 6, we have to store 5 numbers."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1226.48,
+        "end": 1230.96,
+        "text": " So, how much will the size of this array go?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1230.96,
+        "end": 1234.24,
+        "text": " This size will go up to 10 to the power 5."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1234.24,
+        "end": 1240.8,
+        "text": " So, this is the case in which our input size is increasing our memory storage."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1240.8,
+        "end": 1250.72,
+        "text": " The more we increase our input variable n, the more space we will take in our code memory."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1250.72,
+        "end": 1256.72,
+        "text": " So, this is the case in which our space complexity will be heavily dependent on our input size."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1256.72,
+        "end": 1260.1599999999999,
+        "text": " Now, how does space complexity depend on arrays?"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1260.1599999999999,
+        "end": 1263.52,
+        "text": " We will be learning about this in the lectures on arrays."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1263.52,
+        "end": 1268.72,
+        "text": " For now, we just have to know that in some cases, our input size affects our memory"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1268.72,
+        "end": 1270.48,
+        "text": " and in some cases, it doesn't."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1270.48,
+        "end": 1275.52,
+        "text": " In the cases where it affects our memory, we have to pay attention to use our memory"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1275.52,
+        "end": 1277.84,
+        "text": " so that our code is more efficient."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1277.84,
+        "end": 1282.48,
+        "text": " Because memory size doesn't only affect our computer or our machine."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1282.48,
+        "end": 1288.4,
+        "text": " It also requires extra operations to read and write from memory at the hardware level"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1288.4,
+        "end": 1293.1200000000001,
+        "text": " which we want to avoid and ultimately, time also increases."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1293.28,
+        "end": 1298.4799999999998,
+        "text": " So, I hope that from today's video, we will be taking this that the less time our code has,"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1298.4799999999998,
+        "end": 1299.6799999999998,
+        "text": " the better the code is."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1299.6799999999998,
+        "end": 1303.12,
+        "text": " The less space our code has, the better the code is."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1303.12,
+        "end": 1308.08,
+        "text": " Below, we have given you notes of this video lecture and some questions"
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1308.08,
+        "end": 1310.32,
+        "text": " which I hope you are solving."
+    },
+    {
+        "number": "9",
+        "title": "9_Basics of Time Complexity and Space Complexity _ Java _ ",
+        "start": 1310.32,
+        "end": 1313.76,
+        "text": " See you in the next video. Till then, keep learning and keep exploring."
+    }
+]

@@ -1,0 +1,3047 @@
+[
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 0.0,
+        "end": 4.0,
+        "text": " Hi everyone and welcome to the Java placement course."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 4.0,
+        "end": 7.0,
+        "text": " In today's video, we will be studying about arrays."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 7.0,
+        "end": 10.0,
+        "text": " Before this, we had studied about data types in lecture 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 10.0,
+        "end": 13.0,
+        "text": " We got to hear about two types of data types."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 13.0,
+        "end": 18.0,
+        "text": " First, we had our primitive types which are the most basic or low-level types."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 18.0,
+        "end": 21.0,
+        "text": " And second, we had our non-primitive types."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 21.0,
+        "end": 24.0,
+        "text": " In which we can define many things by ourselves."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 24.0,
+        "end": 26.0,
+        "text": " We can tell the size by ourselves."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 26.0,
+        "end": 30.0,
+        "text": " In this video, we will be discussing our first non-primitive data type."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 30.0,
+        "end": 32.0,
+        "text": " Which is called arrays."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 32.0,
+        "end": 36.0,
+        "text": " Students who are studying C++ must have heard about arrays."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 36.0,
+        "end": 39.0,
+        "text": " Because arrays are a common concept of C++ and Java."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 39.0,
+        "end": 41.0,
+        "text": " Let's understand this with an example."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 41.0,
+        "end": 46.0,
+        "text": " Let's assume that we have a student for whom we have to store his age."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 46.0,
+        "end": 50.0,
+        "text": " To store the age, we will make a variable in our code."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 50.0,
+        "end": 53.0,
+        "text": " int age is equal to 18."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 53.0,
+        "end": 56.0,
+        "text": " This is how we have stored the age."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 56.0,
+        "end": 61.0,
+        "text": " Now, let's assume that we have to store the marks of three subjects for the same student."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 61.0,
+        "end": 64.0,
+        "text": " And the marks of those subjects are like this."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 64.0,
+        "end": 70.0,
+        "text": " We will make another variable int English."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 70.0,
+        "end": 72.0,
+        "text": " We will store the marks in it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 72.0,
+        "end": 76.0,
+        "text": " In this way, we will store the marks of physics and chemistry."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 76.0,
+        "end": 79.0,
+        "text": " But as soon as you enter the college from school,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 79.0,
+        "end": 81.0,
+        "text": " What happens in the semester?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 81.0,
+        "end": 83.0,
+        "text": " You get six subjects."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 83.0,
+        "end": 86.0,
+        "text": " And every six months, you get six more subjects."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 86.0,
+        "end": 90.0,
+        "text": " So, you learn a lot of subjects in college life."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 90.0,
+        "end": 95.0,
+        "text": " In such a case, are you making a new variable for every subject?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 95.0,
+        "end": 97.0,
+        "text": " The answer to that is no."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 97.0,
+        "end": 101.0,
+        "text": " We will not confuse our code by making so many variables."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 101.0,
+        "end": 107.0,
+        "text": " So, the solution to this in Java is that we make a list of items of the same type."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 107.0,
+        "end": 108.0,
+        "text": " So, what are we doing?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 108.0,
+        "end": 111.0,
+        "text": " We will be making a list of numbers."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 111.0,
+        "end": 115.0,
+        "text": " We will be making a list of marks of the same type."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 115.0,
+        "end": 119.0,
+        "text": " So, this concept is called arrays in Java."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 119.0,
+        "end": 124.0,
+        "text": " Whenever we have to store a lot of variables of the same data type,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 124.0,
+        "end": 127.0,
+        "text": " We store them in the form of a list."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 127.0,
+        "end": 129.0,
+        "text": " And then we use it in our code."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 129.0,
+        "end": 132.0,
+        "text": " So, this concept will be very handy."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 132.0,
+        "end": 137.0,
+        "text": " This is a very important concept of Java or any programming language."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 137.0,
+        "end": 141.0,
+        "text": " Now, let's talk about how we write an array in code."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 141.0,
+        "end": 145.0,
+        "text": " So, the syntax of writing an array in code is something like this."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 145.0,
+        "end": 149.0,
+        "text": " In which we have to tell first of all what type of array we are making."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 149.0,
+        "end": 153.0,
+        "text": " After that, we have to apply these square brackets."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 153.0,
+        "end": 159.0,
+        "text": " Wherever these square brackets are in Java, we have to understand that we are talking about an array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 159.0,
+        "end": 162.0,
+        "text": " After that, we give any name to our array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 162.0,
+        "end": 164.0,
+        "text": " And write is equal to new."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 164.0,
+        "end": 166.0,
+        "text": " Now, this new is a keyword."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 166.0,
+        "end": 169.0,
+        "text": " Like we have already talked about many keywords."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 169.0,
+        "end": 171.0,
+        "text": " We have talked about break keyword."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 171.0,
+        "end": 173.0,
+        "text": " We have talked about return keyword."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 173.0,
+        "end": 175.0,
+        "text": " Similarly, new is a keyword."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 175.0,
+        "end": 179.0,
+        "text": " We use new to take a new space in memory."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 179.0,
+        "end": 183.0,
+        "text": " That is, whenever we are defining a new variable,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 183.0,
+        "end": 189.0,
+        "text": " We use a new keyword to define a non-primitive type that needs space in memory."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 189.0,
+        "end": 193.0,
+        "text": " After that, we will write the same type again that we wrote on the left side."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 193.0,
+        "end": 197.0,
+        "text": " And then we will write our size in square brackets."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 197.0,
+        "end": 201.0,
+        "text": " Now, we need a list in Java, but what size do we need?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 201.0,
+        "end": 203.0,
+        "text": " We tell that size here."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 203.0,
+        "end": 210.0,
+        "text": " Now, if we have to define an array for our example, then how will we define it?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 210.0,
+        "end": 214.0,
+        "text": " We will write int here because we have to define an int type array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 214.0,
+        "end": 216.0,
+        "text": " Then we will write square brackets."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 216.0,
+        "end": 220.0,
+        "text": " Then we will write marks because we have to define an array named marks."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 220.0,
+        "end": 224.0,
+        "text": " Is equal to new int."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 224.0,
+        "end": 226.0,
+        "text": " And what was the size of our array?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 226.0,
+        "end": 228.0,
+        "text": " Means how many elements we had to store?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 228.0,
+        "end": 231.0,
+        "text": " We had to store marks of three subjects in it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 231.0,
+        "end": 233.0,
+        "text": " That is, the size will be three here."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 233.0,
+        "end": 237.0,
+        "text": " Now, similarly, if we had to store marks of 20 subjects,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 237.0,
+        "end": 240.0,
+        "text": " So, we would have written 20 instead of three."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 240.0,
+        "end": 245.0,
+        "text": " So, in this way, we just have to change a small number for more memory."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 245.0,
+        "end": 251.0,
+        "text": " And that more memory will automatically be created to store our new variables in the form of a list."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 251.0,
+        "end": 255.0,
+        "text": " Now, if we visualize what is actually happening in memory,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 255.0,
+        "end": 260.0,
+        "text": " Then a list will be made in which there will be three boxes."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 261.0,
+        "end": 265.0,
+        "text": " Let's assume that we have stored marks of physics in the first box."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 265.0,
+        "end": 266.0,
+        "text": " Here are the marks of chemistry."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 266.0,
+        "end": 269.0,
+        "text": " And here we have stored marks of English."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 269.0,
+        "end": 271.0,
+        "text": " Now, how to store the marks?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 271.0,
+        "end": 274.0,
+        "text": " So, these boxes have fixed numbers in Java."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 274.0,
+        "end": 278.0,
+        "text": " We call this first box box number 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 278.0,
+        "end": 281.0,
+        "text": " The second box is called box number 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 281.0,
+        "end": 283.0,
+        "text": " And the third box is called box number 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 283.0,
+        "end": 288.0,
+        "text": " So, similarly, if we want to store something in this first box or take something from here,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 288.0,
+        "end": 292.0,
+        "text": " So, we will write it as marks of 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 292.0,
+        "end": 295.0,
+        "text": " So, we will write the square brackets in front of the array variable."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 295.0,
+        "end": 299.0,
+        "text": " And we will put whatever box number we want to access in it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 299.0,
+        "end": 303.0,
+        "text": " So, if we want to store marks of physics here, then we will write 97."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 303.0,
+        "end": 305.0,
+        "text": " Then we have to go to box number 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 305.0,
+        "end": 310.0,
+        "text": " So, in marks of 1, we want to store marks of our chemistry."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 310.0,
+        "end": 317.0,
+        "text": " And in marks of 2, we want to store marks of our English."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 317.0,
+        "end": 322.0,
+        "text": " Now, we have noticed that the numbering of these boxes does not start from 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 322.0,
+        "end": 324.0,
+        "text": " It starts from 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 324.0,
+        "end": 327.0,
+        "text": " The same thing happens with C++ arrays."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 327.0,
+        "end": 331.0,
+        "text": " So, in programming, there are some languages whose indexing,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 331.0,
+        "end": 335.0,
+        "text": " the number of these boxes, is called indexing."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 335.0,
+        "end": 338.0,
+        "text": " In some languages, indexing starts from 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 338.0,
+        "end": 341.0,
+        "text": " In some languages, indexing starts from 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 341.0,
+        "end": 346.0,
+        "text": " Now, Java and C++ are languages in which the indexing of arrays starts from 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 346.0,
+        "end": 351.0,
+        "text": " And that is why we call Java arrays as 0 indexed."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 351.0,
+        "end": 355.0,
+        "text": " Because their indexing starts from 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 355.0,
+        "end": 360.0,
+        "text": " Now, we will store our marks in our array in this way."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 360.0,
+        "end": 365.0,
+        "text": " And whenever we want to read these marks, i.e. we want to know what is stored in the 0th box,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 365.0,
+        "end": 368.0,
+        "text": " what is stored in the 1st box, what is stored in the 3rd box,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 368.0,
+        "end": 370.0,
+        "text": " then what will we do?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 370.0,
+        "end": 373.0,
+        "text": " We will directly write marks of 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 373.0,
+        "end": 376.0,
+        "text": " So, we will know what is stored in the 0th box."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 376.0,
+        "end": 380.0,
+        "text": " Or if we want to know about the 1st box, we will write marks 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 380.0,
+        "end": 382.0,
+        "text": " We can print it too."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 382.0,
+        "end": 387.0,
+        "text": " So, if we print it, then the marks in the 1st box will be printed for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 387.0,
+        "end": 394.0,
+        "text": " Now, for the same thing, we will write code and see how this thing will be visualized in the code."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 394.0,
+        "end": 399.0,
+        "text": " We have already made a class named arrays and our main function is made."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 399.0,
+        "end": 402.0,
+        "text": " What we will do in this is we will define our array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 402.0,
+        "end": 408.0,
+        "text": " So, int marks is equal to new int of 3."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 408.0,
+        "end": 413.0,
+        "text": " Now, here marks of 0 is equal to 97."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 413.0,
+        "end": 416.0,
+        "text": " By doing this, we have written marks of our physics."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 416.0,
+        "end": 420.0,
+        "text": " Marks of 1 is equal to 98."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 420.0,
+        "end": 422.0,
+        "text": " By doing this, we have written marks of our chemistry."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 422.0,
+        "end": 427.0,
+        "text": " And marks of 2 is equal to 95."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 427.0,
+        "end": 430.0,
+        "text": " By doing this, we have written marks of our English."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 430.0,
+        "end": 433.0,
+        "text": " Now, we have written this to print these marks."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 433.0,
+        "end": 435.0,
+        "text": " Should we simply write marks here?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 435.0,
+        "end": 439.0,
+        "text": " Let's see if all the marks are being printed for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 439.0,
+        "end": 441.0,
+        "text": " Let's save this code and run it once."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 441.0,
+        "end": 447.0,
+        "text": " And if we print marks, then we are getting such jargon printed for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 447.0,
+        "end": 453.0,
+        "text": " This jargon means this is a garbage value which is not of our use because we had to print marks."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 453.0,
+        "end": 462.0,
+        "text": " This is printed because the class name and some hash code mixture is being printed for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 462.0,
+        "end": 472.0,
+        "text": " Whenever you print marks, then some value related to the actual memory address of marks will be printed for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 472.0,
+        "end": 474.0,
+        "text": " Actual marks will not be printed."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 474.0,
+        "end": 479.0,
+        "text": " If we want to print them, then we will have to apply square brackets."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 480.0,
+        "end": 489.0,
+        "text": " As we have printed 0, we will print marks on the first and second brackets."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 489.0,
+        "end": 493.0,
+        "text": " We have to print marks of 0, 1 and 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 493.0,
+        "end": 495.0,
+        "text": " We will run it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 495.0,
+        "end": 498.0,
+        "text": " And we can see that the first marks are printed."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 498.0,
+        "end": 503.0,
+        "text": " The marks which we had printed on the first index, i.e. the zeroth index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 503.0,
+        "end": 506.0,
+        "text": " Then, the second mark which we had printed on the second number is printed on the 98th."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 506.0,
+        "end": 510.0,
+        "text": " Then, it is printed on the 95th which we had printed on the second index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 510.0,
+        "end": 514.0,
+        "text": " So, we print the elements of our array in this way."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 514.0,
+        "end": 523.0,
+        "text": " Now, we can ask that if we had made an array of 100 instead of 3, then would we have written such print statements 100 times?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 523.0,
+        "end": 524.0,
+        "text": " Absolutely not."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 524.0,
+        "end": 529.0,
+        "text": " We can do this whole printing work by applying a loop."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 529.0,
+        "end": 531.0,
+        "text": " How to apply a loop?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 531.0,
+        "end": 534.0,
+        "text": " We will write for int i is equal to 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 534.0,
+        "end": 537.0,
+        "text": " i plus plus is equal to i plus plus unless i is less than 3."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 537.0,
+        "end": 539.0,
+        "text": " Now, this 3 can be anything."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 539.0,
+        "end": 542.0,
+        "text": " This is the size of this array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 542.0,
+        "end": 546.0,
+        "text": " So, it is less than the size and it is starting with 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 546.0,
+        "end": 550.0,
+        "text": " And here we will write marks of i in the print statement."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 550.0,
+        "end": 558.0,
+        "text": " So, instead of giving an index number directly, we have given a variable which represents our index number."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 558.0,
+        "end": 562.0,
+        "text": " The value of this index number i will be 0, then 1, then 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 562.0,
+        "end": 566.0,
+        "text": " And as soon as it will be 3, we will exit this loop."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 566.0,
+        "end": 571.0,
+        "text": " Because the condition, the termination condition will reach there."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 571.0,
+        "end": 575.0,
+        "text": " Now, let's run this code and see what will be the print for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 575.0,
+        "end": 583.0,
+        "text": " So, 3 values have been printed in the same order as our normal output statements had been printed."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 583.0,
+        "end": 590.0,
+        "text": " So, in a way, whenever we have to access the elements of arrays, we don't go directly to each index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 590.0,
+        "end": 598.0,
+        "text": " We simply put a loop and in the form of a loop, we access all the variables and all the values."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 598.0,
+        "end": 600.0,
+        "text": " Now, there is one more thing in arrays."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 600.0,
+        "end": 606.0,
+        "text": " If you write this initialization in this way instead of writing marks."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 606.0,
+        "end": 611.0,
+        "text": " Marks is equal to new int of 3."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 611.0,
+        "end": 613.0,
+        "text": " So, this is also a valid syntax."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 613.0,
+        "end": 618.0,
+        "text": " Now, these square brackets, whether they come in front of the marks or behind, it doesn't matter."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 618.0,
+        "end": 621.0,
+        "text": " Finally, the array will be declared for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 621.0,
+        "end": 625.0,
+        "text": " So, we can put the square brackets of these marks ahead."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 625.0,
+        "end": 628.0,
+        "text": " Like what we have done in our main function."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 628.0,
+        "end": 633.0,
+        "text": " We have taken an array input of a string type, whose name we have given as args."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 633.0,
+        "end": 637.0,
+        "text": " And there we have put two square brackets."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 637.0,
+        "end": 644.0,
+        "text": " It shows that the input we were taking in the main function till now was an array of string type."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 644.0,
+        "end": 647.0,
+        "text": " We can input a lot of strings in it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 647.0,
+        "end": 651.0,
+        "text": " So, that's why we get to see the square brackets here."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 651.0,
+        "end": 653.0,
+        "text": " So, in a way, we use arrays."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 653.0,
+        "end": 659.0,
+        "text": " Now, let's know a little bit that as soon as we create an array, what difference does it make on memory?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 659.0,
+        "end": 662.0,
+        "text": " What happens in the memory of the actual computer?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 662.0,
+        "end": 667.0,
+        "text": " So, we have made a memory for visualization here."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 667.0,
+        "end": 671.0,
+        "text": " We can see what we have done in memory to visualize memory."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 671.0,
+        "end": 673.0,
+        "text": " We have defined it in small boxes."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 673.0,
+        "end": 677.0,
+        "text": " What is the size of each box?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 677.0,
+        "end": 679.0,
+        "text": " One byte."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 679.0,
+        "end": 686.0,
+        "text": " And one more thing, as soon as there is a small space in memory, there is a new address of each different space."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 686.0,
+        "end": 693.0,
+        "text": " Why? Because to read from memory and to write in it, our operating system, the different processes,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 693.0,
+        "end": 700.0,
+        "text": " They should know which things that are being read and written in memory, which address they are stored on."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 700.0,
+        "end": 704.0,
+        "text": " So that they can quickly go and bring it from there and show it to the user."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 704.0,
+        "end": 706.0,
+        "text": " Or use it for some work."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 706.0,
+        "end": 710.0,
+        "text": " So, the addresses of memory are stored in hexadecimal."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 710.0,
+        "end": 713.0,
+        "text": " Like in our decimal, there are 1, 2, 3, 4, 5, 6, 7."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 713.0,
+        "end": 715.0,
+        "text": " There are 0 and 1 in binary."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 715.0,
+        "end": 718.0,
+        "text": " In the same way, hexadecimal is also based on 16."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 718.0,
+        "end": 720.0,
+        "text": " In this, memory addresses are defined."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 720.0,
+        "end": 722.0,
+        "text": " But for simplicity, we have to take it in decimal."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 722.0,
+        "end": 725.0,
+        "text": " The first memory address is named 1001."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 725.0,
+        "end": 727.0,
+        "text": " The second one is named 1002."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 727.0,
+        "end": 731.0,
+        "text": " And in the same way, our memory addresses are given in a linear fashion."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 731.0,
+        "end": 735.0,
+        "text": " Now let's take a sample array that we have defined."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 735.0,
+        "end": 739.0,
+        "text": " Our array was integer array of marks."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 741.0,
+        "end": 745.0,
+        "text": " Whose size we gave at the time of initialization was 3."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 745.0,
+        "end": 749.0,
+        "text": " So, as soon as we wrote this statement, what happened?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 749.0,
+        "end": 753.0,
+        "text": " The space of 3 integers in memory is reserved."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 753.0,
+        "end": 757.0,
+        "text": " This is the space of 3 integers."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 757.0,
+        "end": 760.0,
+        "text": " And it is reserved by the name of marks."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 760.0,
+        "end": 763.0,
+        "text": " Now how is the space of 3 integers?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 763.0,
+        "end": 767.0,
+        "text": " Recalling, when we read the data types in lecture 2,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 767.0,
+        "end": 772.0,
+        "text": " we read that the size of integer is 4 bytes on a 64-bit machine in Java."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 772.0,
+        "end": 774.0,
+        "text": " So, this is 1 byte."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 774.0,
+        "end": 778.0,
+        "text": " So, in these 4 bytes, we can store 1 integer."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 778.0,
+        "end": 782.0,
+        "text": " In these 4 bytes, we can store our second integer."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 782.0,
+        "end": 786.0,
+        "text": " And in these 4 bytes, we can store our third integer."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 786.0,
+        "end": 790.0,
+        "text": " So, here marks of 0 is being stored."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 790.0,
+        "end": 793.0,
+        "text": " Here marks of 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 793.0,
+        "end": 797.0,
+        "text": " And finally, here marks of 2 is being stored."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 797.0,
+        "end": 805.0,
+        "text": " So, in this way, the total 12 bytes of memory is being taken by our marks name array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 805.0,
+        "end": 810.0,
+        "text": " If we define 3 variables of integer type, then they would also take 12 bytes."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 810.0,
+        "end": 815.0,
+        "text": " Indirectly, the list is also of the same size, taking 12 bytes."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 815.0,
+        "end": 818.0,
+        "text": " So, in this way, our memory will be defined."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 818.0,
+        "end": 823.0,
+        "text": " And by using these 4 variables, we were storing our physics marks, i.e. 97."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 823.0,
+        "end": 827.0,
+        "text": " By using these 4, we were storing our chemistry marks, 98."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 827.0,
+        "end": 832.0,
+        "text": " And by using these 4, we were storing our English marks, i.e. 95."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 832.0,
+        "end": 837.0,
+        "text": " So, in this way, after making an array, space is taken in memory."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 837.0,
+        "end": 841.0,
+        "text": " And this space is taken in linear fashion."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 841.0,
+        "end": 845.0,
+        "text": " i.e. whatever will be the first address, the next byte address will be plus 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 845.0,
+        "end": 848.0,
+        "text": " From that, the next byte will be plus 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 848.0,
+        "end": 853.0,
+        "text": " Memory is being allocated in linear fashion to that particular array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 853.0,
+        "end": 859.0,
+        "text": " Now, we have talked about how to define arrays, how to take memory, how to output it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 859.0,
+        "end": 864.0,
+        "text": " Let's talk about one more thing. There is not just one way to define arrays, there is another way."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 864.0,
+        "end": 867.0,
+        "text": " That second definition is something like this."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 867.0,
+        "end": 872.0,
+        "text": " In this way, we already know the size of the array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 872.0,
+        "end": 877.0,
+        "text": " Or which variables are we going to store in that array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 877.0,
+        "end": 879.0,
+        "text": " What value are we going to store?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 879.0,
+        "end": 884.0,
+        "text": " Like in the case of marks, we already knew that we have to define an array of 3 sizes."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 884.0,
+        "end": 888.0,
+        "text": " So, what we would have done is, we could have declared it in this way."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 888.0,
+        "end": 896.0,
+        "text": " For example, if we comment out this, and if we are going to declare our marks again, we can write int marks."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 896.0,
+        "end": 901.0,
+        "text": " In which we write 97, then 98, then 95."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 901.0,
+        "end": 903.0,
+        "text": " And here our terminator."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 903.0,
+        "end": 907.0,
+        "text": " So, we don't need to write this thing, we can comment out this too."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 907.0,
+        "end": 912.0,
+        "text": " With just one statement, we would have known that we have to make an array of 3 sizes."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 912.0,
+        "end": 915.0,
+        "text": " Because we have written 3 elements in the right side."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 915.0,
+        "end": 920.0,
+        "text": " Along with that, our elements are automatically stored in the array on the same index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 920.0,
+        "end": 926.0,
+        "text": " The first element we write is stored on the zeroth index, the second on the first index, the third on the second index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 926.0,
+        "end": 930.0,
+        "text": " And just like we are printing them, they are being printed."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 930.0,
+        "end": 937.0,
+        "text": " So, in a similar way, if we already know the elements, then we can directly create an array for them by inserting those elements."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 937.0,
+        "end": 942.0,
+        "text": " Now, along with this, what we do is, let's assume that we have to make an array with the input from the user."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 942.0,
+        "end": 945.0,
+        "text": " So, we take the input from the user and make the size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 945.0,
+        "end": 950.0,
+        "text": " So, let's define our array, we name it int numbers."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 950.0,
+        "end": 956.0,
+        "text": " And here we will write new int of size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 956.0,
+        "end": 958.0,
+        "text": " And here also we will write size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 958.0,
+        "end": 961.0,
+        "text": " Now, where will this size come from? We have not defined this variable."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 961.0,
+        "end": 966.0,
+        "text": " So, first of all, let's make an object of scanner class from the new scanner."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 966.0,
+        "end": 975.0,
+        "text": " Now, what we will do is, we will take an integer variable input, which is called size, from the user."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 975.0,
+        "end": 979.0,
+        "text": " So, we took the integer input from the user."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 979.0,
+        "end": 985.0,
+        "text": " Now, what we did is, we took the integer size input from the user and made an array of the same size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 985.0,
+        "end": 990.0,
+        "text": " Then we display the elements of this array again and again."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 990.0,
+        "end": 994.0,
+        "text": " Along with that, we change the marks here and write numbers."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 994.0,
+        "end": 1001.0,
+        "text": " And if we save it and run it, then first of all we have to give our input size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1001.0,
+        "end": 1006.0,
+        "text": " Let's assume that we want to make an array of 6 sizes."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1006.0,
+        "end": 1009.0,
+        "text": " And for that we will see that we have 6 zero inputs."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1009.0,
+        "end": 1014.0,
+        "text": " Now, how did these zero inputs happen? We have never told the number of the array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1014.0,
+        "end": 1019.0,
+        "text": " So, in Java, automatic initialization happens with null values."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1019.0,
+        "end": 1024.0,
+        "text": " What does this mean? Whenever you make a variable in Java,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1024.0,
+        "end": 1034.0,
+        "text": " then that variable takes a space in memory, by its name, and stores null value in this space."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1034.0,
+        "end": 1037.0,
+        "text": " Now, this is an object, it will store null."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1037.0,
+        "end": 1041.0,
+        "text": " If there is an integer here, then it will store a zero."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1041.0,
+        "end": 1045.0,
+        "text": " If there is a float, then it will store a 0.0 by default."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1045.0,
+        "end": 1049.0,
+        "text": " If there is a Boolean, then it will store by default false."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1049.0,
+        "end": 1055.0,
+        "text": " And in some way, if it is a string, then it will store an empty string."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1055.0,
+        "end": 1061.0,
+        "text": " And if it is an integer array, then it will store 0 on every single int."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1061.0,
+        "end": 1067.0,
+        "text": " Or if it was a float array, then it would have stored 0.0, 0.0 and 0.0 everywhere."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1067.0,
+        "end": 1071.0,
+        "text": " So, in some way, we declare the array, but we don't initialize it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1071.0,
+        "end": 1075.0,
+        "text": " Declare means, tell the compiler that we have an array,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1075.0,
+        "end": 1079.0,
+        "text": " and initialize means, filling any value in every single box."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1079.0,
+        "end": 1081.0,
+        "text": " Now, we haven't filled that value."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1081.0,
+        "end": 1084.0,
+        "text": " So, Java automatically stored 0 there."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1084.0,
+        "end": 1086.0,
+        "text": " That's why we had 6 times 0 print."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1086.0,
+        "end": 1091.0,
+        "text": " If we give this input again, that is, if we run our code again,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1091.0,
+        "end": 1096.0,
+        "text": " if we give 10 this time, then we will see that we have 0 print for 10 times."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1096.0,
+        "end": 1102.0,
+        "text": " So, in some way, our size works, and our default initialization works in Java."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1102.0,
+        "end": 1108.0,
+        "text": " But if you take the example of C++, then in C++, garbage value is stored there."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1108.0,
+        "end": 1115.0,
+        "text": " So, here in memory, if you were reading C++, then C, X, 4, 2, 3, 1,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1115.0,
+        "end": 1119.0,
+        "text": " something like that is stored, which is a garbage value, which is completely useless."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1119.0,
+        "end": 1122.0,
+        "text": " So, I find this to be a big benefit in Java."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1122.0,
+        "end": 1128.0,
+        "text": " If you don't know what to store, then you don't have to go and initialize it separately with null values."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1128.0,
+        "end": 1130.0,
+        "text": " It is automatically initialized."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1130.0,
+        "end": 1133.0,
+        "text": " Now, let's assume that we have to input the elements of the array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1133.0,
+        "end": 1135.0,
+        "text": " So, how are we inputting them?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1135.0,
+        "end": 1139.0,
+        "text": " So, let's run another loop in this code."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1139.0,
+        "end": 1147.0,
+        "text": " After declaring the array code, we make a loop, from i is equal to 0 to i less than size, i++."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1147.0,
+        "end": 1149.0,
+        "text": " And what will we do in this loop?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1149.0,
+        "end": 1156.0,
+        "text": " We will store elements with input in numbers of i."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1156.0,
+        "end": 1159.0,
+        "text": " This statement is very important for beginners."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1159.0,
+        "end": 1160.0,
+        "text": " What happened here?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1160.0,
+        "end": 1164.0,
+        "text": " We ran the for loop of size, like we ran it later."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1164.0,
+        "end": 1168.0,
+        "text": " But the for loop that we ran later was for output."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1168.0,
+        "end": 1171.0,
+        "text": " This time, the for loop that we are running is for input."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1171.0,
+        "end": 1172.0,
+        "text": " And what did we do while inputting?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1172.0,
+        "end": 1180.0,
+        "text": " We took an integer input from sc.nextint and stored its value in numbers i."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1180.0,
+        "end": 1182.0,
+        "text": " Now, let's save it and run it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1182.0,
+        "end": 1184.0,
+        "text": " First, we will pass our size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1184.0,
+        "end": 1186.0,
+        "text": " So, what is the size for us?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1186.0,
+        "end": 1187.0,
+        "text": " 5."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1187.0,
+        "end": 1189.0,
+        "text": " After that, we will pass what came on the first index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1189.0,
+        "end": 1191.0,
+        "text": " So, on the first index, you give us 1."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1191.0,
+        "end": 1193.0,
+        "text": " On the second index, 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1193.0,
+        "end": 1194.0,
+        "text": " On the third index, 3."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1194.0,
+        "end": 1195.0,
+        "text": " On the fourth index, 4."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1195.0,
+        "end": 1196.0,
+        "text": " And then 5."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1196.0,
+        "end": 1203.0,
+        "text": " And in the same way, if we input 1, 2, 3, 4, 5, then we get 1, 2, 3, 4, 5 in our output."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1203.0,
+        "end": 1209.0,
+        "text": " So, in this way, we take the inputs of the array and output the values of the array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1209.0,
+        "end": 1211.0,
+        "text": " We have been given a question that what to do in this?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1211.0,
+        "end": 1217.0,
+        "text": " We have to take an array input from the user and search for a number x in it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1217.0,
+        "end": 1221.0,
+        "text": " And wherever we get that number, we have to print that index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1221.0,
+        "end": 1225.0,
+        "text": " So, the first time we get that number, we will print that index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1225.0,
+        "end": 1227.0,
+        "text": " So, what we do for that?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1227.0,
+        "end": 1230.0,
+        "text": " We have to take the size of an array first."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1230.0,
+        "end": 1232.0,
+        "text": " After that, we have to define our array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1232.0,
+        "end": 1236.0,
+        "text": " After that, we have to take the input of our array numbers."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1236.0,
+        "end": 1237.0,
+        "text": " Then what we will do?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1237.0,
+        "end": 1241.0,
+        "text": " We will take the input of a value x which we have to find in that array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1241.0,
+        "end": 1247.0,
+        "text": " int x is equal to sc.next int."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1247.0,
+        "end": 1249.0,
+        "text": " We have taken this."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1249.0,
+        "end": 1250.0,
+        "text": " We will input x."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1250.0,
+        "end": 1252.0,
+        "text": " Now, we will run a loop."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1252.0,
+        "end": 1253.0,
+        "text": " What we do by running a loop?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1253.0,
+        "end": 1257.0,
+        "text": " Basically, we traverse the entire array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1257.0,
+        "end": 1260.0,
+        "text": " We run one by one on that entire array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1260.0,
+        "end": 1267.0,
+        "text": " Now, with that running, we can print those values, search something or sort them."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1267.0,
+        "end": 1268.0,
+        "text": " It doesn't matter."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1268.0,
+        "end": 1273.0,
+        "text": " We are taking the values one by one from the array whenever we are using a loop."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1273.0,
+        "end": 1279.0,
+        "text": " Now, before moving ahead, let's discuss another property of the array which is called length."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1279.0,
+        "end": 1283.0,
+        "text": " Every array has a length variable associated with it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1283.0,
+        "end": 1287.0,
+        "text": " That means, if you are making an array in your memory,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1287.0,
+        "end": 1291.0,
+        "text": " then a length property will always be associated with it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1291.0,
+        "end": 1296.0,
+        "text": " And the size of that array will be saved in that property."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1296.0,
+        "end": 1298.0,
+        "text": " So, whatever the size of the array is,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1298.0,
+        "end": 1301.0,
+        "text": " if we don't have this size variable,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1301.0,
+        "end": 1303.0,
+        "text": " but only this number array,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1303.0,
+        "end": 1306.0,
+        "text": " then how do we get its length?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1306.0,
+        "end": 1308.0,
+        "text": " How do we get its size?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1308.0,
+        "end": 1310.0,
+        "text": " With the help of this length variable."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1310.0,
+        "end": 1311.0,
+        "text": " How?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1311.0,
+        "end": 1317.0,
+        "text": " Instead of writing the size, we can directly write numbers.length."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1317.0,
+        "end": 1319.0,
+        "text": " So, numbers.length."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1319.0,
+        "end": 1322.0,
+        "text": " Numbers.length."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1322.0,
+        "end": 1327.0,
+        "text": " This thing means indirectly size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1327.0,
+        "end": 1330.0,
+        "text": " That means, the size of an array is returning to us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1330.0,
+        "end": 1332.0,
+        "text": " And we are writing that size here."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1332.0,
+        "end": 1334.0,
+        "text": " So, whenever you are making an array,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1334.0,
+        "end": 1336.0,
+        "text": " you don't need to take the size variable separately."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1336.0,
+        "end": 1338.0,
+        "text": " If we are not inputting from the user,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1338.0,
+        "end": 1340.0,
+        "text": " if we have already been given an array,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1340.0,
+        "end": 1342.0,
+        "text": " then we can directly write the name of that array,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1342.0,
+        "end": 1345.0,
+        "text": " dot length and find its size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1345.0,
+        "end": 1348.0,
+        "text": " So, we have found the size for the loop here."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1348.0,
+        "end": 1350.0,
+        "text": " And now what will we do?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1350.0,
+        "end": 1354.0,
+        "text": " We will look at each index to see if it is our x."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1354.0,
+        "end": 1357.0,
+        "text": " As soon as we get our x, we will get it printed."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1357.0,
+        "end": 1359.0,
+        "text": " x found at index i."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1359.0,
+        "end": 1360.0,
+        "text": " Because what is i?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1360.0,
+        "end": 1363.0,
+        "text": " i is our ith index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1363.0,
+        "end": 1369.0,
+        "text": " For this, we will write if numbers of i are at any point x,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1369.0,
+        "end": 1372.0,
+        "text": " then you can print it there."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1372.0,
+        "end": 1375.0,
+        "text": " x found at index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1375.0,
+        "end": 1377.0,
+        "text": " Which index did we get x at?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1377.0,
+        "end": 1378.0,
+        "text": " i index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1378.0,
+        "end": 1381.0,
+        "text": " So, we printed i."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1381.0,
+        "end": 1383.0,
+        "text": " And if this is not the case,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1383.0,
+        "end": 1385.0,
+        "text": " then we don't need to write else condition"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1385.0,
+        "end": 1386.0,
+        "text": " because we don't have to do anything."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1386.0,
+        "end": 1389.0,
+        "text": " We just have to move on in our array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1389.0,
+        "end": 1392.0,
+        "text": " So, this is done for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1392.0,
+        "end": 1396.0,
+        "text": " And this way we can save our code."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1396.0,
+        "end": 1398.0,
+        "text": " Now if we run it,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1398.0,
+        "end": 1399.0,
+        "text": " then we will run it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1399.0,
+        "end": 1402.0,
+        "text": " First of all, we have to input our size."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1402.0,
+        "end": 1404.0,
+        "text": " We will input size 4."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1404.0,
+        "end": 1406.0,
+        "text": " After that, the first value is 1,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1406.0,
+        "end": 1407.0,
+        "text": " second value is 3,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1407.0,
+        "end": 1408.0,
+        "text": " third value is 5,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1408.0,
+        "end": 1409.0,
+        "text": " fourth value is 9."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1409.0,
+        "end": 1411.0,
+        "text": " So, 1, 3, 5, 9."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1411.0,
+        "end": 1414.0,
+        "text": " We have inputted these 4 values in our array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1414.0,
+        "end": 1416.0,
+        "text": " After that, we have to enter our x."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1416.0,
+        "end": 1418.0,
+        "text": " We have to find 5."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1418.0,
+        "end": 1421.0,
+        "text": " So, x found at index 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1421.0,
+        "end": 1423.0,
+        "text": " Let's visualize this a little."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1423.0,
+        "end": 1426.0,
+        "text": " What would have happened when we inputted this array?"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1426.0,
+        "end": 1429.0,
+        "text": " As soon as we inputted 4 for our size,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1429.0,
+        "end": 1430.0,
+        "text": " then similarly,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1430.0,
+        "end": 1433.0,
+        "text": " an array of 4 sizes was created in the memory."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1433.0,
+        "end": 1435.0,
+        "text": " 0, 1, 2, 3."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1435.0,
+        "end": 1437.0,
+        "text": " We then inputted 4 values."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1437.0,
+        "end": 1440.0,
+        "text": " That was 1, 3, 5, and 9 for us."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1440.0,
+        "end": 1444.0,
+        "text": " After that, we sent x equal to 5 for search."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1444.0,
+        "end": 1446.0,
+        "text": " It went to the first index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1446.0,
+        "end": 1448.0,
+        "text": " At index i equal to 0."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1449.0,
+        "end": 1451.0,
+        "text": " It went to the next index."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1451.0,
+        "end": 1453.0,
+        "text": " Here also, for i equal to 1,"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1453.0,
+        "end": 1455.0,
+        "text": " it went to 3 is not equal to 5."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1455.0,
+        "end": 1457.0,
+        "text": " After that, it went to i equal to 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1457.0,
+        "end": 1459.0,
+        "text": " Here, it went to 5 is equal to 5."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1459.0,
+        "end": 1462.0,
+        "text": " Here, it printed 2 for i equal to 2."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1462.0,
+        "end": 1464.0,
+        "text": " Then it went to i equal to 3."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1464.0,
+        "end": 1466.0,
+        "text": " It checked 9 is not equal to 5."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1466.0,
+        "end": 1468.0,
+        "text": " Finally, it ended."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1468.0,
+        "end": 1471.0,
+        "text": " So, we searched our x in this way."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1471.0,
+        "end": 1473.0,
+        "text": " This is the end of our array."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1473.0,
+        "end": 1475.0,
+        "text": " It's all over."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1475.0,
+        "end": 1477.0,
+        "text": " we searched our X."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1477.0,
+        "end": 1479.0,
+        "text": " This thing we have done"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1479.0,
+        "end": 1481.0,
+        "text": " is an algorithm"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1481.0,
+        "end": 1483.0,
+        "text": " in computer science which we"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1483.0,
+        "end": 1485.0,
+        "text": " call linear"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1485.0,
+        "end": 1487.0,
+        "text": " search."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1487.0,
+        "end": 1489.0,
+        "text": " Linear means the one which is going"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1489.0,
+        "end": 1491.0,
+        "text": " in straight fashion. So we"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1491.0,
+        "end": 1493.0,
+        "text": " went in straight fashion in our array"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1493.0,
+        "end": 1495.0,
+        "text": " and searched for some value."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1495.0,
+        "end": 1497.0,
+        "text": " That's why this searching technique"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1497.0,
+        "end": 1499.0,
+        "text": " in computer science is called"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1499.0,
+        "end": 1501.0,
+        "text": " linear search. After this"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1501.0,
+        "end": 1503.0,
+        "text": " we are studying a lot of optimized techniques"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1503.0,
+        "end": 1505.0,
+        "text": " like binary search"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1505.0,
+        "end": 1507.0,
+        "text": " which has a lot of questions in"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1507.0,
+        "end": 1509.0,
+        "text": " placement and a lot of implications"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1509.0,
+        "end": 1511.0,
+        "text": " in competitive programming."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1511.0,
+        "end": 1513.0,
+        "text": " So we are studying those things"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1513.0,
+        "end": 1515.0,
+        "text": " but for now we should be happy because"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1515.0,
+        "end": 1517.0,
+        "text": " even after knowing so few things"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1517.0,
+        "end": 1519.0,
+        "text": " we understood a technique"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1519.0,
+        "end": 1521.0,
+        "text": " and coded it."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1521.0,
+        "end": 1523.0,
+        "text": " That technique is called linear search."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1523.0,
+        "end": 1525.0,
+        "text": " In the description box below"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1525.0,
+        "end": 1527.0,
+        "text": " you will be getting notes of this class"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1527.0,
+        "end": 1529.0,
+        "text": " in which three questions are given."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1529.0,
+        "end": 1531.0,
+        "text": " I hope you are solving them as a homework problem."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1531.0,
+        "end": 1533.0,
+        "text": " In the next class you will be studying"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1533.0,
+        "end": 1535.0,
+        "text": " an advanced version of arrays."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1535.0,
+        "end": 1537.0,
+        "text": " That's it for today."
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1537.0,
+        "end": 1539.0,
+        "text": " See you in the next video. Till then keep"
+    },
+    {
+        "number": "10",
+        "title": "10_Arrays_Introduction_Java_",
+        "start": 1539.0,
+        "end": 1541.0,
+        "text": " learning and keep practicing."
+    }
+]

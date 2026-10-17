@@ -1,0 +1,1759 @@
+[
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 0.0,
+        "end": 5.0,
+        "text": " Hi everyone and welcome to Upna College and in this video we are going to start with our Java course."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 5.0,
+        "end": 10.0,
+        "text": " We have divided this course into two parts, the first part is introduction to programming."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 10.0,
+        "end": 22.0,
+        "text": " By using Java, we will be learning about coding, programming and all the fundamentals that are important to understand Java."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 22.0,
+        "end": 26.0,
+        "text": " In the second part, we will be learning about data structures and algorithms."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 26.0,
+        "end": 31.0,
+        "text": " Our plan for introduction to programming will be something like this."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 31.0,
+        "end": 36.0,
+        "text": " In the first class, we will learn about coding, how coding is done."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 36.0,
+        "end": 39.0,
+        "text": " Along with that, we will install our code editors."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 39.0,
+        "end": 42.0,
+        "text": " In the next class, we will cover input, output, variables and data types."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 42.0,
+        "end": 48.0,
+        "text": " In the same way, we will be covering some of the topics in the next 12 classes."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 48.0,
+        "end": 51.0,
+        "text": " So let's learn Java with our brilliant course."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 51.0,
+        "end": 57.0,
+        "text": " In real life, if we want to talk to someone, we give them a set of instructions."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 57.0,
+        "end": 59.0,
+        "text": " We give them instructions through a language."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 59.0,
+        "end": 63.0,
+        "text": " For example, if I am talking to you, I am talking in Hindi language."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 63.0,
+        "end": 65.0,
+        "text": " We can also talk in English."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 65.0,
+        "end": 71.0,
+        "text": " But if we want to work with a computer, laptop or mobile, then we have to tell them."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 71.0,
+        "end": 77.0,
+        "text": " Now, he doesn't understand English or Hindi, he understands binary, i.e. 0 and 1."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 78.0,
+        "end": 80.0,
+        "text": " Why 0 and 1?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 80.0,
+        "end": 86.0,
+        "text": " Because our laptop and computer are electrical devices that run on electricity."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 86.0,
+        "end": 90.0,
+        "text": " So when the current goes into the circuit, we represent it with 1."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 90.0,
+        "end": 95.0,
+        "text": " And when there is no current in the circuit, we represent it with 0."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 95.0,
+        "end": 102.0,
+        "text": " Or think of it as when the devices are detecting high voltage, we represent it with plus 1."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 102.0,
+        "end": 106.0,
+        "text": " Or when low voltage is detected, we represent it with 0."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 107.0,
+        "end": 115.0,
+        "text": " So in this way, assume that we can represent 0 with 0 in binary among the real-life decimal numbers."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 115.0,
+        "end": 118.0,
+        "text": " We can represent 1 in binary with decimal."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 118.0,
+        "end": 122.0,
+        "text": " We can represent 3 in binary with decimal."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 122.0,
+        "end": 127.0,
+        "text": " And we can represent 4 in binary with decimal."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 127.0,
+        "end": 130.0,
+        "text": " And in this way we move ahead."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 130.0,
+        "end": 139.0,
+        "text": " In the same way, we can explain everything like ABCDEFG or special characters in the combination of 0 and 1."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 139.0,
+        "end": 143.0,
+        "text": " Now, in this way, you will think that it is very complicated."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 143.0,
+        "end": 152.0,
+        "text": " If I have to do an addition of two numbers tomorrow, like 53 plus 72, then it will take a lot of time to convert it into 0 and 1."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 152.0,
+        "end": 158.0,
+        "text": " So I said that here comes our high-level languages that help us."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 158.0,
+        "end": 159.0,
+        "text": " How?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 159.0,
+        "end": 163.0,
+        "text": " The high-level language we are learning in this course will be Java."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 163.0,
+        "end": 171.0,
+        "text": " So in Java, we write our code and a compiler is sitting in the computer that converts it into binary format."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 171.0,
+        "end": 176.0,
+        "text": " Which the computer understands and this is where our coding journey begins."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 176.0,
+        "end": 182.0,
+        "text": " So you have learned to talk, but we have to give the computer some set of instructions."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 182.0,
+        "end": 185.0,
+        "text": " To give these instructions, we have to program."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 185.0,
+        "end": 192.0,
+        "text": " So we will be using the Java language to give commands or instructions to the computer to perform something."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 192.0,
+        "end": 196.0,
+        "text": " Now, if you don't understand this thing, then let's take an example."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 196.0,
+        "end": 202.0,
+        "text": " Now, if we have to execute a task in day-to-day life, then we give a set of instructions for it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 202.0,
+        "end": 204.0,
+        "text": " Like we will understand from a flow chart right now."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 204.0,
+        "end": 207.0,
+        "text": " Like I will start from the start."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 207.0,
+        "end": 211.0,
+        "text": " I need some raw material like maggi, masala and water."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 211.0,
+        "end": 214.0,
+        "text": " Along with that, I need a vessel and a stove to cook it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 214.0,
+        "end": 220.0,
+        "text": " The next step is to put the maggi, masala and water in the vessel and then start cooking it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 220.0,
+        "end": 224.0,
+        "text": " We boil it and check if our maggi is cooked."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 224.0,
+        "end": 228.0,
+        "text": " If it is not cooked, then we say to boil it more."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 228.0,
+        "end": 231.0,
+        "text": " And if it is cooked, then we say to turn off the gas."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 231.0,
+        "end": 234.0,
+        "text": " Then we serve the maggi and eat it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 234.0,
+        "end": 237.0,
+        "text": " Then we exit from our flow chart."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 237.0,
+        "end": 243.0,
+        "text": " Similarly, when we want to explain something to the computer, then we use the same set of instructions."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 243.0,
+        "end": 249.0,
+        "text": " Before writing them in code, let's see how we are explaining them with the help of flow chart."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 249.0,
+        "end": 254.0,
+        "text": " This will help us to know how similar our communications are in real life."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 254.0,
+        "end": 261.0,
+        "text": " And this set of instructions, which are written in our right, in the language of computer science, we call it pseudo code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 261.0,
+        "end": 269.0,
+        "text": " Now, what we have to do is, let's assume that our job is to take two numbers from someone and calculate their sum and print it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 269.0,
+        "end": 273.0,
+        "text": " How will we represent the same logic with the help of flow chart?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 273.0,
+        "end": 276.0,
+        "text": " We will start first."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 276.0,
+        "end": 279.0,
+        "text": " So that's why we will draw our start first."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 279.0,
+        "end": 283.0,
+        "text": " After that, for input, we will take our variables as input."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 283.0,
+        "end": 288.0,
+        "text": " We will store the first variable in number 1 and the second variable in number 2."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 288.0,
+        "end": 291.0,
+        "text": " We have taken input from number 1 and number 2."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 291.0,
+        "end": 296.0,
+        "text": " After that, we will store both the sum in a variable named sum."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 296.0,
+        "end": 301.0,
+        "text": " We have added number 1 and number 2 in the sum."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 301.0,
+        "end": 306.0,
+        "text": " After that, we will print our sum and finally we will do exit."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 306.0,
+        "end": 311.0,
+        "text": " So, in this way, the flow of the work that we have to do will remain."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 311.0,
+        "end": 316.0,
+        "text": " Now, similarly, if we talk about pseudo code, then what will be the first step in pseudo code?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 316.0,
+        "end": 324.0,
+        "text": " We are starting, then we take input of two numbers, then we are calculating the sum with the help of number 1 and number 2."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 324.0,
+        "end": 330.0,
+        "text": " Then we are printing the same sum and finally we do exit with our code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 330.0,
+        "end": 338.0,
+        "text": " So, pseudo code is a way to represent the flow of the program in simple English."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 338.0,
+        "end": 345.0,
+        "text": " And we will convert this pseudo code later into actual Java, C++ or Python code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 345.0,
+        "end": 351.0,
+        "text": " Now, to write our code, we will have to install some things in Java first."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 351.0,
+        "end": 356.0,
+        "text": " The first thing we have to install is Java's Java Development Kit."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 356.0,
+        "end": 363.0,
+        "text": " This is a kit that has all the things that you need to run Java on your system."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 363.0,
+        "end": 369.0,
+        "text": " So, whenever you have to write Java code, Java program and it has to run on any system,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 369.0,
+        "end": 374.0,
+        "text": " then we need Java Development Kit to take some necessary tools."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 374.0,
+        "end": 381.0,
+        "text": " Along with that, we have to download a code editor or IDE, that is, Integrated Development Environment."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 381.0,
+        "end": 386.0,
+        "text": " This can be anyone. We will be using Visual Studio Code or VS Code in our course."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 386.0,
+        "end": 391.0,
+        "text": " Apart from this, you can use IntelliJ or Eclipse."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 391.0,
+        "end": 395.0,
+        "text": " These are some software, like we are downloading games for games."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 395.0,
+        "end": 401.0,
+        "text": " Similarly, to write code, we have to download a software on our laptop or computer."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 401.0,
+        "end": 412.0,
+        "text": " After downloading these software, we write our code on them and they run our code and show us what the actual resultant output is going to be."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 412.0,
+        "end": 418.0,
+        "text": " Now, we have already made two videos of downloading VS code in English and Hindi."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 418.0,
+        "end": 424.0,
+        "text": " The first video is the one that you will be getting in the C++ series on the second index."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 424.0,
+        "end": 430.0,
+        "text": " We have downloaded C++ Compilers in C++."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 430.0,
+        "end": 437.0,
+        "text": " We don't have to download all of them. We just have to download Java Development Kit and Visual Studio Code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 437.0,
+        "end": 443.0,
+        "text": " Whether you are working on Windows or Mac, it is sufficient to download both of these things."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 443.0,
+        "end": 446.0,
+        "text": " You can refer to both of those videos for this."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 447.0,
+        "end": 454.0,
+        "text": " If you want to download IntelliJ, we have already made a video on it called Java One Shot."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 454.0,
+        "end": 459.0,
+        "text": " You will get the installation process there in a minute."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 459.0,
+        "end": 464.0,
+        "text": " You will get the installation process there in a minute."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 464.0,
+        "end": 479.0,
+        "text": " Along with that, we will show you that as soon as you go to your Chrome, you have to search for Java Development Kit on the Chrome or any browser you use."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 479.0,
+        "end": 492.0,
+        "text": " You will get different formats to download the first Oracle link."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 492.0,
+        "end": 496.0,
+        "text": " If you are working on Linux, you can download from these."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 496.0,
+        "end": 502.0,
+        "text": " If you are working on Windows, you can download Java Development Kit according to your system."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 502.0,
+        "end": 505.0,
+        "text": " If you are working on Mac, these are your links."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 505.0,
+        "end": 510.0,
+        "text": " Download the Java Development Kit and download one editor."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 510.0,
+        "end": 515.0,
+        "text": " There is another option in which you can download the entire Java Developer Pack."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 515.0,
+        "end": 520.0,
+        "text": " Microsoft has added some extensions with Visual Studio Code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 520.0,
+        "end": 522.0,
+        "text": " There is a Java Development Kit."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 522.0,
+        "end": 527.0,
+        "text": " You will get to download all the things in one link."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 527.0,
+        "end": 529.0,
+        "text": " Let's search for that too."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 537.0,
+        "end": 545.0,
+        "text": " We have to scroll a little bit to get to the first link of Java in Visual Studio Code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 545.0,
+        "end": 555.0,
+        "text": " It is called Installing the Coding Pack for Java Windows if you use Windows or Installing the Coding Pack for Java Mac OS if you use Mac."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 555.0,
+        "end": 560.0,
+        "text": " You can set up the Visual Studio Code in this way."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 560.0,
+        "end": 565.0,
+        "text": " The code that we will write with Java will be written on the same code editor."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 565.0,
+        "end": 572.0,
+        "text": " After downloading the code editor, we will see the Visual Studio Code in this way."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 572.0,
+        "end": 575.0,
+        "text": " We will create a new file in this."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 575.0,
+        "end": 577.0,
+        "text": " You can create a new file."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 577.0,
+        "end": 581.0,
+        "text": " After creating, we will write our first Java Code in this file."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 581.0,
+        "end": 587.0,
+        "text": " Before writing the code, let's talk about the code that we will be writing in the first two or three classes."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 587.0,
+        "end": 594.0,
+        "text": " If you are new to programming, coding, or if you are seeing the code for the first time, you may face some problems in understanding."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 594.0,
+        "end": 596.0,
+        "text": " But we do not have to give up."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 596.0,
+        "end": 598.0,
+        "text": " We have to try to understand things."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 598.0,
+        "end": 605.0,
+        "text": " In the beginning, if we go to learn Arabic or French, we will find things very different and we will not understand."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 605.0,
+        "end": 608.0,
+        "text": " But after some time, we will start understanding things."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 608.0,
+        "end": 611.0,
+        "text": " We will have to show faith and trust in the code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 611.0,
+        "end": 617.0,
+        "text": " We will start understanding things when we see the code for some time."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 617.0,
+        "end": 619.0,
+        "text": " We will write code in the first class."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 619.0,
+        "end": 621.0,
+        "text": " Some things will not be understood."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 621.0,
+        "end": 623.0,
+        "text": " There are many things that will be understood."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 623.0,
+        "end": 626.0,
+        "text": " We have to pay attention to understand those things."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 626.0,
+        "end": 630.0,
+        "text": " First of all, we will create a class in Java code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 630.0,
+        "end": 632.0,
+        "text": " We will take the class name first."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 632.0,
+        "end": 635.0,
+        "text": " We have given the class name."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 635.0,
+        "end": 641.0,
+        "text": " We will create a public static void function."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 641.0,
+        "end": 644.0,
+        "text": " In which string arguments will be coming."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 646.0,
+        "end": 651.0,
+        "text": " So in this way, any code in Java remains the same template."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 651.0,
+        "end": 655.0,
+        "text": " In which you define a class and you define a function."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 655.0,
+        "end": 657.0,
+        "text": " Now what is this class and function?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 657.0,
+        "end": 660.0,
+        "text": " We will understand this a little later."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 660.0,
+        "end": 664.0,
+        "text": " But for now, let's assume that whenever we have to write Java code, we have to do these things."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 664.0,
+        "end": 667.0,
+        "text": " And what will be the way to save this file?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 667.0,
+        "end": 674.0,
+        "text": " Whatever class name you have given in Java file, you will give the same name to your Java file."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 674.0,
+        "end": 677.0,
+        "text": " For example, here the class name was given first class."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 677.0,
+        "end": 684.0,
+        "text": " So we will save our Java file as first class.java."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 684.0,
+        "end": 689.0,
+        "text": " So all the files we save in Java are saved in the name of .java."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 689.0,
+        "end": 696.0,
+        "text": " For example, in the 11th or 12th class, whenever we studied computer science, we used to save text files called .txt."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 696.0,
+        "end": 699.0,
+        "text": " So here we will save all the files from .java."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 699.0,
+        "end": 701.0,
+        "text": " We have saved this."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 701.0,
+        "end": 705.0,
+        "text": " So in this way, color coding has come to our text editor."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 705.0,
+        "end": 709.0,
+        "text": " Where you will see some words in different colors."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 709.0,
+        "end": 714.0,
+        "text": " With time you will know why there are different colors of different words here."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 714.0,
+        "end": 718.0,
+        "text": " For now, we have understood that this is a template to write Java code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 718.0,
+        "end": 726.0,
+        "text": " Now the first thing in this, the first code that usually coders write in all programming languages is hello world."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 726.0,
+        "end": 731.0,
+        "text": " In which you are saying hello to the world for the first time using your programming language."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 731.0,
+        "end": 738.0,
+        "text": " So let's write it system.out.println hello world."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 742.0,
+        "end": 743.0,
+        "text": " We have saved it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 743.0,
+        "end": 746.0,
+        "text": " Now we will run this code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 746.0,
+        "end": 750.0,
+        "text": " After running, you will know what actually happens with the code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 750.0,
+        "end": 752.0,
+        "text": " What does Java code mean?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 752.0,
+        "end": 755.0,
+        "text": " We have saved some lines in our file."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 755.0,
+        "end": 762.0,
+        "text": " Now if we go to the right and click on run Java, then we will get some kind of print."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 762.0,
+        "end": 764.0,
+        "text": " Hello world."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 764.0,
+        "end": 767.0,
+        "text": " Now how can we understand this thing?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 767.0,
+        "end": 772.0,
+        "text": " As we see that coders write a lot of code and then what comes in its output?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 772.0,
+        "end": 774.0,
+        "text": " We start seeing a website."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 774.0,
+        "end": 782.0,
+        "text": " Similarly, here the small code that we have written, because of which we have started seeing this hello world on our screen."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 782.0,
+        "end": 785.0,
+        "text": " So this is some magic that happens in coding."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 785.0,
+        "end": 789.0,
+        "text": " In which you can show anything on the screen with the help of code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 789.0,
+        "end": 792.0,
+        "text": " Now we call showing on the screen output."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 792.0,
+        "end": 798.0,
+        "text": " Apart from this, with the help of your code, you can take any data from the user, which we call input."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 798.0,
+        "end": 801.0,
+        "text": " We will understand about input output in the next classes."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 801.0,
+        "end": 808.0,
+        "text": " For now, we have understood that this is how Java code runs and shows us an output."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 808.0,
+        "end": 812.0,
+        "text": " Now let's understand how Java code actually runs."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 812.0,
+        "end": 818.0,
+        "text": " To run Java code, our code goes through two steps."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 818.0,
+        "end": 824.0,
+        "text": " The first step is compilation and the second step is execution."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 824.0,
+        "end": 831.0,
+        "text": " Now it is important to understand this theory because this theory will be asked in your placement interview later."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 831.0,
+        "end": 836.0,
+        "text": " Or if you read Java as a subject in your college, then you will get it in the exam."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 836.0,
+        "end": 844.0,
+        "text": " Now the Java development kit that we have downloaded, that is JDK, has a component called JRE."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 844.0,
+        "end": 849.0,
+        "text": " Which we call Java Runtime Environment."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 850.0,
+        "end": 855.0,
+        "text": " Along with JRE, there are many development tools available in it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 855.0,
+        "end": 860.0,
+        "text": " And this JRE also has another component inside it, which we call JVM."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 860.0,
+        "end": 865.0,
+        "text": " JVM means Java Virtual Machine."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 865.0,
+        "end": 872.0,
+        "text": " So Java Virtual Machine of JRE and JDK, they are level-wise forms, level-wise stored."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 872.0,
+        "end": 876.0,
+        "text": " And with the help of this, our entire Java code can be run."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 876.0,
+        "end": 881.0,
+        "text": " Now if we understand these two stages, then what happens in the stage of compilation?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 881.0,
+        "end": 886.0,
+        "text": " Whatever code we have written, we call it source code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 886.0,
+        "end": 890.0,
+        "text": " We save the source code from .java."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 890.0,
+        "end": 894.0,
+        "text": " And all this code goes to a compiler."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 894.0,
+        "end": 898.0,
+        "text": " This compiler is inside JDK."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 898.0,
+        "end": 901.0,
+        "text": " And all the source code goes to this compiler."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 901.0,
+        "end": 906.0,
+        "text": " And this compiler converts the source code into byte code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 906.0,
+        "end": 909.0,
+        "text": " Whose extension is .class."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 909.0,
+        "end": 913.0,
+        "text": " And this byte code can run on any operating system."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 913.0,
+        "end": 918.0,
+        "text": " As long as there is JRE Java Runtime Environment in that operating system."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 918.0,
+        "end": 924.0,
+        "text": " So if you have written code in Linux, Windows, Mac OS,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 924.0,
+        "end": 929.0,
+        "text": " you can convert your code into byte code and run it on any system."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 929.0,
+        "end": 931.0,
+        "text": " You can't do this with C++."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 931.0,
+        "end": 934.0,
+        "text": " That's why Java is called a portable language."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 934.0,
+        "end": 940.0,
+        "text": " Because you can convert the apps made in it into byte code and run it on any system."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 940.0,
+        "end": 944.0,
+        "text": " So we covered the first stage, which was the stage of compilation."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 944.0,
+        "end": 949.0,
+        "text": " Now if we talk about our second stage, which is the stage of execution."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 949.0,
+        "end": 952.0,
+        "text": " So what happens in the stage of execution?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 952.0,
+        "end": 958.0,
+        "text": " The byte code we had, now Java Virtual Machine takes this byte code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 958.0,
+        "end": 961.0,
+        "text": " And converts it into native code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 961.0,
+        "end": 965.0,
+        "text": " Native code means the code that the machine understands."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 965.0,
+        "end": 970.0,
+        "text": " We had just talked about the lowest level code that the machine understands."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 970.0,
+        "end": 971.0,
+        "text": " That is 0 and 1."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 971.0,
+        "end": 975.0,
+        "text": " So native code is the same code that the machine understands."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 975.0,
+        "end": 978.0,
+        "text": " Now when this byte code is converted into native code,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 978.0,
+        "end": 980.0,
+        "text": " then whether your machine is Windows or Mac,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 980.0,
+        "end": 983.0,
+        "text": " now it will understand your Java code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 983.0,
+        "end": 986.0,
+        "text": " In the same way, as you had to get Hello World printed,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 986.0,
+        "end": 990.0,
+        "text": " the code was converted into native code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 990.0,
+        "end": 993.0,
+        "text": " And then you started seeing Hello World in your system."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 993.0,
+        "end": 996.0,
+        "text": " Now if we talk about the components of our code,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 996.0,
+        "end": 999.0,
+        "text": " then the first component of this is function."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 999.0,
+        "end": 1005.0,
+        "text": " Functions or methods are the part of code that we call to perform some work."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1005.0,
+        "end": 1007.0,
+        "text": " For example, if we had to add two numbers,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1007.0,
+        "end": 1011.0,
+        "text": " then we would have written all the code in a function."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1011.0,
+        "end": 1013.0,
+        "text": " If we had to get Hello World printed,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1013.0,
+        "end": 1016.0,
+        "text": " then we would have written all the code in a function."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1016.0,
+        "end": 1020.0,
+        "text": " And that function was a function called void main."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1020.0,
+        "end": 1024.0,
+        "text": " The function's name was main and its return type was void."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1024.0,
+        "end": 1025.0,
+        "text": " Void means empty."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1025.0,
+        "end": 1027.0,
+        "text": " This function doesn't return anything."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1027.0,
+        "end": 1030.0,
+        "text": " It only printed Hello World for us."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1030.0,
+        "end": 1033.0,
+        "text": " So whatever code we have to write in Java,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1033.0,
+        "end": 1035.0,
+        "text": " we write it in functions."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1035.0,
+        "end": 1039.0,
+        "text": " And we write these functions in class."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1039.0,
+        "end": 1044.0,
+        "text": " So class is a big entity that can have a lot of functions."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1044.0,
+        "end": 1045.0,
+        "text": " How do we understand class?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1045.0,
+        "end": 1048.0,
+        "text": " For example, we have a big kitchen in our house"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1048.0,
+        "end": 1052.0,
+        "text": " which has a lot of small boxes with some things stored inside."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1052.0,
+        "end": 1054.0,
+        "text": " For example, there is one box of sugar in the kitchen,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1054.0,
+        "end": 1056.0,
+        "text": " and one box of salt."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1056.0,
+        "end": 1060.0,
+        "text": " Similarly, there is a big class in Java that has small functions."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1060.0,
+        "end": 1062.0,
+        "text": " Some work is happening in one function,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1062.0,
+        "end": 1064.0,
+        "text": " and some work is happening in the other function."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1064.0,
+        "end": 1067.0,
+        "text": " And in Java classes, the main function of the name"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1067.0,
+        "end": 1071.0,
+        "text": " is the first part of the code that is executed."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1071.0,
+        "end": 1074.0,
+        "text": " So the first thing written in the main function in Java"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1074.0,
+        "end": 1076.0,
+        "text": " will be executed first."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1076.0,
+        "end": 1081.0,
+        "text": " Later, all the code things will be executed and coming to us."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1081.0,
+        "end": 1084.0,
+        "text": " So in today's class, we tried to understand a lot of things"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1084.0,
+        "end": 1087.0,
+        "text": " like what is code, what is coding,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1087.0,
+        "end": 1089.0,
+        "text": " how the machine understands things,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1089.0,
+        "end": 1092.0,
+        "text": " and how we actually write our Java code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1092.0,
+        "end": 1094.0,
+        "text": " I hope that before the next class,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1094.0,
+        "end": 1096.0,
+        "text": " you download your code editor,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1096.0,
+        "end": 1098.0,
+        "text": " Visual Studio Code or whatever editor you like,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1098.0,
+        "end": 1101.0,
+        "text": " along with Java Development Kit,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1101.0,
+        "end": 1106.0,
+        "text": " so that we can write and run the code along with the class in the next class."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1106.0,
+        "end": 1108.0,
+        "text": " We can see if we are getting any problem,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1108.0,
+        "end": 1111.0,
+        "text": " or are we able to learn all the things well?"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1111.0,
+        "end": 1112.0,
+        "text": " We are able to do it."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1112.0,
+        "end": 1115.0,
+        "text": " Because it is more important to practice coding,"
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1115.0,
+        "end": 1120.0,
+        "text": " so the more we practice, the better we will understand the code."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1120.0,
+        "end": 1121.0,
+        "text": " That's all for today."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1121.0,
+        "end": 1122.0,
+        "text": " See you in the next video."
+    },
+    {
+        "number": "1",
+        "title": "1_Introduction_to_Java_Language_Lecture_1_",
+        "start": 1122.0,
+        "end": 1124.0,
+        "text": " Till then, keep learning and keep practicing."
+    }
+]

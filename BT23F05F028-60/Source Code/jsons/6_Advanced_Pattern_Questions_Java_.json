@@ -1,0 +1,4433 @@
+[
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 0.0,
+        "end": 4.0,
+        "text": " Hi everyone and welcome to the Java placement course."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 4.0,
+        "end": 7.5,
+        "text": " In the last video, we discussed 9 questions of patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 7.5,
+        "end": 10.5,
+        "text": " This time we will discuss more advanced questions of patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 10.5,
+        "end": 14.5,
+        "text": " In the last video, we discussed all the questions,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 14.5,
+        "end": 19.0,
+        "text": " all the codes and some homework problems that we gave you in the notes."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 19.0,
+        "end": 23.5,
+        "text": " In this video, all the codes that we are discussing in the description box below,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 23.5,
+        "end": 27.0,
+        "text": " you will be getting all the Java codes in a document."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 27.0,
+        "end": 31.0,
+        "text": " You will be getting some homework problems that you have to do by yourself."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 31.0,
+        "end": 34.5,
+        "text": " Once you see and understand how the advanced questions are being asked in the video,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 34.5,
+        "end": 37.5,
+        "text": " you will be able to solve the homework problems very easily."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 37.5,
+        "end": 39.5,
+        "text": " So let's start today's class."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 39.5,
+        "end": 43.5,
+        "text": " We have done 9 questions earlier, so now we are going to do the 10th question."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 43.5,
+        "end": 45.5,
+        "text": " We are going to start with the advanced patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 45.5,
+        "end": 49.5,
+        "text": " The first pattern that we are going to print is the butterfly pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 49.5,
+        "end": 55.0,
+        "text": " This pattern looks like this and you can see that its shape is like a butterfly."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 55.5,
+        "end": 61.5,
+        "text": " In the beginning, we can see that there is 1 star, then there are some spaces and then another star."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 61.5,
+        "end": 66.0,
+        "text": " In the second line, there are 2 stars, then some spaces and then 2 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 66.0,
+        "end": 70.5,
+        "text": " In the third line, there are 3 stars, then some spaces and then 3 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 70.5,
+        "end": 74.5,
+        "text": " In the last class, we learned that to solve the questions of patterns,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 74.5,
+        "end": 77.0,
+        "text": " we have to draw some relations."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 77.0,
+        "end": 81.5,
+        "text": " In the last class, the relations that we discussed in the patterns were drawn."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 81.5,
+        "end": 91.0,
+        "text": " We drew the relation between the line we are on and the number of times we are being printed in that line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 91.0,
+        "end": 94.0,
+        "text": " So we drew the relation between these two things."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 94.0,
+        "end": 97.0,
+        "text": " Now we will be drawing the same relation here as well."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 97.0,
+        "end": 100.0,
+        "text": " In this question, the N given to us is 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 100.0,
+        "end": 104.5,
+        "text": " For N4, we printed such a big butterfly pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 104.5,
+        "end": 110.0,
+        "text": " Now we will understand how such a big pattern was printed for N is equal to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " If we see the first row, row number 1, we can see that there is 1 star, then some spaces and then another star."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 120.0,
+        "end": 127.0,
+        "text": " Now if we count the total number of spaces, then it is 1, 2, 3, 4, 5, 6."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 127.0,
+        "end": 132.5,
+        "text": " Why? Because the stars below are not being printed here."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 132.5,
+        "end": 135.0,
+        "text": " So the same spaces are being printed here."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 135.0,
+        "end": 138.5,
+        "text": " So we have 6 spaces here."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 139.0,
+        "end": 143.0,
+        "text": " Now if we talk about the second row, then there are 2 stars in the second row."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 143.0,
+        "end": 146.0,
+        "text": " Along with that, there are 1, 2, 3, 4 spaces in the second row."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 146.0,
+        "end": 148.0,
+        "text": " There are 4 spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 148.0,
+        "end": 150.0,
+        "text": " Again 2 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 150.0,
+        "end": 154.0,
+        "text": " If we talk about the third row, then there are 3 stars there."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 154.0,
+        "end": 158.0,
+        "text": " After that, 2 spaces and again 3 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 158.0,
+        "end": 163.0,
+        "text": " Now if we talk about the fourth row, then there are 4 stars there."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 163.0,
+        "end": 167.0,
+        "text": " We will consider these 4 stars as the initials in the first part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 167.0,
+        "end": 170.5,
+        "text": " After that, the spaces in the middle are 0."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 170.5,
+        "end": 177.5,
+        "text": " And the total number of stars in the second part are 4 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 177.5,
+        "end": 181.5,
+        "text": " After that, this pattern is being repeated."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 181.5,
+        "end": 189.5,
+        "text": " So if we make the upper pattern, then we will recreate the lower one by reversing the conditions."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 189.5,
+        "end": 194.5,
+        "text": " So our focus will be to print this much pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 194.5,
+        "end": 198.0,
+        "text": " After that, we will reverse the code we have written."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 198.0,
+        "end": 201.5,
+        "text": " We will make some changes in it so that the pattern below is printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 201.5,
+        "end": 203.5,
+        "text": " Because this is a carbon copy."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 203.5,
+        "end": 207.0,
+        "text": " 180 degrees, we have just rotated it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 207.0,
+        "end": 213.0,
+        "text": " Now we have to find the logic of our code in these conditions to print the pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 213.0,
+        "end": 218.0,
+        "text": " In these conditions, the first thing that we are noticing is that"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 218.0,
+        "end": 223.0,
+        "text": " we have to print the same number of stars as the row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 223.0,
+        "end": 225.5,
+        "text": " Where? In the first part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 225.5,
+        "end": 231.5,
+        "text": " And also we have to print the same number of stars in the second part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 231.5,
+        "end": 233.5,
+        "text": " Now this thing is very clear."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 233.5,
+        "end": 240.5,
+        "text": " So as soon as we run the outer loop of our row number, which goes from 1 to n, i.e. from 1 to 4,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 240.5,
+        "end": 245.0,
+        "text": " we will print the same number of stars in the inner loop in the first part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 245.0,
+        "end": 251.0,
+        "text": " Then we will print some spaces and then we will print the same number of stars as our row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 251.0,
+        "end": 257.5,
+        "text": " Now to do this, i.e. to print the same number of stars as our row number,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 257.5,
+        "end": 262.5,
+        "text": " we have already discussed in the previous video how the loop is done."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 262.5,
+        "end": 265.0,
+        "text": " i.e. how to write the nested loop for this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 265.0,
+        "end": 272.0,
+        "text": " For us, the main focus will be to discover how to print these spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 272.0,
+        "end": 277.5,
+        "text": " What is the logical relation of these spaces with our row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 278.0,
+        "end": 280.5,
+        "text": " That is the most difficult part of this question."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 280.5,
+        "end": 284.0,
+        "text": " And we will simplify this difficult part very easily."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 284.0,
+        "end": 285.5,
+        "text": " Let's see how."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 285.5,
+        "end": 287.5,
+        "text": " Now let's see a small thing here."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 287.5,
+        "end": 291.0,
+        "text": " If we represent the row number in terms of i,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 291.0,
+        "end": 297.5,
+        "text": " then in the beginning i is equal to 1, then i is equal to 2, then i is equal to 3, then i is equal to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 297.5,
+        "end": 300.5,
+        "text": " If we represent this row number in terms of i,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 300.5,
+        "end": 303.0,
+        "text": " because we are going to take i as a variable in our outer loop."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 303.0,
+        "end": 306.0,
+        "text": " If we look at the spaces in a way,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 306.0,
+        "end": 309.0,
+        "text": " then can we write the spaces in multiples of 2?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 309.0,
+        "end": 311.5,
+        "text": " We can see that after 6, there were not 5 spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 311.5,
+        "end": 315.5,
+        "text": " After 6, there were 4 spaces, after 4, there were 2 spaces, after 2, there were 0 spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 315.5,
+        "end": 322.5,
+        "text": " Now the intuition is such that if we have to print another row instead of 6,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 322.5,
+        "end": 325.0,
+        "text": " if n is equal to 5, we would have been given 4 spaces instead,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 325.0,
+        "end": 328.5,
+        "text": " then how many spaces would have been coming? 8 spaces would have been coming."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 328.5,
+        "end": 332.0,
+        "text": " After that, 10 spaces would have been coming, then 12 spaces would have been coming."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 332.0,
+        "end": 334.5,
+        "text": " So in this way, we are playing in multiples of 2,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 334.5,
+        "end": 336.5,
+        "text": " such an intuition is coming from this question."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 336.5,
+        "end": 341.0,
+        "text": " So here if we represent it in terms of 2, then this will be 2 x 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 341.0,
+        "end": 347.5,
+        "text": " For r is equal to 1 or i is equal to 1, the spaces we have are 2 x 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 347.5,
+        "end": 350.5,
+        "text": " For i is equal to 2, the spaces are 2 x 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 350.5,
+        "end": 353.5,
+        "text": " For i is equal to 3, the spaces are 2 x 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 353.5,
+        "end": 357.0,
+        "text": " And for i is equal to 4, the spaces are 2 x 0."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 357.5,
+        "end": 363.0,
+        "text": " Now how can we analyze this 0, 1, 2, 3?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 363.0,
+        "end": 366.5,
+        "text": " Now this 2 is constant."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 366.5,
+        "end": 374.0,
+        "text": " Our major task is to represent 2, 3, 1 and 0 in terms of i, i.e. in terms of row numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 374.0,
+        "end": 386.5,
+        "text": " Here can we say that 3 is n-i, n is 4, i is 1, and 4-1 is 3, i.e. this 3 is n-i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 386.5,
+        "end": 391.0,
+        "text": " Now can we write this 2 as n-i again?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 391.0,
+        "end": 396.5,
+        "text": " Here n is 4 and i is 2, so 4-2 is equal to 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 396.5,
+        "end": 400.0,
+        "text": " Can we write this 1 as n-i again?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 400.0,
+        "end": 405.5,
+        "text": " Here n is 4 and i is 3, so 4-3 is equal to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 405.5,
+        "end": 409.5,
+        "text": " Now can we write this 0 as n-i again?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 409.5,
+        "end": 416.0,
+        "text": " Here n is 4 and i is 4, so 4-4 is equal to 0."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 416.0,
+        "end": 429.5,
+        "text": " So in this way, we can simplify the total number of spaces and say that the total number of spaces is equal to 2 x n-i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 429.5,
+        "end": 432.5,
+        "text": " So this is some logic we have made."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 432.5,
+        "end": 434.0,
+        "text": " The logic of stars was simple."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 434.0,
+        "end": 437.5,
+        "text": " Whatever is the row number, you can print the same number of stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 437.5,
+        "end": 441.0,
+        "text": " In the first part, i.e. in this part and in this part too."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 441.0,
+        "end": 443.0,
+        "text": " This is our second part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 443.0,
+        "end": 447.5,
+        "text": " Now after that, we have made logic for the number of spaces in between."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 447.5,
+        "end": 450.0,
+        "text": " That will be 2 x n-i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 450.0,
+        "end": 455.0,
+        "text": " So in this way, our code will come out like this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 455.0,
+        "end": 463.5,
+        "text": " Here what we will do is take an outer loop for int i is equal to 1 to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 463.5,
+        "end": 468.0,
+        "text": " This outer loop is telling us how much total number of rows we are going to have."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 468.0,
+        "end": 469.5,
+        "text": " This n will be given to us."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 469.5,
+        "end": 472.0,
+        "text": " Now we will print a butterfly pattern for this n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 472.0,
+        "end": 475.5,
+        "text": " So first of all, we have to print the stars of the first part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 475.5,
+        "end": 479.0,
+        "text": " We have to print the stars of the first part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 479.0,
+        "end": 486.0,
+        "text": " Now what we will do to print these stars is for int j is equal to 1 to i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 486.0,
+        "end": 493.0,
+        "text": " Whatever i is, i.e. our row number, we will print the same number of stars in the first part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 493.0,
+        "end": 496.0,
+        "text": " So this much work is done for stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 496.0,
+        "end": 499.0,
+        "text": " Now after that we have to print spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 499.0,
+        "end": 503.0,
+        "text": " How many spaces do we have to print? 2 x n-i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 503.0,
+        "end": 506.0,
+        "text": " Right? Now we have proved how n-i came."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 506.0,
+        "end": 512.5,
+        "text": " So for int j is equal to 1 to total number of spaces, we will print."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 512.5,
+        "end": 518.0,
+        "text": " We are reusing this j because we discussed in our last video that j is,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 518.0,
+        "end": 522.0,
+        "text": " i.e. the scope of all the variables defined in the loop remains only till the loop."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 522.0,
+        "end": 526.5,
+        "text": " After the loop is over, those variables are not in our memory."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 526.5,
+        "end": 527.5,
+        "text": " They have been cleared from memory."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 527.5,
+        "end": 530.0,
+        "text": " Now the code does not know what j was."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 530.0,
+        "end": 533.0,
+        "text": " So we can use j again by declaring it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 533.0,
+        "end": 535.5,
+        "text": " So we have printed our spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 535.5,
+        "end": 539.5,
+        "text": " After that we have to print the stars of the second part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 539.5,
+        "end": 543.5,
+        "text": " Now the stars of the second part will also be printed as much as our row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 543.5,
+        "end": 548.0,
+        "text": " So for int j is equal to 1 to i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 548.0,
+        "end": 551.0,
+        "text": " So these are our stars of the second part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 551.0,
+        "end": 554.0,
+        "text": " So in some way, how many parts will we print?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 554.0,
+        "end": 556.5,
+        "text": " We must have printed this much part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 556.5,
+        "end": 560.0,
+        "text": " Now we have understood how to write the code for this much part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 560.0,
+        "end": 566.0,
+        "text": " Now let's talk about how to modify the code for its lower half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 566.0,
+        "end": 570.0,
+        "text": " So let's shift this code a little bit up."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 570.0,
+        "end": 574.0,
+        "text": " Now we will talk about our second half, i.e. this part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 574.0,
+        "end": 578.0,
+        "text": " In this part, we can see that the upper part is completely opposite."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 578.0,
+        "end": 583.5,
+        "text": " Opposite means that here the spaces are 0, here the spaces are 2, here the spaces are 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 583.5,
+        "end": 586.0,
+        "text": " And here the spaces are 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 586.0,
+        "end": 592.0,
+        "text": " And if we look at the number of stars, then here the number of stars is first 4, then 3, then 2, then 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 592.0,
+        "end": 600.0,
+        "text": " So why not we do this, that the count of stars and spaces is eventually dependent on the row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 600.0,
+        "end": 605.0,
+        "text": " That means all the stars we have to print and all the spaces we have to print,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 605.0,
+        "end": 606.5,
+        "text": " on whom was it depending?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 606.5,
+        "end": 610.0,
+        "text": " It was depending on our i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 610.5,
+        "end": 615.0,
+        "text": " We were using this i again and again to print spaces and stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 615.0,
+        "end": 620.5,
+        "text": " And this i was going from 1 to n in the first half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 620.5,
+        "end": 623.0,
+        "text": " So why not we flip it in the second half?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 623.0,
+        "end": 628.0,
+        "text": " For the second half, we take this i from n to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 628.0,
+        "end": 632.5,
+        "text": " Now if i goes from n to 1, then let's see what changes will come in the code."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 632.5,
+        "end": 635.5,
+        "text": " First of all, the value of i will be n, i.e. 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 635.5,
+        "end": 638.0,
+        "text": " Because in this question, we have given n is equal to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 638.0,
+        "end": 640.0,
+        "text": " Now the value of i is n is equal to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 640.0,
+        "end": 642.0,
+        "text": " So let's see how many spaces there will be."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 642.0,
+        "end": 649.0,
+        "text": " Our spaces were 2 into n minus i, i.e. 2 into 4 minus 4, 0."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 649.0,
+        "end": 654.0,
+        "text": " Which is correct because in this line we have eventually 0 spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 654.0,
+        "end": 657.0,
+        "text": " And if we look at the stars, then how many stars are there?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 657.0,
+        "end": 662.5,
+        "text": " There are 4 stars in the first part and 4 stars in the second part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 662.5,
+        "end": 665.0,
+        "text": " So this is the first part, this is the second part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 665.0,
+        "end": 668.5,
+        "text": " So our condition is for i is equal to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 668.5,
+        "end": 672.0,
+        "text": " Let's see for i is equal to 3, i.e. for this row."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 672.0,
+        "end": 674.5,
+        "text": " How many spaces should there be for this row?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 674.5,
+        "end": 681.5,
+        "text": " There should be spaces 2 into n minus i, i.e. 2 into n was 4, 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 681.5,
+        "end": 683.5,
+        "text": " So our answer is 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 683.5,
+        "end": 687.5,
+        "text": " And there are also 2 spaces here."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 687.5,
+        "end": 693.5,
+        "text": " After that, if we look at the stars, then the stars should be i equal to 3 plus 3 in the first half and in the second half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 693.5,
+        "end": 697.0,
+        "text": " So here the stars are 3 in the first half and 3 in the second half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 697.0,
+        "end": 701.0,
+        "text": " So in this way, i is equal to 4, i is equal to 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 701.0,
+        "end": 707.0,
+        "text": " And if you check i is equal to 2, i is equal to 1, then also this code will be working."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 707.0,
+        "end": 709.0,
+        "text": " So how did we get this code?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 709.0,
+        "end": 716.5,
+        "text": " For the first half, i.e. for the upper half, we made our own logic and wrote the code for the logic of stars and spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 716.5,
+        "end": 721.5,
+        "text": " Now in the second half, we know that the condition is dependent on i, on the row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 721.5,
+        "end": 725.0,
+        "text": " And according to the row number, the conditions are completely flipping."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 725.0,
+        "end": 727.5,
+        "text": " So why don't we flip our row number?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 727.5,
+        "end": 732.0,
+        "text": " The first loop was running from 1 to n, now we will run the loop from n to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 732.0,
+        "end": 738.0,
+        "text": " So in this way, we are solving this lovely butterfly pattern which did not look very beautiful at first."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 738.0,
+        "end": 740.5,
+        "text": " It looks very difficult to see for the first time."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 740.5,
+        "end": 744.5,
+        "text": " And frankly, I also found it very difficult to see this pattern for the first time."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 744.5,
+        "end": 747.0,
+        "text": " So we will be solving it in this way."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 747.0,
+        "end": 752.0,
+        "text": " Now let's write the code for this and understand how it will actually be printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 752.0,
+        "end": 756.5,
+        "text": " If you see in the code, we have our class and main function already written."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 756.5,
+        "end": 759.5,
+        "text": " First of all, let's define our n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 759.5,
+        "end": 762.5,
+        "text": " int n is equal to 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 762.5,
+        "end": 766.5,
+        "text": " After that, first of all, we will get our first half printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 766.5,
+        "end": 770.5,
+        "text": " i.e. our upper half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 770.5,
+        "end": 775.0,
+        "text": " Now here we are saying the first half is above and the second half is below."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 775.0,
+        "end": 780.5,
+        "text": " And the first part is the left side pattern and the second part is the right side pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 780.5,
+        "end": 782.5,
+        "text": " So let's talk about the upper half here."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 782.5,
+        "end": 785.0,
+        "text": " This is not called the first half, it is called the upper half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 785.0,
+        "end": 789.5,
+        "text": " For that, the outer loop will be written as int i is equal to 1, 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 789.5,
+        "end": 792.5,
+        "text": " i is less than or equal to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 792.5,
+        "end": 797.0,
+        "text": " After that, we will get the first part printed inside."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 797.0,
+        "end": 802.0,
+        "text": " How many stars will be printed in the first part? i equal to stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 802.5,
+        "end": 806.5,
+        "text": " j is equal to 1, j is less than or equal to i, j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 806.5,
+        "end": 812.0,
+        "text": " And here we will print our stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 812.0,
+        "end": 815.0,
+        "text": " Now keep in mind that here the print will come, not print l and n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 815.0,
+        "end": 819.0,
+        "text": " Because then all the things will start to be printed in the next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 819.0,
+        "end": 821.0,
+        "text": " All the stars will be printed in the next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 821.0,
+        "end": 822.5,
+        "text": " We don't have to do that."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 822.5,
+        "end": 824.5,
+        "text": " We have got the stars printed in the first part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 824.5,
+        "end": 827.5,
+        "text": " Now what will we print? We will print spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 827.5,
+        "end": 830.0,
+        "text": " So let's take a variable called int spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 830.0,
+        "end": 833.0,
+        "text": " Which will tell us the total number of spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 833.0,
+        "end": 838.0,
+        "text": " Total number of spaces is 2 into n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 838.0,
+        "end": 839.5,
+        "text": " Let's run another loop."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 839.5,
+        "end": 846.5,
+        "text": " For int j is equal to 1, j is less than or equal to total number of spaces and j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 846.5,
+        "end": 851.0,
+        "text": " And here we will be getting spaces printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 851.0,
+        "end": 856.0,
+        "text": " After that, we will print the stars of the second part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 856.0,
+        "end": 859.5,
+        "text": " The stars of the second part were also equal to row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 859.5,
+        "end": 864.5,
+        "text": " So for int j is equal to 1, j is less than or equal to i, j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 864.5,
+        "end": 869.5,
+        "text": " We will print our stars inside."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 869.5,
+        "end": 874.5,
+        "text": " And in some way we will be printing our next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 874.5,
+        "end": 877.5,
+        "text": " So we have written the code for the entire upper half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 877.5,
+        "end": 879.5,
+        "text": " Don't do anything for the lower half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 879.5,
+        "end": 881.5,
+        "text": " Just completely reverse this code."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 881.5,
+        "end": 884.5,
+        "text": " So let's write the code for the lower half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 885.0,
+        "end": 888.0,
+        "text": " What will we do? Let's copy the upper half code."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 889.0,
+        "end": 892.0,
+        "text": " And if we write in the lower half, then what was in the upper half?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 892.0,
+        "end": 894.0,
+        "text": " i was going from 1 to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 894.0,
+        "end": 897.0,
+        "text": " In the lower half, i will go from n to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 897.0,
+        "end": 902.0,
+        "text": " So i is equal to n and until i is greater than or equal to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 902.0,
+        "end": 905.0,
+        "text": " And here we will be doing minus minus instead of plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 905.0,
+        "end": 908.0,
+        "text": " Because i has to be decreased by 1 every time."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 908.0,
+        "end": 914.0,
+        "text": " So we have saved this and let's run this entire code once and see what will actually be printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 914.5,
+        "end": 917.5,
+        "text": " So for us, the butterfly pattern has been printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 917.5,
+        "end": 924.5,
+        "text": " In which if we see that the upper half code was this much and the lower half code was this much."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 924.5,
+        "end": 931.5,
+        "text": " So in some way, we can print simple logical things in complex patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 931.5,
+        "end": 936.5,
+        "text": " And the special thing about patterns is that you will do 10-15 questions of patterns once."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 936.5,
+        "end": 940.5,
+        "text": " After that, the new questions will start to become logical in their minds."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 940.5,
+        "end": 943.5,
+        "text": " Because then you will get used to seeing those patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 943.5,
+        "end": 946.5,
+        "text": " And these patterns questions do not differ much from each other."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 946.5,
+        "end": 949.5,
+        "text": " They are almost similar in logic in most of the questions."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 949.5,
+        "end": 953.5,
+        "text": " Now let's talk about the 11th question of this video."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 953.5,
+        "end": 956.5,
+        "text": " So that is to print this pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 956.5,
+        "end": 958.5,
+        "text": " We have given the name of this pattern as solid rhombus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 958.5,
+        "end": 961.5,
+        "text": " In which the value of n is given to us as 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 961.5,
+        "end": 963.5,
+        "text": " Now logically, you can think why 5 is given."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 963.5,
+        "end": 965.5,
+        "text": " Because we have 5 rows."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 965.5,
+        "end": 967.5,
+        "text": " 1, 2, 3, 4, 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 967.5,
+        "end": 970.5,
+        "text": " Also, we have 5 stars printed in every row."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 970.5,
+        "end": 975.5,
+        "text": " So this question is such a vibe that it is going to be a very easy question after printing the butterfly."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 975.5,
+        "end": 979.5,
+        "text": " Now let's see what is happening in this question."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 979.5,
+        "end": 981.5,
+        "text": " We talked in the first video."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 981.5,
+        "end": 985.5,
+        "text": " If you do not understand every question, then you should divide it in the form of a matrix."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 985.5,
+        "end": 988.5,
+        "text": " So let's make a matrix."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 990.5,
+        "end": 993.5,
+        "text": " A little irregular matrix is being made."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 994.5,
+        "end": 1003.5,
+        "text": " So in this way, in the form of a matrix or in the form of a 2D plane, we can see how the pattern has been printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1003.5,
+        "end": 1007.5,
+        "text": " Now we do not have to worry about these parts."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1007.5,
+        "end": 1008.5,
+        "text": " Why?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1008.5,
+        "end": 1012.5,
+        "text": " Because once this line is printed, then we will do the next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1012.5,
+        "end": 1015.5,
+        "text": " So we never have to print these spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1015.5,
+        "end": 1020.5,
+        "text": " We do not have to take the tension of printing the spaces after the output in a line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1020.5,
+        "end": 1023.5,
+        "text": " Because we print the next line there."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1023.5,
+        "end": 1029.5,
+        "text": " Now the thing to know is that if i is equal to 1, then there will be 1, 2, 3, 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1029.5,
+        "end": 1035.5,
+        "text": " That is, 4 spaces will be printed first, then 5 stars will be printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1035.5,
+        "end": 1039.5,
+        "text": " If i is equal to 2, then there will be 1, 2, 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1039.5,
+        "end": 1043.5,
+        "text": " 3 spaces will be printed first, then 5 stars will be printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1043.5,
+        "end": 1048.5,
+        "text": " If i is equal to 3, then there will be 2 spaces first."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1048.5,
+        "end": 1051.5,
+        "text": " 1, 2, and then 5 stars will be printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1051.5,
+        "end": 1057.5,
+        "text": " Similarly, if i is equal to 4, then there will be 1 space first, then 5 stars will be printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1057.5,
+        "end": 1064.5,
+        "text": " And if we finally take i is equal to 5, then there will be 0 space and 5 stars will be printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1064.5,
+        "end": 1073.5,
+        "text": " Now the easiest thing to see, analyze, find and understand is that the total number of stars that are to be printed in each line is constant."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1073.5,
+        "end": 1077.5,
+        "text": " The constant is that we are printing 5 stars in each line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1077.5,
+        "end": 1079.5,
+        "text": " So we understood that."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1079.5,
+        "end": 1083.5,
+        "text": " Our main task will be to derive how many spaces we print."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1083.5,
+        "end": 1089.5,
+        "text": " Now if we talk about spaces, then we can see that the spaces are decreasing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1089.5,
+        "end": 1092.5,
+        "text": " Like our row number is increasing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1092.5,
+        "end": 1095.5,
+        "text": " Row number is increasing, spaces are decreasing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1095.5,
+        "end": 1097.5,
+        "text": " Row number is increasing, spaces are decreasing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1097.5,
+        "end": 1100.5,
+        "text": " Row number is increasing, spaces are decreasing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1100.5,
+        "end": 1108.5,
+        "text": " So here there will be a logic that the row number will be minused by some number and the total number of spaces will be the same."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1108.5,
+        "end": 1112.5,
+        "text": " As we observed in the previous question, space is equal to n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1112.5,
+        "end": 1117.5,
+        "text": " Now if we see here, then for i is equal to 1, spaces are 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1117.5,
+        "end": 1122.5,
+        "text": " So can we relate spaces with n and i?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1122.5,
+        "end": 1127.5,
+        "text": " If n was 5, then n minus i will come to us again."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1127.5,
+        "end": 1137.5,
+        "text": " If we look at i is equal to 2, then if we take spaces as n minus i, n is 5 and i is 2, then spaces will come 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1137.5,
+        "end": 1143.5,
+        "text": " Similarly, for i is equal to 3, spaces will be 5 minus 3, i.e. 2 spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1143.5,
+        "end": 1149.5,
+        "text": " And if we see, we are getting the same values that we have written above, which we have to print."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1149.5,
+        "end": 1158.5,
+        "text": " So we can say that the logic of spaces that is coming in this question is spaces is equal to n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1158.5,
+        "end": 1166.5,
+        "text": " Now what we have to do is we have to run an outer loop for rows i is equal to 1 to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1166.5,
+        "end": 1169.5,
+        "text": " After that, we will print spaces in every row."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1169.5,
+        "end": 1171.5,
+        "text": " How many spaces do we have to print?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1171.5,
+        "end": 1172.5,
+        "text": " As many as n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1172.5,
+        "end": 1174.5,
+        "text": " After that, how many stars do we have to print?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1174.5,
+        "end": 1176.5,
+        "text": " 5, which is a fixed number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1176.5,
+        "end": 1184.5,
+        "text": " So we have to do this for every row and in this way we will get a solid rhombus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1184.5,
+        "end": 1186.5,
+        "text": " Now the code is going to be very simple for this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1186.5,
+        "end": 1188.5,
+        "text": " So let's write the code and see."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1188.5,
+        "end": 1190.5,
+        "text": " Let's remove our old code."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1190.5,
+        "end": 1195.5,
+        "text": " We know that n is 5 in this question."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1195.5,
+        "end": 1197.5,
+        "text": " Now what will we do first?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1197.5,
+        "end": 1201.5,
+        "text": " Let's make our outer loop from i is equal to 1 to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1201.5,
+        "end": 1205.5,
+        "text": " First of all, we will print spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1205.5,
+        "end": 1207.5,
+        "text": " What do we have to do to print spaces?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1207.5,
+        "end": 1215.5,
+        "text": " j will go from 1 to n minus i and we will do j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1215.5,
+        "end": 1219.5,
+        "text": " And in this, we will be printing a space every time."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1219.5,
+        "end": 1222.5,
+        "text": " After that, we will print our stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1222.5,
+        "end": 1226.5,
+        "text": " So to print stars, how many stars do we have to print every time?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1226.5,
+        "end": 1227.5,
+        "text": " 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1227.5,
+        "end": 1233.5,
+        "text": " So j will go from 1 to 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1233.5,
+        "end": 1235.5,
+        "text": " And we will print our stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1235.5,
+        "end": 1239.5,
+        "text": " And finally, after this loop, we will print the next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1239.5,
+        "end": 1241.5,
+        "text": " Now let's run this code and see."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1243.5,
+        "end": 1247.5,
+        "text": " And if we run, then we have our rhombus printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1247.5,
+        "end": 1251.5,
+        "text": " So in a way, we will be printing solid rhombus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1251.5,
+        "end": 1255.5,
+        "text": " Now in the homework problem, we must have given you a similar question."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1255.5,
+        "end": 1256.5,
+        "text": " What is this rhombus?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1256.5,
+        "end": 1257.5,
+        "text": " What is this rhombus?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1257.5,
+        "end": 1261.5,
+        "text": " The stars in the middle are missing and a hollow rhombus is printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1261.5,
+        "end": 1263.5,
+        "text": " In which only the boundary is printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1263.5,
+        "end": 1266.5,
+        "text": " Now it will be very easy to question why?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1266.5,
+        "end": 1269.5,
+        "text": " Because we have to analyze the boundary conditions there."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1269.5,
+        "end": 1274.5,
+        "text": " Now we had a similar question in the previous video, which was the hollow rectangle."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1274.5,
+        "end": 1276.5,
+        "text": " We discussed that in class."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1276.5,
+        "end": 1279.5,
+        "text": " You can refer to it while solving homework problems."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1279.5,
+        "end": 1283.5,
+        "text": " And then it will be very easy to solve that question yourself."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1283.5,
+        "end": 1287.5,
+        "text": " Now if we talk about our 12th pattern, then n is equal to 5 is given."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1287.5,
+        "end": 1289.5,
+        "text": " And its name is number pyramid."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1289.5,
+        "end": 1291.5,
+        "text": " So a pyramid looks something like this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1291.5,
+        "end": 1294.5,
+        "text": " If you have ever seen photos of Egypt or visited it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1294.5,
+        "end": 1297.5,
+        "text": " So this is a pyramid of numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1297.5,
+        "end": 1305.5,
+        "text": " We can see in this pyramid that if our i is equal to 1, that is, if our row is 1, then our print is 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1305.5,
+        "end": 1307.5,
+        "text": " If the row is 2, then it is printed 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1307.5,
+        "end": 1308.5,
+        "text": " And how many times?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1308.5,
+        "end": 1309.5,
+        "text": " 2 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1310.5,
+        "end": 1313.5,
+        "text": " If the row is 3, then it is printed 3 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1314.5,
+        "end": 1317.5,
+        "text": " If the row is 4, then it is printed 4 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1318.5,
+        "end": 1321.5,
+        "text": " If the row is 5, then it is printed 5 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1323.5,
+        "end": 1331.5,
+        "text": " Now all the things that we have to print, how many times we have to print, all those things are related to our row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1331.5,
+        "end": 1332.5,
+        "text": " And it is the same."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1333.5,
+        "end": 1336.5,
+        "text": " What to print and how many times to print."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1336.5,
+        "end": 1339.5,
+        "text": " All those are equal to our row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1339.5,
+        "end": 1344.5,
+        "text": " After that, one more thing is being printed here that is not visible, which means our spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1344.5,
+        "end": 1351.5,
+        "text": " The spaces are now neatly if we write this whole pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1352.5,
+        "end": 1356.5,
+        "text": " So here we will see carefully that first i is there."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1356.5,
+        "end": 1360.5,
+        "text": " After that, 2 is a space and again 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1360.5,
+        "end": 1363.5,
+        "text": " Then there is 3 space 3 space 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1364.5,
+        "end": 1368.5,
+        "text": " Then there is 4 space 4 space 4 space 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1369.5,
+        "end": 1374.5,
+        "text": " And similarly 5 space 5 space 5 space 5 space."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1374.5,
+        "end": 1376.5,
+        "text": " And one more last 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1376.5,
+        "end": 1379.5,
+        "text": " So we have to print a pattern of this kind."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1379.5,
+        "end": 1381.5,
+        "text": " Here spaces are not visible in this diagram."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1381.5,
+        "end": 1383.5,
+        "text": " Here n is given to us 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1383.5,
+        "end": 1387.5,
+        "text": " So we have to print a diagram of this kind in which spaces are coming in between."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1388.5,
+        "end": 1392.5,
+        "text": " If we analyze vertically, then the upper number space, lower number space, number space."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1392.5,
+        "end": 1394.5,
+        "text": " This is how our pattern will be running."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1394.5,
+        "end": 1400.5,
+        "text": " Now if we analyze for the first row, then 1 2 3 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1400.5,
+        "end": 1404.5,
+        "text": " First there are 4 spaces, then there is our 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1404.5,
+        "end": 1411.5,
+        "text": " So for the first row, 4 spaces, then 1, 1 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1412.5,
+        "end": 1414.5,
+        "text": " For the second row, 1 2 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1414.5,
+        "end": 1419.5,
+        "text": " 3 spaces, then 2, 2 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1419.5,
+        "end": 1424.5,
+        "text": " For the third row, 2 spaces, then 3, 3 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1424.5,
+        "end": 1427.5,
+        "text": " And similarly we will be removing the values of the above."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1427.5,
+        "end": 1430.5,
+        "text": " Now if we see the logic of spaces here too."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1430.5,
+        "end": 1433.5,
+        "text": " So we have seen this logic in the last two questions."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1433.5,
+        "end": 1438.5,
+        "text": " We should understand that as the row is increasing, our spaces are decreasing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1438.5,
+        "end": 1442.5,
+        "text": " So if we are removing the initial space, then we will keep doing minus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1442.5,
+        "end": 1447.5,
+        "text": " So for the initial space, i.e. row or i is equal to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1447.5,
+        "end": 1451.5,
+        "text": " The total number of spaces we have is 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1451.5,
+        "end": 1453.5,
+        "text": " Which we can say is 5 minus 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1453.5,
+        "end": 1455.5,
+        "text": " i.e. our n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1455.5,
+        "end": 1457.5,
+        "text": " So again the total number of spaces will come out."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1457.5,
+        "end": 1458.5,
+        "text": " n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1458.5,
+        "end": 1460.5,
+        "text": " So what will be our job?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1460.5,
+        "end": 1462.5,
+        "text": " First of all, we will print spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1462.5,
+        "end": 1464.5,
+        "text": " i.e. n minus i spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1464.5,
+        "end": 1468.5,
+        "text": " Then print the row number times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1468.5,
+        "end": 1472.5,
+        "text": " i.e. if we are on the second row, then print 2 times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1472.5,
+        "end": 1474.5,
+        "text": " So for this we will write code."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1474.5,
+        "end": 1477.5,
+        "text": " So it will be more clear what we are talking about."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1477.5,
+        "end": 1483.5,
+        "text": " First of all, our loop will be running from i is equal to 1 to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1483.5,
+        "end": 1486.5,
+        "text": " So n is our 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1486.5,
+        "end": 1488.5,
+        "text": " After that, we have to print spaces first."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1488.5,
+        "end": 1491.5,
+        "text": " Now for spaces, we had written the logic."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1491.5,
+        "end": 1494.5,
+        "text": " So from j is equal to 1, to where will j go?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1494.5,
+        "end": 1497.5,
+        "text": " n minus i and j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1497.5,
+        "end": 1500.5,
+        "text": " So here we will print spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1500.5,
+        "end": 1504.5,
+        "text": " Once we have printed spaces, then we have to print our numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1504.5,
+        "end": 1507.5,
+        "text": " So here we will print our numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1515.5,
+        "end": 1518.5,
+        "text": " So the job of this loop is to count i times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1518.5,
+        "end": 1522.5,
+        "text": " i.e. the number of rows is equal to the number of times this loop will run."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1522.5,
+        "end": 1524.5,
+        "text": " And what will print?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1524.5,
+        "end": 1526.5,
+        "text": " It will be printing i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1526.5,
+        "end": 1529.5,
+        "text": " i.e. it is printing row number times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1529.5,
+        "end": 1531.5,
+        "text": " What is it doing?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1531.5,
+        "end": 1537.5,
+        "text": " Print row number times."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1537.5,
+        "end": 1539.5,
+        "text": " We have printed this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1539.5,
+        "end": 1541.5,
+        "text": " After that, we will print the next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1541.5,
+        "end": 1543.5,
+        "text": " Now there is a small mistake in this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1543.5,
+        "end": 1545.5,
+        "text": " Our pattern is not coming out as it is."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1545.5,
+        "end": 1547.5,
+        "text": " It will be coming out a little crooked."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1547.5,
+        "end": 1550.5,
+        "text": " Let's see once that after doing this, it must have actually printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1550.5,
+        "end": 1553.5,
+        "text": " This pattern will be printed for us."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1553.5,
+        "end": 1555.5,
+        "text": " Now we didn't want this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1555.5,
+        "end": 1557.5,
+        "text": " We want a pyramid shape."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1557.5,
+        "end": 1559.5,
+        "text": " So if we look carefully in our question,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1559.5,
+        "end": 1564.5,
+        "text": " after printing the number, a space was printed every time and then the number again."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1564.5,
+        "end": 1568.5,
+        "text": " So number space number space number number space number space."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1568.5,
+        "end": 1571.5,
+        "text": " So after every number, we didn't print the space."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1571.5,
+        "end": 1573.5,
+        "text": " How will we print it?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1573.5,
+        "end": 1575.5,
+        "text": " Here we had printed our number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1575.5,
+        "end": 1577.5,
+        "text": " We will add a space in it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1577.5,
+        "end": 1580.5,
+        "text": " And if we look at our output in this way,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1580.5,
+        "end": 1584.5,
+        "text": " then it will come in a pyramid shape."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1584.5,
+        "end": 1587.5,
+        "text": " So something like this, we will be printing our pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1587.5,
+        "end": 1589.5,
+        "text": " Now here is a small mistake."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1589.5,
+        "end": 1591.5,
+        "text": " We will make it equal to."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1591.5,
+        "end": 1593.5,
+        "text": " Now if we run this code again,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1593.5,
+        "end": 1596.5,
+        "text": " then a perfect pyramid has been printed for us."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1596.5,
+        "end": 1598.5,
+        "text": " If we didn't make it equal to in the previous pyramid,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1598.5,
+        "end": 1600.5,
+        "text": " then what was the problem?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1600.5,
+        "end": 1602.5,
+        "text": " Zero spaces were coming in front of 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1602.5,
+        "end": 1604.5,
+        "text": " This time there is one space in front of 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1604.5,
+        "end": 1606.5,
+        "text": " In front of 3 and in front of 1, there are 4 spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1606.5,
+        "end": 1609.5,
+        "text": " And we have printed a space between every number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1609.5,
+        "end": 1613.5,
+        "text": " So we have printed a perfect pyramid."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1613.5,
+        "end": 1615.5,
+        "text": " Now if we talk about our 13th question,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1615.5,
+        "end": 1618.5,
+        "text": " the name of the 13th question is the palindromic pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1618.5,
+        "end": 1620.5,
+        "text": " What are palindromes in coding?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1620.5,
+        "end": 1626.5,
+        "text": " Palindrome is the thing that looks the same from the front and from the back."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1626.5,
+        "end": 1631.5,
+        "text": " That is, if we look at the B-O-B string,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1631.5,
+        "end": 1632.5,
+        "text": " then it is a palindrome."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1632.5,
+        "end": 1634.5,
+        "text": " Because if you read it from the beginning, you will read the B-O-B."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1634.5,
+        "end": 1636.5,
+        "text": " If you read it from the back, you will read the B-O-B."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1636.5,
+        "end": 1638.5,
+        "text": " Now 1 to 1, this is also a palindrome."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1638.5,
+        "end": 1641.5,
+        "text": " It is the same from the front and from the back."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1641.5,
+        "end": 1643.5,
+        "text": " So the patterns that are repeated,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1643.5,
+        "end": 1645.5,
+        "text": " which look the same from the front and from the back,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1645.5,
+        "end": 1648.5,
+        "text": " we call them palindromes in coding."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1648.5,
+        "end": 1652.5,
+        "text": " We will ask a lot of questions related to palindromes when we are reading the strings."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1652.5,
+        "end": 1654.5,
+        "text": " So here we have given a palindromic pattern,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1654.5,
+        "end": 1656.5,
+        "text": " in which n is equal to 5 is given."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1656.5,
+        "end": 1658.5,
+        "text": " Now if we look here,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1659.5,
+        "end": 1661.5,
+        "text": " First of all, we have printed some spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1661.5,
+        "end": 1664.5,
+        "text": " Those spaces are 1, 2, 3 and 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1664.5,
+        "end": 1669.5,
+        "text": " So spaces are 4, i is equal to 2, our spaces are 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1669.5,
+        "end": 1672.5,
+        "text": " Spaces are 2 for i is equal to 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1672.5,
+        "end": 1675.5,
+        "text": " So we are used to taking out spaces so far."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1675.5,
+        "end": 1679.5,
+        "text": " So the spaces that will come will come equal to n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1679.5,
+        "end": 1681.5,
+        "text": " So first of all, whatever row we are in,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1681.5,
+        "end": 1684.5,
+        "text": " we will print spaces equal to n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1684.5,
+        "end": 1685.5,
+        "text": " Okay."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1685.5,
+        "end": 1688.5,
+        "text": " After that, let's talk about numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1688.5,
+        "end": 1690.5,
+        "text": " Should we say that we divide these numbers into two parts?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1690.5,
+        "end": 1694.5,
+        "text": " First we will print this much and then we will print this much."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1694.5,
+        "end": 1697.5,
+        "text": " So first of all, our job is to print this part."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1697.5,
+        "end": 1701.5,
+        "text": " We can see that i is 1, so we have to print only 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1701.5,
+        "end": 1704.5,
+        "text": " If i is 2, then we have to print from 2 to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1704.5,
+        "end": 1707.5,
+        "text": " If i is 3, then we have to print from 3 to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1707.5,
+        "end": 1711.5,
+        "text": " If i is 4, then we have to print from 4 to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1711.5,
+        "end": 1715.5,
+        "text": " For i to 5, we have to print 5 to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1715.5,
+        "end": 1718.5,
+        "text": " Here we have to print 1 to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1718.5,
+        "end": 1721.5,
+        "text": " So we can see that there is a backwards loop"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1721.5,
+        "end": 1726.5,
+        "text": " that will start from i and will continue to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1726.5,
+        "end": 1729.5,
+        "text": " So how to print numbers in our i in the first half?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1729.5,
+        "end": 1734.5,
+        "text": " We will print numbers from i to 1 backwards."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1734.5,
+        "end": 1737.5,
+        "text": " After that, let's talk about the second half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1737.5,
+        "end": 1739.5,
+        "text": " The numbers that are starting in the second half"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1739.5,
+        "end": 1741.5,
+        "text": " are always starting with 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1741.5,
+        "end": 1743.5,
+        "text": " Right?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1743.5,
+        "end": 1745.5,
+        "text": " So let's not write it here."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1745.5,
+        "end": 1747.5,
+        "text": " The numbers that are starting in the second half"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1747.5,
+        "end": 1750.5,
+        "text": " are starting with 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1750.5,
+        "end": 1753.5,
+        "text": " For i is equal to 1, we don't have to print anything."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1753.5,
+        "end": 1756.5,
+        "text": " For i is equal to 2, we have to print 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1756.5,
+        "end": 1759.5,
+        "text": " For i is equal to 3, we have to print 2 to 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1759.5,
+        "end": 1764.5,
+        "text": " For i is equal to 4, we have to print 2 to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1764.5,
+        "end": 1767.5,
+        "text": " For i is equal to 5, we have to print 2 to 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1767.5,
+        "end": 1769.5,
+        "text": " So we are saying that in this loop,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1769.5,
+        "end": 1776.5,
+        "text": " in the second half, we are printing for j is equal to 2 to i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1776.5,
+        "end": 1779.5,
+        "text": " All i is the last limit of our second half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1779.5,
+        "end": 1781.5,
+        "text": " So we are printing from 2 to i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1781.5,
+        "end": 1786.5,
+        "text": " And for this first half, for j is equal to i to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1786.5,
+        "end": 1789.5,
+        "text": " So this loop will be going backwards."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1789.5,
+        "end": 1791.5,
+        "text": " This loop will be going forwards."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1791.5,
+        "end": 1794.5,
+        "text": " And in this way, we will print our spaces,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1794.5,
+        "end": 1796.5,
+        "text": " then the first half's numbers,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1796.5,
+        "end": 1798.5,
+        "text": " then the second half's numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1798.5,
+        "end": 1800.5,
+        "text": " Now if we write the code for this,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1800.5,
+        "end": 1802.5,
+        "text": " then it will be easier to understand."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1802.5,
+        "end": 1804.5,
+        "text": " First of all, we have defined n,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1804.5,
+        "end": 1806.5,
+        "text": " which is given for this question, 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1806.5,
+        "end": 1808.5,
+        "text": " After that, we will write our outer loop."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1808.5,
+        "end": 1810.5,
+        "text": " In the outer loop, we will define the total number of rows."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1810.5,
+        "end": 1814.5,
+        "text": " Rows will be going from i is equal to 1 to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1814.5,
+        "end": 1816.5,
+        "text": " Right?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1816.5,
+        "end": 1819.5,
+        "text": " Now after that, our first job is to print spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1819.5,
+        "end": 1821.5,
+        "text": " How will we print spaces?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1821.5,
+        "end": 1824.5,
+        "text": " Every time we will print spaces equal to n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1824.5,
+        "end": 1828.5,
+        "text": " For int, j is equal to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1828.5,
+        "end": 1832.5,
+        "text": " So j is less than equal to n minus i j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1832.5,
+        "end": 1836.5,
+        "text": " Here we will print our spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1836.5,
+        "end": 1842.5,
+        "text": " After that, our job is to print our first half's numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1842.5,
+        "end": 1844.5,
+        "text": " So to print the first half's numbers,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1844.5,
+        "end": 1846.5,
+        "text": " we have to run a backwards loop."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1846.5,
+        "end": 1849.5,
+        "text": " Which will be j is equal to i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1849.5,
+        "end": 1851.5,
+        "text": " Until j is greater than equal to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1851.5,
+        "end": 1853.5,
+        "text": " And every time we will do j minus minus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1853.5,
+        "end": 1857.5,
+        "text": " We will print every time j."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1857.5,
+        "end": 1859.5,
+        "text": " So j is equal to i in the beginning."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1859.5,
+        "end": 1861.5,
+        "text": " Suppose it is in the fourth row."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1861.5,
+        "end": 1863.5,
+        "text": " So j will be first 4 printed, then 3 printed,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1863.5,
+        "end": 1865.5,
+        "text": " then 2 printed, then 1 printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1865.5,
+        "end": 1869.5,
+        "text": " After that, we have to print the second half's numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1869.5,
+        "end": 1871.5,
+        "text": " So in the second half's numbers,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1871.5,
+        "end": 1875.5,
+        "text": " we saw that from where to run our for loop."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1875.5,
+        "end": 1880.5,
+        "text": " We have to start from 2 and take j to i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1880.5,
+        "end": 1885.5,
+        "text": " So until j is less than equal to i, j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1886.5,
+        "end": 1889.5,
+        "text": " And we will print our j."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1889.5,
+        "end": 1891.5,
+        "text": " And finally, we have printed the spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1891.5,
+        "end": 1893.5,
+        "text": " We have printed the first half numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1893.5,
+        "end": 1895.5,
+        "text": " We have printed the second half numbers."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1895.5,
+        "end": 1899.5,
+        "text": " Now we will print our next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1899.5,
+        "end": 1902.5,
+        "text": " And we will save the whole code."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1902.5,
+        "end": 1907.5,
+        "text": " And if we run this, then our output will look like this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1907.5,
+        "end": 1909.5,
+        "text": " Which is a palindromic pyramid."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1909.5,
+        "end": 1912.5,
+        "text": " In the palindromic pyramid, first 1 was printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1912.5,
+        "end": 1914.5,
+        "text": " Then 2, 1, 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1914.5,
+        "end": 1915.5,
+        "text": " Then 3, 2, 1, 2, 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1915.5,
+        "end": 1916.5,
+        "text": " 4, 3, 2, 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1916.5,
+        "end": 1918.5,
+        "text": " 2, 3, 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1918.5,
+        "end": 1919.5,
+        "text": " 5, 4, 3, 2, 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1919.5,
+        "end": 1920.5,
+        "text": " 2, 3, 4, 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1920.5,
+        "end": 1922.5,
+        "text": " Now here we have to print 1 twice."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1922.5,
+        "end": 1927.5,
+        "text": " So simply we start from 1 instead of 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1927.5,
+        "end": 1929.5,
+        "text": " So in this way, it is still a palindromic pyramid."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1929.5,
+        "end": 1933.5,
+        "text": " The middle line, which is 1, 1, is being printed twice."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1933.5,
+        "end": 1935.5,
+        "text": " So we can do the same thing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1935.5,
+        "end": 1937.5,
+        "text": " But let's see it after doing it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1937.5,
+        "end": 1939.5,
+        "text": " If we save it and run it,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1940.5,
+        "end": 1943.5,
+        "text": " So now our pyramid looks like this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1943.5,
+        "end": 1946.5,
+        "text": " So in this way, if you experiment with your patterns,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1946.5,
+        "end": 1948.5,
+        "text": " then you will get to learn more things."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1948.5,
+        "end": 1950.5,
+        "text": " How things actually work."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1950.5,
+        "end": 1956.5,
+        "text": " A small change in the loop can change the solution of your entire problem."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1956.5,
+        "end": 1959.5,
+        "text": " So we are doing a lot of pattern questions now."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1959.5,
+        "end": 1964.5,
+        "text": " If you go to your 3rd year, 4th year and sit in the interviews of internship placement,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1964.5,
+        "end": 1969.5,
+        "text": " and someone in the theory round will ask you to write a solution to print this pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1969.5,
+        "end": 1974.5,
+        "text": " So you will see that you have to make a small change in the questions we are practicing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1974.5,
+        "end": 1978.5,
+        "text": " Because of which a complex pattern is being printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1978.5,
+        "end": 1981.5,
+        "text": " So in this way, the more we experiment with patterns,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1981.5,
+        "end": 1985.5,
+        "text": " the more our logic will start building in coding."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1985.5,
+        "end": 1989.5,
+        "text": " Now let's talk about our last pattern, which is our diamond pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1989.5,
+        "end": 1993.5,
+        "text": " In diamond pattern, we have a diamond-type shape."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1993.5,
+        "end": 1999.5,
+        "text": " Now here, this small part will be a little left."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 1999.5,
+        "end": 2002.5,
+        "text": " All the stars will be coming down completely."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2002.5,
+        "end": 2005.5,
+        "text": " So these stars will match each other."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2005.5,
+        "end": 2008.5,
+        "text": " Similarly, these will match each other."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2008.5,
+        "end": 2010.5,
+        "text": " And these will match each other."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2010.5,
+        "end": 2014.5,
+        "text": " So in this way, we have to print a perfect diamond for us."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2014.5,
+        "end": 2017.5,
+        "text": " Now here, we are given n is equal to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2017.5,
+        "end": 2021.5,
+        "text": " If you see the logic, for i is equal to 1, how many spaces were printed?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2021.5,
+        "end": 2025.5,
+        "text": " The spaces that were printed are printed as 3."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2025.5,
+        "end": 2029.5,
+        "text": " Similarly, for i is equal to 2, spaces are printed as 2."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2029.5,
+        "end": 2033.5,
+        "text": " For i is equal to 3, spaces are printed as 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2033.5,
+        "end": 2038.5,
+        "text": " And in this way, we have taken out the logic of spaces that spaces is equal to n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2038.5,
+        "end": 2041.5,
+        "text": " Now what we have to do after this, we will solve this question in two parts."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2041.5,
+        "end": 2044.5,
+        "text": " First we will print the upper half, then we will print the lower half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2044.5,
+        "end": 2048.5,
+        "text": " So if we take out the code of the upper half, we have to flip it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2048.5,
+        "end": 2050.5,
+        "text": " We will just flip the row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2050.5,
+        "end": 2054.5,
+        "text": " According to that, our spaces will flip and our stars will flip."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2054.5,
+        "end": 2057.5,
+        "text": " So we will be printing the upper half and lower half like this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2057.5,
+        "end": 2059.5,
+        "text": " Now let's talk about the stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2059.5,
+        "end": 2063.5,
+        "text": " So we have printed the spaces by equating it to n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2063.5,
+        "end": 2066.5,
+        "text": " If we talk about the stars, then for row number 1, how many stars are we printing?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2066.5,
+        "end": 2068.5,
+        "text": " We are printing 1 star."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2068.5,
+        "end": 2070.5,
+        "text": " For row number 2, we are printing 3 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2070.5,
+        "end": 2073.5,
+        "text": " For row number 3, we are printing 5 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2073.5,
+        "end": 2078.5,
+        "text": " Similarly, if i is equal to 4, i.e. we are in the fourth row, then how many stars are we printing?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2078.5,
+        "end": 2082.5,
+        "text": " We are printing 1, 2, 3, 4, 5, 6, 7."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2082.5,
+        "end": 2084.5,
+        "text": " 7 stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2084.5,
+        "end": 2087.5,
+        "text": " Now we are talking about the upper half only."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2087.5,
+        "end": 2094.5,
+        "text": " Now if we think logically for the upper half, then logically we will know how many stars are being printed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2094.5,
+        "end": 2097.5,
+        "text": " Now we have learned all this in maths."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2097.5,
+        "end": 2100.5,
+        "text": " We have learnt a lot in 11th and 12th."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2100.5,
+        "end": 2108.5,
+        "text": " Here we can see a pattern that the total number of stars is 2 into i minus 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2108.5,
+        "end": 2114.5,
+        "text": " If i is equal to 1, then stars are 2 into 1 minus 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2114.5,
+        "end": 2121.5,
+        "text": " If i is equal to 2, then stars are 2 into 2 minus 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2122.5,
+        "end": 2128.5,
+        "text": " If i is equal to 3, then stars are 2 into 3 minus 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2128.5,
+        "end": 2130.5,
+        "text": " i.e. 5."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2130.5,
+        "end": 2136.5,
+        "text": " And for i is equal to 4, stars are 2 into 4 minus 1 is equal to 7."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2136.5,
+        "end": 2143.5,
+        "text": " So in this way, we have found the logic for ourselves that the total number of stars is equal to 2 into i minus 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2143.5,
+        "end": 2146.5,
+        "text": " We will double it and minus 1 out of it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2146.5,
+        "end": 2148.5,
+        "text": " So every time an odd number will come out."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2148.5,
+        "end": 2150.5,
+        "text": " So we are printing odd stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2150.5,
+        "end": 2153.5,
+        "text": " For the faces, there is already logic, which is n minus i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2153.5,
+        "end": 2155.5,
+        "text": " So we have got the logic of the upper half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2155.5,
+        "end": 2157.5,
+        "text": " What to do in the lower half?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2157.5,
+        "end": 2163.5,
+        "text": " If i is equal to 1 to n, then for the lower half, i will be from n to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2163.5,
+        "end": 2167.5,
+        "text": " Now let's write this whole code for our diamond pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2167.5,
+        "end": 2172.5,
+        "text": " So here we have the n given that is equal to 4."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2172.5,
+        "end": 2174.5,
+        "text": " The equal to 4 is given."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2174.5,
+        "end": 2177.5,
+        "text": " So we will make our outer loop for i is equal to 1."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2177.5,
+        "end": 2181.5,
+        "text": " i is less than equal to our n and i plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2181.5,
+        "end": 2184.5,
+        "text": " Now first of all we have to print spaces."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2184.5,
+        "end": 2186.5,
+        "text": " How will we print the spaces?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2186.5,
+        "end": 2192.5,
+        "text": " We will take the j loop from j is equal to 1 to j is equal to n minus i and do j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2192.5,
+        "end": 2196.5,
+        "text": " So every time a space is being printed in this loop."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2196.5,
+        "end": 2198.5,
+        "text": " After that, we will print our stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2198.5,
+        "end": 2200.5,
+        "text": " How will we print stars?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2200.5,
+        "end": 2203.5,
+        "text": " We found the logic. How many stars do we have to print?"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2203.5,
+        "end": 2214.5,
+        "text": " So 4 into j is equal to 1, j is less than equal to 2 into i minus 1, j plus plus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2214.5,
+        "end": 2218.5,
+        "text": " So here we will print our stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2218.5,
+        "end": 2221.5,
+        "text": " In this way we printed the stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2221.5,
+        "end": 2224.5,
+        "text": " And here we will print our next line."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2224.5,
+        "end": 2228.5,
+        "text": " So here we have written the code for our upper half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2228.5,
+        "end": 2232.5,
+        "text": " So in this way, the entire upper half is filled with stars."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2232.5,
+        "end": 2235.5,
+        "text": " Now if we talk about the code for the lower half."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2235.5,
+        "end": 2240.5,
+        "text": " To write that, simply we have to reverse the upper code."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2240.5,
+        "end": 2243.5,
+        "text": " So let's copy and paste it."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2243.5,
+        "end": 2247.5,
+        "text": " To reverse it, let's do this i is equal to n."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2247.5,
+        "end": 2250.5,
+        "text": " i will go until greater than equal to 1 is not done."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2250.5,
+        "end": 2252.5,
+        "text": " And we will do i minus minus."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2252.5,
+        "end": 2256.5,
+        "text": " Now if we save it and run it, let's see what pattern will be printed for us."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2257.5,
+        "end": 2262.5,
+        "text": " So our final diamond shaped pattern will be printed like this."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2262.5,
+        "end": 2265.5,
+        "text": " In which if we have to replicate the upper half code,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2265.5,
+        "end": 2267.5,
+        "text": " and flip it from 180 degrees,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2267.5,
+        "end": 2272.5,
+        "text": " then we will simply reverse the outer row, which shows the row number."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2272.5,
+        "end": 2277.5,
+        "text": " Because all the logic inside is dependent on i."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2277.5,
+        "end": 2280.5,
+        "text": " So if i is reversed, then the logic inside will also be reversed."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2280.5,
+        "end": 2284.5,
+        "text": " So this was the most important thing to understand in this entire lecture."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2284.5,
+        "end": 2287.5,
+        "text": " It is important that if we want to repeat the pattern,"
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2287.5,
+        "end": 2295.5,
+        "text": " to make it flip, then we will flip the value that is dependent on the variable."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2297.5,
+        "end": 2301.5,
+        "text": " So in this way, we have discussed 14 questions of patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2301.5,
+        "end": 2305.5,
+        "text": " From the basics to the advanced level patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2305.5,
+        "end": 2309.5,
+        "text": " We have discussed 2-3 extra problems that we have given you in the form of solutions."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2309.5,
+        "end": 2313.5,
+        "text": " All the solutions of the previous lecture have been discussed in this class."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2313.5,
+        "end": 2316.5,
+        "text": " So definitely check out those notes."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2316.5,
+        "end": 2320.5,
+        "text": " If the code is not running on its own, then all the codes are written in the PDF."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2320.5,
+        "end": 2324.5,
+        "text": " They just have to do CTRL C and CTRL V in their code editor."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2324.5,
+        "end": 2327.5,
+        "text": " And then we have to do experiments with that pattern."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2327.5,
+        "end": 2333.5,
+        "text": " The more experiments we do, the more we will know that the logic of the loops is working in what way."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2333.5,
+        "end": 2338.5,
+        "text": " I hope we liked today's class and we will have learned more about patterns."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2338.5,
+        "end": 2342.5,
+        "text": " That's all for today. See you in the next class. Till then keep learning and keep practicing."
+    },
+    {
+        "number": "6",
+        "title": "6_Advanced_Pattern_Questions_Java_",
+        "start": 2343.5,
+        "end": 2345.5,
+        "text": " Thank you."
+    }
+]
