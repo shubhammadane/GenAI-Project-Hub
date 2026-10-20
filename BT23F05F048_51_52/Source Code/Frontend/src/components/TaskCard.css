@@ -1,0 +1,16 @@
+.taskCard{
+    border:2px solid black ;
+     width: 200px;
+    height: 200px; 
+    margin: 10px;
+    align-items: center !important;
+     /* margin: auto; */
+    margin-bottom: 10px;
+}
+.delBtn{
+    width: 100px;
+}
+.task-title{
+    color:red;
+    align-items: center;
+}
