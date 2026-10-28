@@ -1,5 +1,15 @@
 # Research Paper QA System
 
+Team Members
+Bharti Karpe - BT24S05F008
+Riya Gobade - BT23F05F025
+Gunjan Tembhare - BT23F05F065
+
+
+Academic Year: 2026-27
+Institute: Government College of Engineering, Chhatrapati Sambhaji Nagar
+
+
 A simple, functional web application that allows users to upload research papers in PDF format, ask questions about their contents, and receive accurate, context-based answers using Retrieval-Augmented Generation (RAG).
 
 ## Features
