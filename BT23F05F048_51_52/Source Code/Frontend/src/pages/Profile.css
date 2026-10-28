@@ -1,0 +1,497 @@
+/* TaskPilot AI Profile Page Stylesheet */
+
+:root {
+  --primary-light:      #2170e4;
+  --surface-low:        #f2f3fd;
+  --surface-high:       #e6e7f2;
+  --surface-highest:    #e1e2ec;
+}
+
+.pr-root {
+  display: flex;
+  min-height: 100vh;
+  background: var(--surface);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--on-surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+.pr-upgrade-btn {
+  width: 100%;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 0;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Geist', sans-serif;
+  transition: opacity 0.18s;
+}
+.pr-upgrade-btn:hover { opacity: 0.88; }
+
+.pr-user-profile-widget {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 2px 4px;
+  margin-top: 14px;
+}
+.pr-sidebar-avatar {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: rgba(0, 88, 190, 0.1);
+  border: 2px solid rgba(0, 88, 190, 0.2);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 12px;
+  color: var(--primary);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.pr-sidebar-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pr-user-info-widget p { margin: 0; }
+.pr-user-info-widget p:first-child { font-size: 13px; font-weight: 700; }
+.pr-user-info-widget p:last-child  { font-size: 11px; color: var(--on-surface-variant); }
+
+/* ══════════════════════════════════
+   MAIN CONTENT & HEADER
+   ══════════════════════════════════ */
+.pr-main {
+  margin-left: 220px;
+  padding: 28px 32px 48px;
+  width: calc(100% - 220px);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(114, 119, 133, 0.11);
+  box-shadow: 0 4px 24px rgba(59, 130, 246, 0.06);
+}
+
+.pr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+.pr-header h2 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--on-surface);
+  margin: 0;
+}
+.pr-subtitle {
+  font-size: 14px;
+  color: var(--on-surface-variant);
+  margin: 3px 0 0;
+}
+.pr-header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pr-theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--on-surface-variant);
+}
+
+.pr-theme-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(114, 119, 133, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  color: var(--on-surface);
+}
+.pr-theme-btn:hover {
+  background: var(--surface-low);
+  transform: scale(1.05);
+}
+.pr-theme-btn .ms-icon {
+  font-size: 18px;
+}
+
+/* ══════════════════════════════════
+   LAYOUT GRID
+   ══════════════════════════════════ */
+.pr-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .pr-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* LEFT COLUMN */
+.pr-left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pr-user-card {
+  padding: 32px 24px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pr-avatar-container {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.pr-avatar-main {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--surface-low);
+}
+.pr-avatar-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pr-edit-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: #fff;
+  border: 2.5px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 88, 190, 0.3);
+  transition: transform 0.2s;
+}
+.pr-edit-overlay:hover {
+  transform: scale(1.1);
+}
+.pr-edit-overlay .ms-icon {
+  font-size: 13px;
+}
+
+.pr-user-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--on-surface);
+  margin: 0;
+}
+.pr-user-email {
+  font-size: 13px;
+  color: var(--on-surface-variant);
+  margin: 4px 0 0;
+}
+
+.pr-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(114, 119, 133, 0.1);
+  margin: 24px 0;
+}
+
+.pr-meta-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.pr-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.pr-meta-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--outline);
+  letter-spacing: 0.05em;
+  font-family: 'Geist', sans-serif;
+}
+.pr-meta-val {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--on-surface);
+}
+.pr-meta-val.premium {
+  color: var(--tertiary);
+}
+
+.pr-logout-btn {
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(186, 26, 26, 0.15);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--error);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+.pr-logout-btn:hover {
+  background: rgba(186, 26, 26, 0.05);
+  border-color: var(--error);
+  transform: translateY(-1px);
+}
+.pr-logout-btn:active {
+  transform: scale(0.99);
+}
+.pr-logout-btn .ms-icon {
+  font-size: 18px;
+}
+
+/* RIGHT COLUMN */
+.pr-right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pr-settings-card {
+  padding: 24px;
+  border-radius: 20px;
+}
+
+.pr-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(114, 119, 133, 0.08);
+}
+.pr-card-header .ms-icon {
+  font-size: 20px;
+  color: var(--primary);
+}
+.pr-card-header h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--on-surface);
+  margin: 0;
+}
+
+.pr-rows-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.pr-row-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 8px;
+  border-bottom: 1px solid rgba(114, 119, 133, 0.06);
+  cursor: pointer;
+  transition: background-color 0.18s;
+  border-radius: 8px;
+}
+.pr-row-item:hover {
+  background-color: var(--surface-low);
+}
+.pr-row-item:last-child {
+  border-bottom: none;
+}
+
+.pr-row-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.pr-row-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--on-surface);
+}
+.pr-row-desc {
+  font-size: 12px;
+  color: var(--on-surface-variant);
+}
+
+.pr-chevron {
+  color: var(--outline);
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+.pr-row-item:hover .pr-chevron {
+  transform: translateX(2px);
+  color: var(--primary);
+}
+
+/* TOGGLE SWITCHES */
+.pr-switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.pr-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.pr-slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: transparent;
+  border: 2px solid var(--outline-variant);
+  border-radius: 34px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pr-slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: var(--outline);
+  border-radius: 50%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input:checked + .pr-slider {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+input:checked + .pr-slider:before {
+  transform: translateX(18px);
+  background-color: #fff;
+}
+
+/* Toggle hover state for slider dot */
+.pr-switch:hover .pr-slider:before {
+  background-color: var(--primary-light);
+}
+input:checked + .pr-switch:hover .pr-slider:before {
+  background-color: #fff;
+}
+
+/* BOTTOM STATS BANNER */
+.pr-stats-card {
+  padding: 24px;
+  border-radius: 20px;
+  background: var(--surface-low);
+  border: 1px solid rgba(0, 88, 190, 0.08);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pr-stats-card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 80%;
+  position: relative;
+  z-index: 2;
+}
+
+.pr-stats-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--on-surface);
+  margin: 0;
+}
+
+.pr-stats-card p {
+  font-size: 13px;
+  color: var(--on-surface-variant);
+  line-height: 1.5;
+}
+
+.pr-stats-link {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: opacity 0.2s;
+  position: relative;
+  z-index: 2;
+  align-self: flex-start;
+}
+.pr-stats-link:hover {
+  opacity: 0.8;
+}
+.pr-stats-link:hover .ms-icon {
+  transform: translateX(3px);
+}
+.pr-stats-link .ms-icon {
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+/* Vector Artwork Decor */
+.pr-stats-decor-wrap {
+  position: absolute;
+  bottom: -15px;
+  right: -10px;
+  width: 150px;
+  height: 120px;
+  pointer-events: none;
+  opacity: 0.15;
+  z-index: 1;
+}
+.pr-stats-decor-wrap svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,220 @@
+.pl-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(114, 119, 133, 0.12);
+  box-shadow: 0 0 40px rgba(0, 88, 190, 0.06);
+  z-index: 50;
+  transition: width 0.24s ease, transform 0.24s ease;
+  overflow: hidden;
+}
+
+.pl-sidebar.with-history {
+  width: 460px;
+}
+
+.pl-sidebar.with-history.collapsed {
+  width: 68px;
+}
+
+.pl-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 16px 14px;
+}
+
+.pl-brand-text h1 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+.pl-brand-text p {
+  font-size: 11px;
+  color: var(--on-surface-variant);
+  margin: 2px 0 0;
+  font-family: 'Geist', sans-serif;
+}
+
+.pl-sidebar-toggle {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 12px;
+  background: rgba(0, 88, 190, 0.08);
+  color: var(--primary);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: background 0.18s, transform 0.24s ease;
+}
+.pl-sidebar-toggle:hover {
+  background: rgba(0, 88, 190, 0.14);
+}
+
+.pl-nav {
+  flex: 1;
+  padding: 4px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+}
+
+.pl-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--on-surface-variant);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  width: 100%;
+}
+.pl-nav-item:hover {
+  background: rgba(225, 226, 236, 0.55);
+  color: var(--on-surface);
+}
+.pl-nav-item.active {
+  background: rgba(0, 88, 190, 0.09);
+  color: var(--primary);
+  font-weight: 700;
+  border-left: 3px solid var(--primary);
+  padding-left: 9px;
+}
+.pl-nav-item .ms-icon {
+  font-family: 'Material Symbols Outlined';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.pl-nav-label {
+  white-space: nowrap;
+  opacity: 1;
+  transition: opacity 0.24s ease;
+}
+
+.pl-sidebar.collapsed .pl-nav-label,
+.pl-sidebar.collapsed .pl-brand-text,
+.pl-sidebar.collapsed .pl-user-info {
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.pl-sidebar.collapsed .pl-nav-item {
+  justify-content: center;
+}
+
+.pl-sidebar-bottom {
+  padding: 12px;
+  border-top: 1px solid rgba(114, 119, 133, 0.1);
+}
+
+.pl-user-profile {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 2px 4px;
+}
+.pl-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(0, 88, 190, 0.1);
+  border: 2px solid rgba(0, 88, 190, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+.pl-user-info p {
+  margin: 0;
+}
+.pl-user-info p:first-child {
+  font-size: 13px;
+  font-weight: 700;
+}
+.pl-user-info p:last-child {
+  font-size: 11px;
+  color: var(--on-surface-variant);
+}
+
+.pl-logout-btn {
+  background: none;
+  border: none;
+  color: var(--outline);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: color 0.18s, background-color 0.18s;
+}
+.pl-logout-btn:hover {
+  color: var(--error);
+  background-color: rgba(186, 26, 26, 0.05);
+}
+
+body.sidebar-collapsed .db-main,
+body.sidebar-collapsed .tk-main,
+body.sidebar-collapsed .an-main,
+body.sidebar-collapsed .pr-main,
+body.sidebar-collapsed .ad-main,
+body.sidebar-collapsed .main-events-content,
+body.sidebar-collapsed .pl-chat-col {
+  margin-left: 68px !important;
+  width: calc(100% - 68px) !important;
+}
+
+body.sidebar-collapsed .pl-history-col {
+  left: 68px !important;
+}
+
+body.sidebar-collapsed .pl-sidebar {
+  width: 68px !important;
+}
+
+body.sidebar-collapsed .pl-nav-item .ms-icon {
+  margin: 0;
+}
+
+body.sidebar-collapsed .pl-sidebar-toggle {
+  transform: rotate(180deg);
+}
+
+.pl-history-col,
+.pl-chat-col {
+  transition: left 0.24s ease, margin-left 0.24s ease, width 0.24s ease;
+}
+.pl-history-list{
+  max-height: 300px;
+  overflow-y: auto;
+
+  border:1px solid #ccc;
+  padding:10px;
+  border-radius:8px;
+
+}

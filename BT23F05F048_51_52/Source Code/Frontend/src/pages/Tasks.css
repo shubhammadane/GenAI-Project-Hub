@@ -1,0 +1,463 @@
+/* ══════════════════════════════════
+   Tasks Page — Kanban Design
+   Follows DESIGN.md tokens
+══════════════════════════════════ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Geist:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+
+/* ── Design tokens ── */
+:root {
+  --tp-primary:    #0058be;
+  --tp-secondary:  #4648d4;
+  --tp-tertiary:   #6b38d4;
+  --tp-error:      #ba1a1a;
+  --tp-success:    #1a7a3c;
+  --tp-warning:    #b45309;
+  --tp-surface:    #f9f9ff;
+  --tp-surface-low:#f2f3fd;
+  --tp-surface-cnt:#ecedf7;
+  --tp-surface-hi: #e6e7f2;
+  --tp-surface-hst:#e1e2ec;
+  --tp-on-surface: #191b23;
+  --tp-on-variant: #424754;
+  --tp-outline:    #727785;
+  --tp-out-var:    #c2c6d6;
+  --tp-white:      #ffffff;
+}
+
+/* ── Root layout ── */
+.tasks-root {
+  display: flex;
+  min-height: 100vh;
+  background: var(--tp-surface);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--tp-on-surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+.tk-plan-box {
+  background: var(--tp-primary);
+  border-radius: 14px; padding: 14px 16px; margin-bottom: 14px;
+}
+.tk-plan-label { font-size: 11px; color: rgba(255,255,255,0.7); font-family: 'Geist', sans-serif; margin: 0 0 2px; }
+.tk-plan-name  { font-size: 20px; font-weight: 800; color: #fff; margin: 0 0 12px; }
+.tk-plan-btn {
+  width: 100%;
+  background: rgba(255,255,255,0.15);
+  border: 1.5px solid rgba(255,255,255,0.6);
+  color: #fff; border-radius: 8px;
+  padding: 7px 0; font-size: 13px; font-weight: 700;
+  cursor: pointer; font-family: 'Geist', sans-serif;
+  transition: background 0.18s;
+}
+.tk-plan-btn:hover { background: rgba(255,255,255,0.28); }
+
+.tk-user { display: flex; align-items: center; gap: 10px; padding: 2px 4px; }
+.tk-user-avatar {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: rgba(0,88,190,0.1);
+  border: 2px solid rgba(0,88,190,0.2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; color: var(--tp-primary); flex-shrink: 0;
+}
+.tk-user-info p { margin: 0; }
+.tk-user-info p:first-child { font-size: 13px; font-weight: 700; }
+.tk-user-info p:last-child  { font-size: 11px; color: var(--tp-on-variant); }
+
+/* ══════════════════════════════════
+   MAIN CONTENT
+══════════════════════════════════ */
+.tk-main {
+  margin-left: 210px;
+  padding: 0;
+  width: calc(100% - 210px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top bar */
+.tk-topbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 32px 18px;
+  border-bottom: 1px solid rgba(114,119,133,0.09);
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: sticky; top: 0; z-index: 30;
+}
+.tk-topbar h2 {
+  font-size: 22px; font-weight: 700;
+  letter-spacing: -0.02em; margin: 0;
+  color: var(--tp-on-surface); flex-shrink: 0;
+}
+.tk-search-wrap {
+  flex: 1; max-width: 380px;
+  display: flex; align-items: center; gap: 8px;
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(114,119,133,0.13);
+  border-radius: 10px; padding: 8px 14px;
+  backdrop-filter: blur(8px);
+  transition: box-shadow 0.18s, border-color 0.18s;
+}
+.tk-search-wrap:focus-within {
+  border-color: rgba(0,88,190,0.35);
+  box-shadow: 0 0 0 3px rgba(0,88,190,0.08);
+}
+.tk-search-wrap .ms { font-size: 17px; color: var(--tp-on-variant); flex-shrink: 0; font-family: 'Material Symbols Outlined'; font-style: normal; font-weight: 400; line-height: 1; }
+.tk-search-wrap input {
+  border: none; background: transparent; outline: none;
+  font-size: 13px; color: var(--tp-on-surface);
+  font-family: 'Inter', sans-serif; width: 100%;
+}
+.tk-search-wrap input::placeholder { color: var(--tp-on-variant); }
+
+.tk-topbar-actions { display: flex; gap: 8px; margin-left: auto; }
+.tk-icon-btn {
+  width: 36px; height: 36px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 9px; border: 1px solid rgba(114,119,133,0.13);
+  background: rgba(255,255,255,0.75); cursor: pointer;
+  color: var(--tp-on-variant); transition: all 0.18s;
+}
+.tk-icon-btn:hover { background: rgba(255,255,255,0.97); color: var(--tp-primary); }
+.tk-icon-btn .ms { font-size: 18px; font-family: 'Material Symbols Outlined'; font-style: normal; font-weight: 400; line-height: 1; }
+
+.tk-add-btn {
+  display: flex; align-items: center; gap: 6px;
+  background: var(--tp-primary); color: #fff;
+  border: none; border-radius: 9px;
+  padding: 8px 14px;
+  font-size: 13px; font-weight: 700;
+  cursor: pointer; font-family: 'Inter', sans-serif;
+  box-shadow: 0 4px 14px rgba(0,88,190,0.22);
+  transition: transform 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+.tk-add-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,88,190,0.3); }
+.tk-add-btn:active { transform: scale(0.97); }
+.tk-add-btn .ms { font-size: 16px; font-family: 'Material Symbols Outlined'; font-style: normal; font-weight: 400; line-height: 1; }
+
+/* ══════════════════════════════════
+   KANBAN BOARD
+══════════════════════════════════ */
+.tk-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 24px 32px;
+  flex: 1;
+  overflow-x: auto;
+  align-items: flex-start;
+}
+
+.tk-section {
+  background: rgba(255,255,255,0.72);
+  border: 1px solid rgba(114,119,133,0.12);
+  border-radius: 18px;
+  padding: 18px;
+  min-width: 0;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.04);
+}
+
+.tk-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.tk-section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tk-section-title h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--tp-on-surface);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.tk-section-count {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 99px;
+  background: rgba(0,88,190,0.1);
+  color: var(--tp-primary);
+}
+
+.tk-section-count.completed {
+  background: rgba(26,122,60,0.12);
+  color: var(--tp-success);
+}
+
+.tk-section-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--tp-primary);
+}
+
+.tk-section-indicator.completed {
+  background: var(--tp-success);
+}
+
+/* Column header */
+.tk-col-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  padding: 0 2px;
+}
+.tk-col-title {
+  display: flex; align-items: center; gap: 8px;
+}
+.tk-col-title h3 {
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--tp-on-variant); margin: 0;
+  font-family: 'Geist', sans-serif;
+}
+.tk-col-count {
+  font-size: 11px; font-weight: 700;
+  padding: 2px 7px; border-radius: 99px;
+  background: var(--tp-surface-hi);
+  color: var(--tp-on-variant);
+  font-family: 'Geist', sans-serif;
+}
+.tk-col-count.in-progress {
+  background: var(--tp-primary);
+  color: #fff;
+}
+.tk-col-indicator {
+  width: 3px; height: 14px; border-radius: 2px;
+  background: var(--tp-primary);
+}
+.tk-col-more {
+  background: none; border: none; cursor: pointer;
+  color: var(--tp-on-variant); padding: 4px 6px;
+  border-radius: 6px; transition: background 0.18s;
+  font-family: 'Material Symbols Outlined'; font-size: 18px; font-style: normal; font-weight: 400; line-height: 1;
+}
+.tk-col-more:hover { background: var(--tp-surface-hi); color: var(--tp-on-surface); }
+
+/* Task cards */
+.tk-cards { display: flex; flex-direction: column; gap: 10px; }
+
+.tk-card {
+  background: #fff;
+  border: 1px solid rgba(114,119,133,0.11);
+  border-radius: 14px;
+  padding: 16px 16px 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  animation: cardFadeIn 0.35s ease both;
+}
+.tk-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(0,88,190,0.1);
+}
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* category tag */
+.tk-cat-tag {
+  display: inline-block;
+  font-size: 11px; font-weight: 600;
+  font-family: 'Geist', sans-serif;
+  padding: 3px 10px; border-radius: 99px;
+  margin-bottom: 10px;
+}
+.cat-work     { background: rgba(0,88,190,0.09);   color: var(--tp-primary); }
+.cat-personal { background: rgba(107,56,212,0.09); color: var(--tp-tertiary); }
+.cat-study    { background: rgba(70,72,212,0.09);  color: var(--tp-secondary); }
+.cat-health   { background: rgba(26,122,60,0.09);  color: var(--tp-success); }
+
+.tk-card-title {
+  font-size: 14px; font-weight: 700;
+  color: var(--tp-on-surface); margin: 0 0 6px;
+  line-height: 1.35;
+}
+.tk-card-title.done { text-decoration: line-through; color: var(--tp-on-variant); }
+
+.tk-card-desc {
+  font-size: 12px; color: var(--tp-on-variant);
+  margin: 0 0 12px; line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Progress bar (for in-progress cards) */
+.tk-progress-bar {
+  height: 4px; background: var(--tp-surface-hi);
+  border-radius: 99px; margin-bottom: 12px; overflow: hidden;
+}
+.tk-progress-fill {
+  height: 100%; border-radius: 99px;
+  background: linear-gradient(90deg, var(--tp-primary), var(--tp-secondary));
+  transition: width 0.6s ease;
+}
+
+/* Card footer */
+.tk-card-footer {
+  display: flex; align-items: center;
+  justify-content: space-between; gap: 8px;
+}
+.tk-priority {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 12px; font-weight: 700;
+  font-family: 'Geist', sans-serif;
+}
+.tk-priority .ms { font-size: 14px; font-family: 'Material Symbols Outlined'; font-style: normal; font-weight: 400; line-height: 1; }
+.pri-high   { color: var(--tp-error); }
+.pri-medium { color: #d97706; }
+.pri-low    { color: var(--tp-success); }
+
+.tk-due-date {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 11px; color: var(--tp-on-variant);
+  font-family: 'Geist', sans-serif;
+}
+.tk-due-date .ms { font-size: 13px; font-family: 'Material Symbols Outlined'; font-style: normal; font-weight: 400; line-height: 1; }
+
+.tk-card-actions {
+  display: flex; align-items: center; gap: 4px; margin-left: auto;
+}
+.tk-card-btn {
+  width: 26px; height: 26px; border-radius: 6px;
+  border: none; background: none; cursor: pointer;
+  color: var(--tp-on-variant);
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.15s, color 0.15s;
+  font-family: 'Material Symbols Outlined'; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1;
+}
+.tk-card-btn:hover { background: var(--tp-surface-hi); color: var(--tp-primary); }
+.tk-card-btn.danger:hover { background: rgba(186,26,26,0.08); color: var(--tp-error); }
+
+/* Add card button */
+.tk-add-card-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 10px 14px; border-radius: 10px;
+  border: 1.5px dashed rgba(114,119,133,0.25);
+  background: none; cursor: pointer;
+  color: var(--tp-on-variant); font-size: 13px; font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  transition: border-color 0.18s, background 0.18s, color 0.18s;
+  width: 100%; margin-top: 4px;
+}
+.tk-add-card-btn:hover {
+  border-color: var(--tp-primary);
+  background: rgba(0,88,190,0.04);
+  color: var(--tp-primary);
+}
+.tk-add-card-btn .ms { font-size: 16px; font-family: 'Material Symbols Outlined'; font-style: normal; font-weight: 400; line-height: 1; }
+
+/* ══════════════════════════════════
+   MODAL — Add / Edit Task
+══════════════════════════════════ */
+.tk-modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(25,27,35,0.45);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 200;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  animation: overlayIn 0.2s ease;
+}
+@keyframes overlayIn { from { opacity: 0; } to { opacity: 1; } }
+
+.tk-modal {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px;
+  width: 100%; max-width: 440px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.16);
+  animation: modalIn 0.25s ease;
+}
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.tk-modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 22px;
+}
+.tk-modal-header h3 { font-size: 17px; font-weight: 700; margin: 0; }
+.tk-modal-close {
+  width: 32px; height: 32px; border-radius: 8px;
+  border: none; background: var(--tp-surface-hi);
+  cursor: pointer; color: var(--tp-on-variant);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Material Symbols Outlined'; font-size: 18px; font-style: normal; font-weight: 400; line-height: 1;
+  transition: background 0.15s;
+}
+.tk-modal-close:hover { background: var(--tp-surface-hst); }
+
+.tk-modal-field { margin-bottom: 16px; }
+.tk-modal-field label {
+  display: block; font-size: 12px; font-weight: 700;
+  color: var(--tp-on-variant); margin-bottom: 6px;
+  font-family: 'Geist', sans-serif; letter-spacing: 0.04em; text-transform: uppercase;
+}
+.tk-modal-field input,
+.tk-modal-field select,
+.tk-modal-field textarea {
+  width: 100%;
+  border: 1.5px solid rgba(114,119,133,0.2);
+  border-radius: 9px; padding: 9px 12px;
+  font-size: 14px; font-family: 'Inter', sans-serif;
+  color: var(--tp-on-surface); background: var(--tp-surface-low);
+  outline: none; transition: border-color 0.18s, box-shadow 0.18s;
+  box-sizing: border-box;
+}
+.tk-modal-field textarea { resize: vertical; min-height: 72px; }
+.tk-modal-field input:focus,
+.tk-modal-field select:focus,
+.tk-modal-field textarea:focus {
+  border-color: var(--tp-primary);
+  box-shadow: 0 0 0 3px rgba(0,88,190,0.09);
+  background: #fff;
+}
+
+.tk-modal-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+.tk-modal-footer { display: flex; gap: 10px; margin-top: 24px; }
+.tk-modal-cancel {
+  flex: 1; background: var(--tp-surface-hi); color: var(--tp-on-variant);
+  border: none; border-radius: 9px; padding: 10px;
+  font-size: 14px; font-weight: 700; cursor: pointer;
+  font-family: 'Inter', sans-serif; transition: background 0.18s;
+}
+.tk-modal-cancel:hover { background: var(--tp-surface-hst); }
+.tk-modal-submit {
+  flex: 2; background: var(--tp-primary); color: #fff;
+  border: none; border-radius: 9px; padding: 10px;
+  font-size: 14px; font-weight: 700; cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 4px 14px rgba(0,88,190,0.22);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.tk-modal-submit:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,88,190,0.3); }
+.tk-modal-submit:active { transform: scale(0.97); }
+
+/* scrollbar */
+.tk-board::-webkit-scrollbar { height: 4px; }
+.tk-board::-webkit-scrollbar-track { background: transparent; }
+.tk-board::-webkit-scrollbar-thumb { background: rgba(0,88,190,0.15); border-radius: 10px; }
