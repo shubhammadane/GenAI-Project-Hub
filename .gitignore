@@ -1,7 +1,59 @@
+# ============================
+# EasyResearch — .gitignore
+# ============================
 
+# ----- Environment / secrets -----
 .env
-.venv/
+.env.local
+.env.*.local
+*.env
+
+# ----- Node / npm -----
+node_modules/
+dist/
+build/
+.npm
+*.log
+npm-debug.log*
+
+# ----- Python -----
 __pycache__/
-*.pyc
-data/*
-!.gitkeep
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+dist/
+.eggs/
+*.dist-info/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ----- Vector DB local data -----
+chroma_db/
+faiss_index/
+qdrant_storage/
+
+# ----- Uploads / processed files -----
+uploads/
+processed/
+*.pdf
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- IDE -----
+.vscode/
+.idea/
+*.swp
+*.swo
