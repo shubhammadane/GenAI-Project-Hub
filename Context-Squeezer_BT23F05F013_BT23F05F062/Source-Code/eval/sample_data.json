@@ -1,0 +1,129 @@
+[
+  {
+    "_id": "synthetic-1",
+    "question": "In which year was the Brindle Harbour lighthouse automated?",
+    "answer": "1987",
+    "context": [
+      ["Brindle Harbour lighthouse", [
+        "The Brindle Harbour lighthouse stands on the northern cape of the island and was first lit in 1862.",
+        "Furthermore, it is worth noting that the lighthouse was automated in 1987, after which the last keeper left the island.",
+        "Basically, the tower is very popular with visitors, who really enjoy the quite spectacular view."
+      ]],
+      ["Brindle Island", [
+        "Brindle Island is a small island with a population of roughly 340 people.",
+        "The weather on the island is basically very mild and quite pleasant in most of the year, as previously stated in the tourist guide.",
+        "Moreover, ferries to the mainland run twice a day, and the crossing takes about 50 minutes."
+      ]],
+      ["Harbour Master's Office", [
+        "The harbour authority, as mentioned above, does not allow vessels longer than 40 metres to dock after 22:00.",
+        "In addition, it should be noted that mooring fees were raised by 8% at the start of 2021."
+      ]],
+      ["Lantern Festival", [
+        "The annual Lantern Festival takes place every August and attracts about 2,000 visitors.",
+        "Needless to say, the festival is a really important event for the local economy."
+      ]]
+    ]
+  },
+  {
+    "_id": "synthetic-2",
+    "question": "Who designed the Calder Street Bridge?",
+    "answer": "Marta Okonkwo",
+    "context": [
+      ["Calder Street Bridge", [
+        "In fact, the Calder Street Bridge was designed by the engineer Marta Okonkwo and opened to traffic in 1954.",
+        "It is worth noting that the bridge has three spans and carries about 12,000 vehicles per day."
+      ]],
+      ["Calder Street", [
+        "Calder Street runs for 2 kilometres through the old town and is basically very busy at rush hour.",
+        "An older ferry, operated by the Harlow Company, crossed the river here until 1949."
+      ]],
+      ["Okafor Prize", [
+        "The Okafor Prize for civil engineering is awarded every two years to a single winner.",
+        "As previously stated, the prize carries a payment of 25,000 euros."
+      ]],
+      ["River Marl", [
+        "The River Marl is 87 kilometres long and flows into the sea near Port Verel.",
+        "Moreover, the river floods roughly once every ten years."
+      ]]
+    ]
+  },
+  {
+    "_id": "synthetic-3",
+    "question": "How many berths does Port Verel have?",
+    "answer": "14",
+    "context": [
+      ["Port Verel", [
+        "Port Verel is a deep-water port on the southern coast and is quite old.",
+        "Furthermore, Port Verel has 14 berths, according to the harbour master, and handled 4,200 containers in 2019.",
+        "Basically, the port is very busy during the summer months."
+      ]],
+      ["Verel Shipping Company", [
+        "The Verel Shipping Company employs 310 people and operates 6 vessels.",
+        "It should be noted that the company was founded in 1938."
+      ]],
+      ["Southern Coast", [
+        "The southern coast is known for its cliffs and its really beautiful beaches.",
+        "In addition, the coast road is 60 kilometres long."
+      ]]
+    ]
+  },
+  {
+    "_id": "synthetic-4",
+    "question": "Where is the Ostrander Observatory located?",
+    "answer": "Tavish Ridge",
+    "context": [
+      ["Ostrander Observatory", [
+        "The Ostrander Observatory is located on Tavish Ridge, roughly 40 kilometres north of the town.",
+        "Needless to say, the observatory is quite remote, and the road is very narrow.",
+        "It was founded in 1971 and has a telescope with a 2.4 metre mirror."
+      ]],
+      ["Tavish Ridge", [
+        "The ridge rises to 1,800 metres and is covered by snow for 5 months of the year.",
+        "Basically, hikers are advised to bring warm clothing, as previously mentioned on the park website."
+      ]],
+      ["Dark Sky Reserve", [
+        "The reserve covers an area of 900 square kilometres and was created in 2008.",
+        "Moreover, artificial lighting is really not allowed within its boundaries."
+      ]]
+    ]
+  },
+  {
+    "_id": "synthetic-5",
+    "question": "Which company acquired Linden Foods in 2011?",
+    "answer": "Harrowgate Group",
+    "context": [
+      ["Linden Foods", [
+        "In 2011, Linden Foods was acquired by the Harrowgate Group, as previously reported by the business press.",
+        "Furthermore, the deal was worth 120 million dollars and was basically completed within 6 months."
+      ]],
+      ["Harrowgate Group", [
+        "The Harrowgate Group was founded in 1989 and is based in the north of the country.",
+        "It should be noted that the group employs about 9,000 people."
+      ]],
+      ["Food Industry", [
+        "The food industry saw 35 acquisitions in 2012, which is very high.",
+        "In addition, prices for raw materials rose by 4% during the year."
+      ]]
+    ]
+  },
+  {
+    "_id": "synthetic-6",
+    "question": "When did the Mirabel Canal reopen?",
+    "answer": "2003",
+    "context": [
+      ["Mirabel Canal", [
+        "The Mirabel Canal was dug in 1871 by about 600 workers.",
+        "After a decade of repairs, and as previously stated in the council report, the canal reopened to boats in 2003.",
+        "Basically, it is now really popular with tourists."
+      ]],
+      ["Mirabel Council", [
+        "The council has 21 members and meets on the first Monday of every month.",
+        "Needless to say, the budget for 2003 was a very important topic."
+      ]],
+      ["Canal Boats", [
+        "Narrow boats on the canal may not exceed 2 metres in width.",
+        "In addition, the speed limit is 6 kilometres per hour."
+      ]]
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+# Needed for the demo server and the evaluation script
+flask>=3.0
+requests>=2.31
+
+# Strongly recommended
+spacy>=3.7          # then: python -m spacy download en_core_web_sm
+tiktoken>=0.7       # exact token counts (the built-in estimate is rough)
+
+# Optional: language-model scoring (Stage 2 as described in the proposal)
+# torch
+# transformers
+# accelerate
