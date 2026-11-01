@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Context Squeezer</title>
+<style>
+  :root {
+    --bg: #EEF2F6;
+    --ink: #16202E;
+    --muted: #556176;
+    --rule: #C6D0DC;
+    --field: #FFFFFF;
+    --accent: #2547D0;
+    --accent-ink: #FFFFFF;
+    --filler: #A8500A;
+    --predict: #6F7B8C;
+    --sent-bg: #F1D6D6;
+    --sent-ink: #8A3434;
+    --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0F1621; --ink: #E6ECF4; --muted: #93A0B4; --rule: #2A3647; --field: #162030;
+      --accent: #7C9BFF; --accent-ink: #0F1621; --filler: #F0A15A; --predict: #8A97AA;
+      --sent-bg: #3A2326; --sent-ink: #F0A5A5;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0F1621; --ink: #E6ECF4; --muted: #93A0B4; --rule: #2A3647; --field: #162030;
+    --accent: #7C9BFF; --accent-ink: #0F1621; --filler: #F0A15A; --predict: #8A97AA;
+    --sent-bg: #3A2326; --sent-ink: #F0A5A5;
+  }
+
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--sans); font-size: 16px; line-height: 1.5;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 40px 16px 72px; }
+  @media (min-width: 720px) { .wrap { padding: 56px 32px 96px; } }
+
+  h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.05; margin: 0 0 12px; letter-spacing: -0.01em; }
+  h2 { font-family: var(--serif); font-weight: 700; font-size: 1.25rem; margin: 0 0 12px; }
+  .lede { font-family: var(--serif); font-size: 1.125rem; color: var(--muted); max-width: 60ch; margin: 0 0 40px; line-height: 1.6; }
+
+  section { margin-top: 48px; }
+  label, .label { display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 6px; }
+  .hint { color: var(--muted); font-weight: 400; }
+
+  textarea, input[type="text"], input[type="number"], select {
+    width: 100%; background: var(--field); color: var(--ink);
+    border: 1px solid var(--rule); border-radius: 4px; padding: 10px 12px;
+    font: inherit;
+  }
+  textarea { font-family: var(--serif); line-height: 1.6; min-height: 190px; resize: vertical; }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 12px; }
+  button {
+    font: inherit; font-weight: 600; cursor: pointer; border-radius: 4px; padding: 8px 14px;
+    border: 1px solid var(--rule); background: transparent; color: var(--ink);
+  }
+  button:hover { border-color: var(--ink); }
+  button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+  /* controls */
+  .controls { display: grid; gap: 28px; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 820px) { .controls { grid-template-columns: 1.3fr 1fr; gap: 48px; } }
+  .keep { font-family: var(--serif); font-size: 1.5rem; margin-bottom: 8px; }
+  .keep output { font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+  input[type="range"] { width: 100%; accent-color: var(--accent); height: 28px; }
+  fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 8px; }
+  legend { font-size: 0.875rem; font-weight: 600; padding: 0; margin-bottom: 8px; }
+  .check { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; margin: 0; font-size: 0.9375rem; }
+  .check input { margin-top: 4px; accent-color: var(--accent); }
+  .check span small { display: block; color: var(--muted); font-size: 0.8125rem; }
+
+  /* result numbers */
+  .figures { display: flex; flex-wrap: wrap; gap: 12px 48px; align-items: baseline; margin-bottom: 20px; }
+  .fig { font-family: var(--serif); }
+  .fig b { font-size: 2rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .fig span { color: var(--muted); font-size: 0.9375rem; margin-left: 6px; }
+  .stages { display: grid; gap: 6px; max-width: 640px; font-size: 0.875rem; }
+  .stage { display: grid; grid-template-columns: 150px 1fr 56px; gap: 12px; align-items: center; }
+  .stage .bar { height: 8px; background: color-mix(in srgb, var(--rule) 55%, transparent); border-radius: 4px; overflow: hidden; }
+  .stage .bar i { display: block; height: 100%; background: var(--accent); border-radius: 4px; transition: width .35s ease; }
+  .stage .n { text-align: right; font-variant-numeric: tabular-nums; }
+  .cost { margin-top: 14px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 0.875rem; }
+  .cost input { width: 5.5em; padding: 4px 8px; }
+
+  /* Ask the LLM */
+  .ask-row { margin-top: 12px; }
+  .compare { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 720px) { .compare { grid-template-columns: 1fr 1fr; } }
+  .cmp-card { border: 1px solid var(--rule); border-radius: 4px; padding: 16px; background: var(--field); }
+  .cmp-card h3 { font-family: var(--serif); font-size: 1rem; margin: 0 0 8px; }
+  .cmp-answer { font-family: var(--serif); font-size: 1.0625rem; line-height: 1.6; white-space: pre-wrap; min-height: 2.5em; }
+  .cmp-meta { color: var(--muted); font-size: 0.8125rem; margin-top: 10px; font-variant-numeric: tabular-nums; }
+  .cmp-match { font-weight: 600; margin-top: 14px; }
+  .cmp-match.differ { color: #B3261E; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cmp-match.differ { color: #FF8A80; } }
+
+  /* the live view: where the squeezing happens */
+  .viewhead { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+  .seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+  .seg button { border: 0; border-radius: 0; padding: 7px 14px; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+  .doc {
+    font-family: var(--serif); font-size: 1.125rem; line-height: 1.75; white-space: pre-wrap;
+    padding: 20px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    max-width: 72ch; overflow-wrap: anywhere;
+  }
+  .doc .cut { font-size: 1em; transition: font-size .7s cubic-bezier(.6,0,.3,1), opacity .5s ease; }
+  .cut-filler { color: var(--filler); text-decoration: line-through; text-decoration-thickness: 1.5px; }
+  .cut-entropy, .cut-punct { color: var(--predict); text-decoration: line-through; }
+  .cut-sentence { background: var(--sent-bg); color: var(--sent-ink); text-decoration: line-through; border-radius: 2px; }
+  .protected { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  .doc.collapsed .cut { font-size: 0; opacity: 0; white-space: normal; }
+  .doc.instant .cut { transition: none; }
+  @media (prefers-reduced-motion: reduce) { .doc .cut { transition: none; } }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 12px; font-size: 0.875rem; color: var(--muted); }
+  .legend .cut-sentence, .legend .cut-filler, .legend .cut-entropy, .legend .protected { font-family: var(--serif); padding: 0 3px; }
+
+  .out-head { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin-bottom: 8px; }
+  .out {
+    font-family: var(--serif); font-size: 1.0625rem; line-height: 1.7; white-space: pre-wrap;
+    background: var(--field); border: 1px solid var(--rule); border-radius: 4px; padding: 16px; max-width: 72ch;
+    min-height: 3.5em;
+  }
+  .msg { color: var(--muted); }
+  .error { color: #B3261E; font-weight: 600; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .error { color: #FF8A80; } }
+  footer { margin-top: 56px; font-size: 0.8125rem; color: var(--muted); max-width: 72ch; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Context Squeezer</h1>
+    <p class="lede">Shrink the passages you retrieve for an LLM before you pay to send them. Paste some text, drag the slider, and see exactly which words and sentences get cut.</p>
+  </header>
+
+  <section aria-labelledby="in-h" style="margin-top:0">
+    <h2 id="in-h">Retrieved text</h2>
+    <label for="context">Passages you would send to the model <span class="hint">(separate passages with a blank line)</span></label>
+    <textarea id="context" spellcheck="false" placeholder="Paste retrieved passages here"></textarea>
+    <div style="margin-top:16px">
+      <label for="question">Question <span class="hint">(optional, helps keep the sentences that matter)</span></label>
+      <input type="text" id="question" placeholder="What does the user want to know?">
+    </div>
+    <div class="row ask-row">
+      <button type="button" id="askLlm" class="primary" disabled>Ask the LLM</button>
+      <span id="askWhy" class="hint"></span>
+    </div>
+    <div class="row">
+      <button type="button" id="example">Load example</button>
+      <button type="button" id="clear">Clear</button>
+    </div>
+  </section>
+
+  <section aria-labelledby="ctl-h">
+    <h2 id="ctl-h">How much to keep</h2>
+    <div class="controls">
+      <div>
+        <div class="keep">Keep <output id="keepOut" for="keep">40%</output> of the tokens</div>
+        <input type="range" id="keep" min="10" max="100" step="5" value="40" aria-label="Share of tokens to keep">
+      </div>
+      <fieldset>
+        <legend>Steps to apply</legend>
+        <label class="check"><input type="checkbox" id="useFilter" checked><span>Remove filler phrases<small>“furthermore”, “as previously stated”</small></span></label>
+        <label class="check"><input type="checkbox" id="useWords" checked><span>Drop predictable words<small>numbers, names and negations stay</small></span></label>
+        <label class="check"><input type="checkbox" id="useSents" checked><span>Drop low-value sentences<small>ranked by information density and your question</small></span></label>
+      </fieldset>
+    </div>
+    <div class="row" id="scorerRow" hidden>
+      <label for="scorer" style="margin:0">Word scoring</label>
+      <select id="scorer" style="width:auto"></select>
+    </div>
+  </section>
+
+  <section aria-labelledby="res-h" aria-live="polite">
+    <h2 id="res-h">Result</h2>
+    <div class="figures">
+      <div class="fig"><b id="figTokens">–</b><span>tokens, down from <span id="figOrig" style="margin:0">–</span></span></div>
+      <div class="fig"><b id="figCut">–</b><span>removed</span></div>
+    </div>
+    <div class="stages" id="stages"></div>
+    <div class="cost">
+      <span id="costText">Enter text to see savings.</span>
+      <label for="price" class="sr">Price per million input tokens in dollars</label>
+      <span>at $<input type="number" id="price" min="0" step="0.1" value="3"> per million input tokens</span>
+    </div>
+  </section>
+
+  <section aria-labelledby="view-h">
+    <div class="viewhead">
+      <h2 id="view-h" style="margin:0">What was cut</h2>
+      <div class="seg" role="group" aria-label="View">
+        <button type="button" id="viewMarked" aria-pressed="true">Marked up</button>
+        <button type="button" id="viewSqueezed" aria-pressed="false">Squeezed</button>
+      </div>
+    </div>
+    <div class="doc" id="doc"><span class="msg">Paste text above, or load the example.</span></div>
+    <div class="legend" aria-label="Legend">
+      <span>Kept</span>
+      <span><span class="protected">Kept and protected</span></span>
+      <span><span class="cut-filler">Filler</span></span>
+      <span><span class="cut-entropy">Predictable word</span></span>
+      <span><span class="cut-sentence">Dropped sentence</span></span>
+    </div>
+  </section>
+
+  <section aria-labelledby="out-h">
+    <div class="out-head">
+      <h2 id="out-h" style="margin:0">Squeezed prompt</h2>
+      <button type="button" id="copy" class="primary">Copy</button>
+    </div>
+    <div class="out" id="out"></div>
+  </section>
+
+  <section id="compareSection" aria-labelledby="cmp-h" aria-live="polite" hidden>
+    <h2 id="cmp-h">Full context vs squeezed</h2>
+    <div class="compare">
+      <div class="cmp-card">
+        <h3>Full context</h3>
+        <div class="cmp-answer" id="cmpFull"></div>
+        <div class="cmp-meta" id="cmpFullMeta"></div>
+      </div>
+      <div class="cmp-card">
+        <h3>Squeezed</h3>
+        <div class="cmp-answer" id="cmpSq"></div>
+        <div class="cmp-meta" id="cmpSqMeta"></div>
+      </div>
+    </div>
+    <p class="cmp-match" id="cmpMatch"></p>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+  var EXAMPLE = {
+    question: "How many days do customers have to request a refund?",
+    text:
+"Furthermore, it is worth noting that Nimbus Cloud offers a really generous refund policy on all annual plans. As previously stated in our terms, customers may request a full refund within 30 days of the original purchase date, provided that the account has not exceeded 50 GB of storage in that period.\n\n" +
+"Basically, monthly plans are quite different. Monthly plans are not refundable, but customers can cancel at any time and the plan will simply remain active until the end of the billing cycle. Moreover, in order to cancel a plan, the account owner must sign in to the billing page.\n\n" +
+"The company was founded in 2014 and is headquartered in Lisbon. In addition, it should be noted that Nimbus Cloud employs approximately 420 people across 3 offices, and the support team is very friendly and really quite responsive. Needless to say, the support team is available from 08:00 to 20:00 CET on weekdays.\n\n" +
+"Please note that refunds are issued to the original payment method and typically take 5 to 10 business days to appear. Actually, if the payment method has expired, the refund is paid by bank transfer instead. Additionally, enterprise contracts are governed by the separate agreement signed with the sales team."
+  };
+
+  var ctx = $("context"), qn = $("question"), keep = $("keep"), doc = $("doc");
+  var last = null, collapsed = false, timer = null, seq = 0;
+  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function fmt(n) { return Math.round(n).toLocaleString(); }
+
+  function setView(squeezed, instant) {
+    collapsed = squeezed;
+    $("viewMarked").setAttribute("aria-pressed", String(!squeezed));
+    $("viewSqueezed").setAttribute("aria-pressed", String(squeezed));
+    doc.classList.toggle("instant", !!instant);
+    doc.classList.toggle("collapsed", squeezed);
+  }
+
+  function renderDoc(res) {
+    doc.textContent = "";
+    res.segments.forEach(function (s) {
+      var el = document.createElement("span");
+      el.textContent = s.t;
+      if (s.s !== "kept") el.className = "cut cut-" + s.s;
+      else if (s.p) el.className = "protected";
+      doc.appendChild(el);
+    });
+  }
+
+  function renderStats(res) {
+    $("figTokens").textContent = fmt(res.squeezed_tokens);
+    $("figOrig").textContent = fmt(res.original_tokens);
+    $("figCut").textContent = Math.round(res.reduction * 100) + "%";
+    var rows = [
+      ["Original", res.stage_tokens.original],
+      ["Filler removed", res.stage_tokens.after_filter],
+      ["Sentences kept", res.stage_tokens.after_sentences],
+      ["Words pruned", res.stage_tokens.final]
+    ];
+    var box = $("stages");
+    box.textContent = "";
+    rows.forEach(function (r) {
+      var row = document.createElement("div"); row.className = "stage";
+      var l = document.createElement("span"); l.textContent = r[0];
+      var bar = document.createElement("span"); bar.className = "bar";
+      var i = document.createElement("i");
+      i.style.width = (res.original_tokens ? Math.min(100, r[1] / res.original_tokens * 100) : 0) + "%";
+      bar.appendChild(i);
+      var n = document.createElement("span"); n.className = "n"; n.textContent = fmt(r[1]);
+      row.appendChild(l); row.appendChild(bar); row.appendChild(n);
+      box.appendChild(row);
+    });
+    updateCost();
+  }
+
+  function updateCost() {
+    if (!last) return;
+    var price = parseFloat($("price").value) || 0;
+    var saved = (last.original_tokens - last.squeezed_tokens) / 1e6 * price * 1000;
+    $("costText").textContent = "Saves about $" + saved.toFixed(saved < 10 ? 2 : 0) + " per 1,000 requests";
+  }
+
+  function showError(msg) {
+    doc.textContent = "";
+    var e = document.createElement("span"); e.className = "error"; e.textContent = msg;
+    doc.appendChild(e);
+  }
+
+  function run() {
+    var text = ctx.value;
+    if (!text.trim()) {
+      last = null;
+      doc.innerHTML = '<span class="msg">Paste text above, or load the example.</span>';
+      $("out").textContent = "";
+      $("figTokens").textContent = $("figOrig").textContent = $("figCut").textContent = "–";
+      $("stages").textContent = "";
+      $("costText").textContent = "Enter text to see savings.";
+      return;
+    }
+    var mine = ++seq;
+    fetch("/api/squeeze", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        context: text, question: qn.value,
+        keep_ratio: keep.value / 100,
+        use_filter: $("useFilter").checked, use_word_pruning: $("useWords").checked,
+        use_sentence_ranking: $("useSents").checked, scorer: $("scorer").value || "heuristic"
+      })
+    }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (r) {
+        if (mine !== seq) return;
+        if (!r.ok) { showError(r.j.error || "Something went wrong."); return; }
+        last = r.j;
+        renderDoc(last); renderStats(last);
+        setView(collapsed, true);
+        $("out").textContent = last.squeezed;
+      })
+      .catch(function () { if (mine === seq) showError("Can't reach the server. Is server.py still running?"); });
+  }
+
+  function schedule() { clearTimeout(timer); timer = setTimeout(run, 220); }
+
+  function askLlm() {
+    var text = ctx.value, q = qn.value.trim();
+    var box = $("compareSection"), b = $("askLlm");
+    if (!text.trim()) { $("askWhy").textContent = "Paste some text first."; return; }
+    if (!q) { $("askWhy").textContent = "Type a question first."; return; }
+    var old = b.textContent;
+    b.disabled = true; b.textContent = "Asking…";
+    box.hidden = false;
+    $("cmpFull").textContent = "…"; $("cmpSq").textContent = "…";
+    $("cmpFullMeta").textContent = ""; $("cmpSqMeta").textContent = "";
+    $("cmpMatch").textContent = ""; $("cmpMatch").className = "cmp-match";
+    fetch("/api/compare", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ context: text, question: q, keep_ratio: keep.value / 100,
+                             scorer: $("scorer").value || "heuristic" })
+    }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (r) {
+        if (!r.ok) {
+          $("cmpFull").textContent = ""; $("cmpSq").textContent = "";
+          $("cmpMatch").textContent = r.j.error || "Something went wrong.";
+          $("cmpMatch").className = "cmp-match differ";
+          return;
+        }
+        var j = r.j;
+        $("cmpFull").textContent = j.full.answer || "(empty answer)";
+        $("cmpSq").textContent = j.squeezed.answer || "(empty answer)";
+        $("cmpFullMeta").textContent = fmt(j.full.tokens) + " tokens · " + Math.round(j.full.ms) + " ms";
+        $("cmpSqMeta").textContent = fmt(j.squeezed.tokens) + " tokens · " + Math.round(j.squeezed.ms) +
+          " ms · kept " + Math.round(j.keep_ratio * 100) + "%";
+        $("cmpMatch").textContent = j.match ? "The answers match." : "The answers differ.";
+        $("cmpMatch").className = "cmp-match" + (j.match ? "" : " differ");
+      })
+      .catch(function () {
+        $("cmpMatch").textContent = "Can't reach the server. Is server.py still running?";
+        $("cmpMatch").className = "cmp-match differ";
+      })
+      .then(function () { b.disabled = false; b.textContent = old; });
+  }
+
+  keep.addEventListener("input", function () { $("keepOut").textContent = keep.value + "%"; schedule(); });
+  [ctx, qn].forEach(function (e) { e.addEventListener("input", schedule); });
+  ["useFilter", "useWords", "useSents", "scorer"].forEach(function (id) { $(id).addEventListener("change", run); });
+  $("price").addEventListener("input", updateCost);
+  $("viewMarked").addEventListener("click", function () { setView(false); });
+  $("viewSqueezed").addEventListener("click", function () { setView(true); });
+  $("askLlm").addEventListener("click", askLlm);
+  $("clear").addEventListener("click", function () { ctx.value = ""; qn.value = ""; run(); ctx.focus(); });
+  $("copy").addEventListener("click", function () {
+    var t = $("out").textContent; if (!t) return;
+    var b = $("copy");
+    (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () {
+      b.textContent = "Copied";
+    }, function () {
+      var r = document.createRange(); r.selectNodeContents($("out"));
+      var s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Press Ctrl+C";
+    }).then(function () { setTimeout(function () { b.textContent = "Copy"; }, 1500); });
+  });
+
+  $("example").addEventListener("click", function () {
+    ctx.value = EXAMPLE.text; qn.value = EXAMPLE.question;
+    setView(false, true);
+    run();
+    if (!reduce) setTimeout(function () { setView(true); }, 1400);  // show the squeeze once
+  });
+
+  fetch("/api/info").then(function (r) { return r.json(); }).then(function (info) {
+    var names = Object.keys(info.scorers);
+    var sel = $("scorer");
+    names.forEach(function (k) {
+      var o = document.createElement("option"); o.value = k; o.textContent = info.scorers[k]; sel.appendChild(o);
+    });
+    if (names.length > 1) $("scorerRow").hidden = false;
+    var note = "Sentences and names are found with " + info.parser + ". Tokens are counted with " + info.tokenizer + ".";
+    if (/approximate/.test(info.tokenizer)) note += " Counts are estimates until tiktoken is installed.";
+    $("foot").textContent = note;
+    var ask = $("askLlm"), why = $("askWhy");
+    if (info.llm && info.llm.available) {
+      ask.disabled = false;
+      why.textContent = "Uses " + info.llm.model + ".";
+    } else {
+      ask.disabled = true;
+      why.textContent = (info.llm && info.llm.reason) || "The language model is not configured.";
+    }
+  }).catch(function () {});
+
+  $("example").click();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+method,keep_ratio,n_questions,skipped_yes_no,skipped_empty,n_scored,sum_original_tokens,sum_compressed_tokens,avg_compressed_tokens,token_reduction,answer_retention,elapsed_s,status
+random-drop,0.6,100,5,0,95,130932,78520,785.2,0.400299,0.515789,0.737,complete
+random-drop,0.4,100,5,0,95,130932,52329,523.3,0.600335,0.326316,0.532,complete
+random-drop,0.2,100,5,0,95,130932,26124,261.2,0.800477,0.189474,0.387,complete
+squeezer-heuristic,0.6,100,5,0,95,130932,78553,785.5,0.400047,0.884211,31.645,complete
+squeezer-heuristic,0.4,100,5,0,95,130932,52371,523.7,0.600014,0.810526,29.097,complete
+squeezer-heuristic,0.2,100,5,0,95,130932,26183,261.8,0.800026,0.642105,28.152,complete
+truncate,0.6,100,5,0,95,130932,78494,784.9,0.400498,0.684211,0.479,complete
+truncate,0.4,100,5,0,95,130932,52306,523.1,0.60051,0.463158,0.352,complete
+truncate,0.2,100,5,0,95,130932,26129,261.3,0.800438,0.326316,0.195,complete
