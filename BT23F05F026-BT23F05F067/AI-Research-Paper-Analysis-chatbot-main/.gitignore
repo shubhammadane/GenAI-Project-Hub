@@ -1,0 +1,5 @@
+.env
+researchenv
+research_paper_vector_db
+src/__pycache__
+venv
