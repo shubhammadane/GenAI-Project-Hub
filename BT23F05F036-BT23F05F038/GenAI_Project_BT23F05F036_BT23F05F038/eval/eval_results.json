@@ -1,0 +1,255 @@
+{
+  "summary": {
+    "total_queries": 27,
+    "passed": 27,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 7.9,
+    "retry_count": 0,
+    "failure_categories": {}
+  },
+  "results": [
+    {
+      "id": "eval-sales-01",
+      "dataset": "sales_data",
+      "question": "What is the total sales amount across all orders?",
+      "passed": true,
+      "latency_ms": 42.31,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-02",
+      "dataset": "sales_data",
+      "question": "What is the overall total profit?",
+      "passed": true,
+      "latency_ms": 8.6,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-03",
+      "dataset": "sales_data",
+      "question": "What is the total sales by region?",
+      "passed": true,
+      "latency_ms": 5.8,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-04",
+      "dataset": "sales_data",
+      "question": "Which product category generates the highest profit?",
+      "passed": true,
+      "latency_ms": 10.33,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-05",
+      "dataset": "sales_data",
+      "question": "Who are the top 5 customers by total sales?",
+      "passed": true,
+      "latency_ms": 3.01,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-06",
+      "dataset": "sales_data",
+      "question": "What is the average discount given per customer segment?",
+      "passed": true,
+      "latency_ms": 4.86,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-07",
+      "dataset": "sales_data",
+      "question": "Break down sales and profit by both category and region",
+      "passed": true,
+      "latency_ms": 5.4,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-08",
+      "dataset": "sales_data",
+      "question": "How many total orders are in the Technology category?",
+      "passed": true,
+      "latency_ms": 5.94,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-09",
+      "dataset": "sales_data",
+      "question": "What are the total sales grouped by month?",
+      "passed": true,
+      "latency_ms": 3.07,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-10",
+      "dataset": "sales_data",
+      "question": "Which sub categories had negative total profit?",
+      "passed": true,
+      "latency_ms": 5.02,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-11",
+      "dataset": "sales_data",
+      "question": "What is the average quantity sold per transaction?",
+      "passed": true,
+      "latency_ms": 5.01,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-12",
+      "dataset": "sales_data",
+      "question": "List all orders with a discount greater than 10 percent",
+      "passed": true,
+      "latency_ms": 5.35,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-13",
+      "dataset": "sales_data",
+      "question": "What is the profit margin (profit divided by sales) for each region?",
+      "passed": true,
+      "latency_ms": 5.53,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-14",
+      "dataset": "sales_data",
+      "question": "Which 3 cities generated the highest sales?",
+      "passed": true,
+      "latency_ms": 5.49,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-sales-15",
+      "dataset": "sales_data",
+      "question": "How many distinct customers have placed orders?",
+      "passed": true,
+      "latency_ms": 6.6,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-01",
+      "dataset": "student_performance",
+      "question": "What is the average GPA of all students?",
+      "passed": true,
+      "latency_ms": 11.73,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-02",
+      "dataset": "student_performance",
+      "question": "What is the average GPA by academic department?",
+      "passed": true,
+      "latency_ms": 6.06,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-03",
+      "dataset": "student_performance",
+      "question": "Who are the top 5 students by final exam score?",
+      "passed": true,
+      "latency_ms": 20.56,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-04",
+      "dataset": "student_performance",
+      "question": "How many students passed versus failed?",
+      "passed": true,
+      "latency_ms": 8.22,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-05",
+      "dataset": "student_performance",
+      "question": "What is the pass rate percentage for each department?",
+      "passed": true,
+      "latency_ms": 5.29,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-06",
+      "dataset": "student_performance",
+      "question": "What is the average attendance rate by department?",
+      "passed": true,
+      "latency_ms": 5.27,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-07",
+      "dataset": "student_performance",
+      "question": "Compare the average study hours between male and female students",
+      "passed": true,
+      "latency_ms": 5.92,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-08",
+      "dataset": "student_performance",
+      "question": "List students with high study hours (>25 hours) but final score below 85",
+      "passed": true,
+      "latency_ms": 6.07,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-09",
+      "dataset": "student_performance",
+      "question": "How many total students are in the Data Science department?",
+      "passed": true,
+      "latency_ms": 5.68,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-10",
+      "dataset": "student_performance",
+      "question": "What is the average midterm score versus final score by department?",
+      "passed": true,
+      "latency_ms": 6.13,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-11",
+      "dataset": "student_performance",
+      "question": "What is the highest GPA achieved?",
+      "passed": true,
+      "latency_ms": 4.52,
+      "retries_used": 0,
+      "error": null
+    },
+    {
+      "id": "eval-student-12",
+      "dataset": "student_performance",
+      "question": "Show students whose final score was at least 5 points higher than their midterm score",
+      "passed": true,
+      "latency_ms": 6.84,
+      "retries_used": 0,
+      "error": null
+    }
+  ]
+}

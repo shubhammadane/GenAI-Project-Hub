@@ -1,0 +1,218 @@
+[
+  {
+    "id": "eval-sales-01",
+    "dataset": "sales_data",
+    "difficulty": "simple",
+    "question": "What is the total sales amount across all orders?",
+    "expected_sql": "SELECT SUM(sales) AS total_sales FROM sales_data",
+    "category": "aggregation"
+  },
+  {
+    "id": "eval-sales-02",
+    "dataset": "sales_data",
+    "difficulty": "simple",
+    "question": "What is the overall total profit?",
+    "expected_sql": "SELECT SUM(profit) AS total_profit FROM sales_data",
+    "category": "aggregation"
+  },
+  {
+    "id": "eval-sales-03",
+    "dataset": "sales_data",
+    "difficulty": "medium",
+    "question": "What is the total sales by region?",
+    "expected_sql": "SELECT region, SUM(sales) AS total_sales FROM sales_data GROUP BY region ORDER BY total_sales DESC",
+    "category": "group_by"
+  },
+  {
+    "id": "eval-sales-04",
+    "dataset": "sales_data",
+    "difficulty": "medium",
+    "question": "Which product category generates the highest profit?",
+    "expected_sql": "SELECT category, SUM(profit) AS total_profit FROM sales_data GROUP BY category ORDER BY total_profit DESC LIMIT 1",
+    "category": "top_n"
+  },
+  {
+    "id": "eval-sales-05",
+    "dataset": "sales_data",
+    "difficulty": "medium",
+    "question": "Who are the top 5 customers by total sales?",
+    "expected_sql": "SELECT customer_name, SUM(sales) AS total_sales FROM sales_data GROUP BY customer_name ORDER BY total_sales DESC LIMIT 5",
+    "category": "top_n"
+  },
+  {
+    "id": "eval-sales-06",
+    "dataset": "sales_data",
+    "difficulty": "medium",
+    "question": "What is the average discount given per customer segment?",
+    "expected_sql": "SELECT customer_segment, ROUND(AVG(discount), 4) AS avg_discount FROM sales_data GROUP BY customer_segment ORDER BY avg_discount DESC",
+    "category": "group_by"
+  },
+  {
+    "id": "eval-sales-07",
+    "dataset": "sales_data",
+    "difficulty": "complex",
+    "question": "Break down sales and profit by both category and region",
+    "expected_sql": "SELECT category, region, SUM(sales) AS total_sales, SUM(profit) AS total_profit FROM sales_data GROUP BY category, region ORDER BY category, total_sales DESC",
+    "category": "multi_group"
+  },
+  {
+    "id": "eval-sales-08",
+    "dataset": "sales_data",
+    "difficulty": "simple",
+    "question": "How many total orders are in the Technology category?",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM sales_data WHERE category = 'Technology'",
+    "category": "filter"
+  },
+  {
+    "id": "eval-sales-09",
+    "dataset": "sales_data",
+    "difficulty": "medium",
+    "question": "What are the total sales grouped by month?",
+    "expected_sql": "SELECT strftime(CAST(order_date AS DATE), '%Y-%m') AS order_month, SUM(sales) AS monthly_sales FROM sales_data GROUP BY order_month ORDER BY order_month ASC",
+    "category": "date_trend"
+  },
+  {
+    "id": "eval-sales-10",
+    "dataset": "sales_data",
+    "difficulty": "complex",
+    "question": "Which sub categories had negative total profit?",
+    "expected_sql": "SELECT sub_category, SUM(profit) AS total_profit FROM sales_data GROUP BY sub_category HAVING SUM(profit) < 0 ORDER BY total_profit ASC",
+    "category": "filter_having"
+  },
+  {
+    "id": "eval-sales-11",
+    "dataset": "sales_data",
+    "difficulty": "simple",
+    "question": "What is the average quantity sold per transaction?",
+    "expected_sql": "SELECT AVG(quantity) AS avg_quantity FROM sales_data",
+    "category": "aggregation"
+  },
+  {
+    "id": "eval-sales-12",
+    "dataset": "sales_data",
+    "difficulty": "medium",
+    "question": "List all orders with a discount greater than 10 percent",
+    "expected_sql": "SELECT order_id, customer_name, sales, discount FROM sales_data WHERE discount > 0.10 ORDER BY discount DESC",
+    "category": "filter"
+  },
+  {
+    "id": "eval-sales-13",
+    "dataset": "sales_data",
+    "difficulty": "complex",
+    "question": "What is the profit margin (profit divided by sales) for each region?",
+    "expected_sql": "SELECT region, ROUND(SUM(profit) / SUM(sales) * 100, 2) AS profit_margin_pct FROM sales_data GROUP BY region ORDER BY profit_margin_pct DESC",
+    "category": "calculation"
+  },
+  {
+    "id": "eval-sales-14",
+    "dataset": "sales_data",
+    "difficulty": "medium",
+    "question": "Which 3 cities generated the highest sales?",
+    "expected_sql": "SELECT city, state, SUM(sales) AS total_sales FROM sales_data GROUP BY city, state ORDER BY total_sales DESC LIMIT 3",
+    "category": "top_n"
+  },
+  {
+    "id": "eval-sales-15",
+    "dataset": "sales_data",
+    "difficulty": "simple",
+    "question": "How many distinct customers have placed orders?",
+    "expected_sql": "SELECT COUNT(DISTINCT customer_name) AS distinct_customers FROM sales_data",
+    "category": "aggregation"
+  },
+  {
+    "id": "eval-student-01",
+    "dataset": "student_performance",
+    "difficulty": "simple",
+    "question": "What is the average GPA of all students?",
+    "expected_sql": "SELECT ROUND(AVG(gpa), 2) AS overall_avg_gpa FROM student_performance",
+    "category": "aggregation"
+  },
+  {
+    "id": "eval-student-02",
+    "dataset": "student_performance",
+    "difficulty": "medium",
+    "question": "What is the average GPA by academic department?",
+    "expected_sql": "SELECT department, ROUND(AVG(gpa), 2) AS avg_gpa FROM student_performance GROUP BY department ORDER BY avg_gpa DESC",
+    "category": "group_by"
+  },
+  {
+    "id": "eval-student-03",
+    "dataset": "student_performance",
+    "difficulty": "medium",
+    "question": "Who are the top 5 students by final exam score?",
+    "expected_sql": "SELECT name, department, final_score FROM student_performance ORDER BY final_score DESC LIMIT 5",
+    "category": "top_n"
+  },
+  {
+    "id": "eval-student-04",
+    "dataset": "student_performance",
+    "difficulty": "medium",
+    "question": "How many students passed versus failed?",
+    "expected_sql": "SELECT passed, COUNT(*) AS student_count FROM student_performance GROUP BY passed",
+    "category": "group_by"
+  },
+  {
+    "id": "eval-student-05",
+    "dataset": "student_performance",
+    "difficulty": "complex",
+    "question": "What is the pass rate percentage for each department?",
+    "expected_sql": "SELECT department, COUNT(*) AS total, ROUND(SUM(CASE WHEN passed THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS pass_rate_pct FROM student_performance GROUP BY department ORDER BY pass_rate_pct DESC",
+    "category": "calculation"
+  },
+  {
+    "id": "eval-student-06",
+    "dataset": "student_performance",
+    "difficulty": "medium",
+    "question": "What is the average attendance rate by department?",
+    "expected_sql": "SELECT department, ROUND(AVG(attendance_rate), 2) AS avg_attendance FROM student_performance GROUP BY department ORDER BY avg_attendance DESC",
+    "category": "group_by"
+  },
+  {
+    "id": "eval-student-07",
+    "dataset": "student_performance",
+    "difficulty": "medium",
+    "question": "Compare the average study hours between male and female students",
+    "expected_sql": "SELECT gender, ROUND(AVG(study_hours_per_week), 2) AS avg_study_hours FROM student_performance GROUP BY gender",
+    "category": "group_by"
+  },
+  {
+    "id": "eval-student-08",
+    "dataset": "student_performance",
+    "difficulty": "complex",
+    "question": "List students with high study hours (>25 hours) but final score below 85",
+    "expected_sql": "SELECT name, department, study_hours_per_week, final_score FROM student_performance WHERE study_hours_per_week > 25 AND final_score < 85",
+    "category": "filter"
+  },
+  {
+    "id": "eval-student-09",
+    "dataset": "student_performance",
+    "difficulty": "simple",
+    "question": "How many total students are in the Data Science department?",
+    "expected_sql": "SELECT COUNT(*) AS ds_students FROM student_performance WHERE department = 'Data Science'",
+    "category": "filter"
+  },
+  {
+    "id": "eval-student-10",
+    "dataset": "student_performance",
+    "difficulty": "medium",
+    "question": "What is the average midterm score versus final score by department?",
+    "expected_sql": "SELECT department, ROUND(AVG(midterm_score), 2) AS avg_midterm, ROUND(AVG(final_score), 2) AS avg_final FROM student_performance GROUP BY department",
+    "category": "multi_agg"
+  },
+  {
+    "id": "eval-student-11",
+    "dataset": "student_performance",
+    "difficulty": "simple",
+    "question": "What is the highest GPA achieved?",
+    "expected_sql": "SELECT MAX(gpa) AS max_gpa FROM student_performance",
+    "category": "aggregation"
+  },
+  {
+    "id": "eval-student-12",
+    "dataset": "student_performance",
+    "difficulty": "complex",
+    "question": "Show students whose final score was at least 5 points higher than their midterm score",
+    "expected_sql": "SELECT name, department, midterm_score, final_score, (final_score - midterm_score) AS score_improvement FROM student_performance WHERE (final_score - midterm_score) >= 5 ORDER BY score_improvement DESC",
+    "category": "calculation"
+  }
+]
