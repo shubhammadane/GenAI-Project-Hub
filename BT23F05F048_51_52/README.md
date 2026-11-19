@@ -1,5 +1,17 @@
 # 📋 Task Planner
 
+---
+
+# 👨‍💻 Author
+
+**Aditya Raut** : BT23F05F051
+**Raunak Porwal** : BT23F05F048
+**Tanvi Sable** : BT23F05F052
+
+GitHub: https://github.com/Adityaraut67
+
+---
+
 A full-stack task management and productivity application that helps users organize tasks, schedule events, generate AI-powered daily plans, and track productivity through analytics.
 
 The application is built using **React**, **Node.js**, **Express.js**, **MySQL**, and **Google Gemini AI**, providing users with a modern interface for planning and managing their daily activities.
@@ -388,15 +400,7 @@ git push origin feature-name
 
 This project is licensed under the **MIT License**.
 
----
 
-# 👨‍💻 Author
-
-**Aditya Raut**
-
-GitHub: https://github.com/Adityaraut67
-
----
 
 # ⭐ Support
 
